@@ -302,6 +302,22 @@
     },
     "website": "https://get.gaug.es"
   },
+  "Gcore": {
+    "cats": [
+      31
+    ],
+    "description": "Gcore is a public cloud and content delivery network (CDN) company.",
+    "headers": {
+      "x-id": "^[\\w-]+-gc\\d{2}$",
+      "x-id-fe": "^[\\w-]+-gc\\d{2}$"
+    },
+    "icon": "Gcore.svg",
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "website": "https://gcore.com"
+  },
   "GeeTest": {
     "cats": [
       16
@@ -848,7 +864,7 @@
     "cpe": "cpe:2.3:a:gitea:gitea:*:*:*:*:*:*:*:*",
     "description": "Gitea is an open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. It supports self-hosting but also provides a free public first-party instance hosted on DiDi's cloud.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+© Gitea Version: ([\\d.]+)\\;version:\\1"
+      "<div class=\"ui left\">\\n\\s+\u00a9 Gitea Version: ([\\d.]+)\\;version:\\1"
     ],
     "icon": "gitea.svg",
     "implies": "Go",
@@ -1131,6 +1147,19 @@
     ],
     "saas": true,
     "website": "https://apps.shopify.com/pre-order-pro"
+  },
+  "Glofox": {
+    "cats": [
+      72
+    ],
+    "description": "Glofox is a fitness management platform that assists gyms and fitness studios in managing memberships, class scheduling, and other business operations.",
+    "dom": "a[href*='.glofox.com/'], iframe[src*='.glofox.com/']",
+    "icon": "Glofox.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.glofox.com"
   },
   "Glopal": {
     "cats": [
@@ -1498,6 +1527,20 @@
     "scriptSrc": "gc\\.zgo\\.at/count\\.js",
     "website": "https://www.goatcounter.com/"
   },
+  "Godot": {
+    "cats": [
+      19
+    ],
+    "description": "Godot is a game engine that supports exporting to HTML5 with WebAssembly compatibility.",
+    "icon": "Godot.svg",
+    "implies": "WebAssembly",
+    "js": {
+      "GODOT_CONFIG": "",
+      "Godot": ""
+    },
+    "oss": true,
+    "website": "https://godotengine.org"
+  },
   "Goftino": {
     "cats": [
       52
@@ -1529,7 +1572,7 @@
     "cpe": "cpe:2.3:a:gogs:gogs:*:*:*:*:*:*:*:*",
     "description": "Gogs is a self-hosted Git service written in Go.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
+      "<div class=\"ui left\">\\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
       "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
     ],
     "icon": "gogs.png",
@@ -1570,8 +1613,8 @@
       36
     ],
     "description": "Google AdSense is a program run by Google through which website publishers serve advertisements that are targeted to the site content and audience.",
-    "icon": "Google AdSense.svg",
     "dom": "amp-ad[type='adsense']",
+    "icon": "Google AdSense.svg",
     "js": {
       "Goog_AdSense_": "",
       "Goog_AdSense_OsdAdapter": "",
@@ -1811,7 +1854,7 @@
     "cats": [
       35
     ],
-    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
+    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360\u00b0 interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
     "dom": "iframe[src*='google.com/maps']",
     "icon": "Google Maps.svg",
     "js": {
@@ -1890,6 +1933,9 @@
     "description": "Google Sign-In is a secure authentication system that reduces the burden of login for users, by enabling them to sign in with their Google account.",
     "dom": "iframe[src*='accounts.google.com/o/oauth2'], a[href*='accounts.google.com/o/oauth2']",
     "icon": "Google.svg",
+    "js": {
+      "googleSignInClientId": ""
+    },
     "meta": {
       "google-signin-client_id": "",
       "google-signin-scope": ""
