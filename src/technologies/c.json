@@ -15,6 +15,15 @@
     "scriptSrc": "/website/JavaScript/Vertoshop\\.js",
     "website": "https://ccvshop.be"
   },
+  "CDK Global": {
+    "cats": [
+      53
+    ],
+    "description": "CDK Global offered a range of software and digital marketing solutions designed to help automotive businesses manage their operations, improve customer engagement, and enhance their online presence. Their services included dealership management systems (DMS), customer relationship management (CRM) software, website and digital marketing services, and various other tools tailored to the automotive industry.",
+    "icon": "CDK Global.svg",
+    "scriptSrc": "\\.connectcdk\\.com/",
+    "website": "https://www.cdkglobal.com"
+  },
   "CDN77": {
     "cats": [
       31
@@ -290,10 +299,13 @@
       22
     ],
     "cpe": "cpe:2.3:a:caddyserver:caddy:*:*:*:*:*:*:*:*",
+    "description": "Caddy is a Go-based web server known for its simplicity and automatic HTTPS features.",
     "headers": {
       "Server": "^Caddy$"
     },
     "icon": "caddy.svg",
+    "implies": "Go",
+    "oss": true,
     "website": "https://caddyserver.com"
   },
   "Cafe24": {
@@ -336,9 +348,12 @@
       "cakephp": ""
     },
     "cpe": "cpe:2.3:a:cakephp:cakephp:*:*:*:*:*:*:*:*",
-    "description": "CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP.",
+    "description": "CakePHP is an open-source web framework. It follows the model\u2013view\u2013controller (MVC) approach and is written in PHP.",
     "icon": "CakePHP.svg",
     "implies": "PHP",
+    "js": {
+      "__cakeDebugBlockInit": ""
+    },
     "meta": {
       "application-name": "CakePHP"
     },
@@ -395,7 +410,8 @@
     "dom": "a[href*='//calendly.com/'][target='_blank']",
     "icon": "Calendly.svg",
     "js": {
-      "Calendly": ""
+      "Calendly.closePopupWidget": "",
+      "Calendly.showPopupWidget": ""
     },
     "pricing": [
       "low",
@@ -675,15 +691,15 @@
       51
     ],
     "description": "Carrd is a platform for building simple, responsive, one-page sites.",
+    "dom": "link[href*='.carrd.co'][rel='canonical']",
     "icon": "Carrd.svg",
     "pricing": [
       "freemium",
       "low",
       "recurring"
     ],
-    "requires": "Apache HTTP Server",
     "saas": true,
-    "scripts": "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)",
+    "scripts": "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)\\;confidence:90",
     "website": "https://carrd.co"
   },
   "Carro": {
@@ -965,6 +981,17 @@
     "icon": "CentOS.svg",
     "website": "https://centos.org"
   },
+  "Centium": {
+    "cats": [
+      53
+    ],
+    "description": "Centium is a provider of technology solutions specializing in property and event management software for the hospitality industry, landmark world events, and the aviation sector.",
+    "dom": "div#page-footer > div[class*='centiumLink'], form[action*='bookings.centiumsoftware.com/'][target='_blank']",
+    "icon": "Centium.svg",
+    "saas": true,
+    "scriptSrc": "bookings\\.centiumsoftware\\.com",
+    "website": "http://centiumsoftware.com"
+  },
   "Centminmod": {
     "cats": [
       22
@@ -1226,6 +1253,21 @@
     "saas": true,
     "website": "https://www.chatstack.com"
   },
+  "ChatWith.io": {
+    "cats": [
+      52
+    ],
+    "description": "ChatWith.io is a versatile platform enabling WhatsApp link management, statistics tracking, and specialised services like WhatsApp Business Dating and widgets for efficient customer engagement.",
+    "dom": "a[href*='//chatwith.io/'][target='_self']",
+    "icon": "ChatWith.io.png",
+    "pricing": [
+      "onetime",
+      "low"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.tochat\\.be/",
+    "website": "https://chatwith.io"
+  },
   "Chatango": {
     "cats": [
       5
@@ -1239,6 +1281,24 @@
     "saas": true,
     "scriptSrc": "st\\.chatango\\.com",
     "website": "https://chatango.com"
+  },
+  "Chatbase": {
+    "cats": [
+      52
+    ],
+    "description": "Chatbase is an AI chatbot builder, it trains ChatGPT on your data and lets you add a chat widget to your website.",
+    "icon": "Chatbase.svg",
+    "js": {
+      "chatbaseConfig.chatbotId": "",
+      "embedChatbaseChatbot": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.chatbase.co"
   },
   "Chatra": {
     "cats": [
@@ -1565,6 +1625,45 @@
     "saas": true,
     "website": "https://churnzero.net"
   },
+  "Ciklik": {
+    "cats": [
+      6,
+      41
+    ],
+    "cookies": {
+      "ciklik_session": ""
+    },
+    "description": "Ciklik is an ecommerce platform that empowers individuals to establish online stores and market their subscription-based products.",
+    "icon": "Ciklik.svg",
+    "js": {
+      "t_ciklik": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.ciklik.co"
+  },
+  "Circle": {
+    "cats": [
+      2
+    ],
+    "cookies": {
+      "_circle_session:": "\\;confidence:50"
+    },
+    "description": "Circie is an all-in-one community platform for businesses that brings together engaging courses, discussions, members, live streams, chat, events, and memberships.",
+    "icon": "Circle.svg",
+    "js": {
+      "circleUser": "\\;confidence:50"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://circle.so"
+  },
   "CitrusPay": {
     "cats": [
       41
@@ -1638,7 +1737,7 @@
       "img[class*='civic-image']",
       "img[class*='ct-image']"
     ],
-    "icon": "civictheme.png",
+    "icon": "CivicTheme.svg",
     "oss": true,
     "website": "https://www.civictheme.io/"
   },
@@ -1766,11 +1865,17 @@
       10
     ],
     "description": "Clearbit Reveal identifies anonymous visitors to websites.",
-    "icon": "Clearbit.png",
+    "icon": "Clearbit.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
     "scriptSrc": [
       "reveal\\.clearbit\\.com/v[(0-9)]/"
     ],
-    "website": "https://clearbit.com/reveal"
+    "website": "https://clearbit.com/#reveal"
   },
   "Clerk": {
     "cats": [
@@ -1816,7 +1921,7 @@
       10
     ],
     "description": "CleverTap is a SaaS based customer lifecycle management and mobile marketing company headquartered in Mountain View, California.",
-    "icon": "CleverTap.png",
+    "icon": "CleverTap.svg",
     "js": {
       "clevertap": ""
     },
@@ -1921,6 +2026,22 @@
     "scriptSrc": "clickheat.*\\.js",
     "website": "https://www.labsmedia.com/clickheat/index.html"
   },
+  "ClickHelp": {
+    "cats": [
+      4
+    ],
+    "description": "ClickHelp is an online all-in-one documentation solution used by software companies around the world to create user manuals, knowledge bases, FAQs, tutorials, etc., and publish them instantly in their portal.",
+    "dom": "script#dxss_CI_301868994",
+    "icon": "ClickHelp.svg",
+    "implies": "Microsoft ASP.NET",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://clickhelp.com"
+  },
   "ClickOnce": {
     "cats": [
       47
@@ -1955,6 +2076,25 @@
     "scriptSrc": "\\.clicktale\\.net",
     "website": "https://www.clicktale.com"
   },
+  "ClickUp": {
+    "cats": [
+      4
+    ],
+    "description": "ClickUp is a project management software suitable for businesses of all sizes and industries.",
+    "icon": "ClickUp.svg",
+    "js": {
+      "clickupCanBootstrapPromise": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "/app-cdn\\.clickup\\.com/",
+    "website": "https://clickup.com"
+  },
   "Clickbank": {
     "cats": [
       71
@@ -1966,6 +2106,66 @@
     },
     "scriptSrc": "r\\.wdfl\\.co",
     "website": "https://www.clickbank.com/"
+  },
+  "Clickbooq": {
+    "cats": [
+      7
+    ],
+    "description": "Clickbooq is a website builder specially designed for photographers to showcase their work.",
+    "dom": "div[data-large*='//fast.clickbooq.com/']",
+    "icon": "Clickbooq.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.clickbooq.com"
+  },
+  "Clicksign": {
+    "cats": [
+      50
+    ],
+    "description": "Clicksign is a platform offering document signing services.",
+    "icon": "Clicksign.svg",
+    "js": {
+      "Clicksign": "",
+      "endpointClickSign": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.clicksign.com"
+  },
+  "Clicktripz": {
+    "cats": [
+      36
+    ],
+    "description": "Clicktripz is a platform that provides innovative software solutions to serve the needs of suppliers, publishers, advertisers and travelers.",
+    "icon": "Clicktripz.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.clicktripz\\.com/",
+    "website": "https://site.clicktripz.com"
+  },
+  "Clickx": {
+    "cats": [
+      10
+    ],
+    "description": "Clickx is a marketing analytics platform that lets users generate reports and gain insights into marketing campaigns, product pages, ROI, and more.",
+    "icon": "Clickx.svg",
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.clickx\\.io/",
+    "website": "https://www.clickx.io"
   },
   "Clicky": {
     "cats": [
@@ -2062,6 +2262,23 @@
     "oss": true,
     "website": "https://github.com/google/closure-library"
   },
+  "CloudCannon": {
+    "cats": [
+      1
+    ],
+    "description": "CloudCannon is a web development platform and content management system (CMS).",
+    "dom": "[data-cms-editor-link*='cloudcannon:'], a[href*='cloudcannon:']",
+    "headers": {
+      "cc-build-id": "\\d+"
+    },
+    "icon": "CloudCannon.svg",
+    "pricing": [
+      "recurring",
+      "mid"
+    ],
+    "saas": true,
+    "website": "https://cloudcannon.com"
+  },
   "CloudCart": {
     "cats": [
       6
@@ -2072,6 +2289,23 @@
     },
     "scriptSrc": "/cloudcart-(?:assets|storage)/",
     "website": "https://cloudcart.com"
+  },
+  "CloudEngage": {
+    "cats": [
+      76
+    ],
+    "description": "CloudEngage is a platform enabling no-code personalization for enhanced revenue and customer satisfaction.",
+    "icon": "CloudEngage.svg",
+    "js": {
+      "CloudEngage": "",
+      "CloudEngageHead": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cloudengage\\.com/",
+    "website": "https://cloudengage.com"
   },
   "CloudSuite": {
     "cats": [
@@ -2109,7 +2343,7 @@
     "headers": {
       "Server": "cloudera"
     },
-    "icon": "Cloudera.png",
+    "icon": "Cloudera.svg",
     "website": "https://www.cloudera.com"
   },
   "Cloudflare": {
@@ -2228,7 +2462,7 @@
     "cats": [
       92
     ],
-    "description": "Cloudflare Zaraz gives you complete control over third-party tools and services for your website, and allows you to offload them to Cloudflare’s edge, improving the speed and security of your website.",
+    "description": "Cloudflare Zaraz gives you complete control over third-party tools and services for your website, and allows you to offload them to Cloudflare\u2019s edge, improving the speed and security of your website.",
     "icon": "CloudFlare.svg",
     "js": {
       "zaraz": "",
@@ -2361,6 +2595,17 @@
     "icon": "Cluep.png",
     "scriptSrc": "cas\\.cluep\\.com",
     "website": "https://cluep.com/"
+  },
+  "Cluster CIS": {
+    "cats": [
+      6,
+      53
+    ],
+    "description": "Cluster CIS is a provider of business automation solutions, including WooCommerce ERP, CRM, WMS, SFA, alongside website development and e-shop construction services.",
+    "dom": "link[href*='wp-content/plugins/cluster-gtm']",
+    "icon": "ClusterCIS.svg",
+    "saas": true,
+    "website": "https://cluster.gr"
   },
   "ClustrMaps Widget": {
     "cats": [
@@ -2509,6 +2754,24 @@
     "saas": true,
     "website": "https://codesandbox.io/"
   },
+  "Cognigy": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Cognigy is a provider of generative and conversational AI-powered customer service agents for businesses.",
+    "icon": "Cognigy.svg",
+    "js": {
+      "__COGNIGY_WEBCHAT": "",
+      "cognigyWebchatInputPlugins": "",
+      "cognigyWebchatMessagePlugins": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.cognigy.com"
+  },
   "Coin Currency Converter": {
     "cats": [
       100
@@ -2545,7 +2808,7 @@
       16,
       56
     ],
-    "description": "Coinhive Captcha provides captcha service that is simple to integrate, where your users’ devices need to solve a number of hashes, adjustable by you, in order to login or post a comment to your site.",
+    "description": "Coinhive Captcha provides captcha service that is simple to integrate, where your users\u2019 devices need to solve a number of hashes, adjustable by you, in order to login or post a comment to your site.",
     "dom": "div.coinhive-captcha",
     "icon": "CoinHive.svg",
     "scriptSrc": "https?://authedmine\\.com/(?:lib/captcha|captcha)",
@@ -2620,15 +2883,15 @@
     "scriptSrc": "/wp-content/plugins/colibri-page-builder.+\\.js(?:.+ver=([\\d\\.\\-\\w]+))?\\;version:\\1",
     "website": "https://colibriwp.com"
   },
-  "Colis Privé": {
+  "Colis Priv\u00e9": {
     "cats": [
       99
     ],
-    "description": "Colis Privé is a private parcel delivery service provider specialised in last-mile delivery.",
+    "description": "Colis Priv\u00e9 is a private parcel delivery service provider specialised in last-mile delivery.",
     "icon": "Colis Prive.svg",
     "requiresCategory": 6,
     "text": [
-      "\\bColis Priv[eé]\\b"
+      "\\bColis Priv[e\u00e9]\\b"
     ],
     "website": "https://www.colisprive.fr"
   },
@@ -2643,6 +2906,23 @@
       "\\bColissimo\\b"
     ],
     "website": "https://www.colissimo.entreprise.laposte.fr"
+  },
+  "CollectiveAccess": {
+    "cats": [
+      95
+    ],
+    "cookies": {
+      "CA_collectiveaccess_ui_locale": "",
+      "collectiveaccess": ""
+    },
+    "description": "CollectiveAccess is a free, open-source software for cataloguing and publishing museum and archival collections.",
+    "icon": "CollectiveAccess.svg",
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://collectiveaccess.org"
   },
   "ColorMag": {
     "cats": [
@@ -2925,9 +3205,15 @@
     ],
     "description": "Commercelayer is a headless ecommerce platform that permits businesses to create customisable and scalable online shopping experiences via an API-first architecture that allows developers to use any programming language or framework for building ecommerce sites and applications.",
     "icon": "commercelayer.svg",
+    "js": {
+      "commerceLayer": "",
+      "commerceLayerCache": "",
+      "commercelayerConfig": ""
+    },
     "pricing": [
       "mid",
-      "recurring"
+      "recurring",
+      "poa"
     ],
     "saas": true,
     "website": "https://commercelayer.io",
@@ -3017,6 +3303,26 @@
     "scriptSrc": "\\.conferwith\\.io/",
     "website": "https://conferwith.io"
   },
+  "Conferbot": {
+    "cats": [
+      52
+    ],
+    "description": "Conferbot is a platform designed to improve website engagement through customisable chatbots, catering to various business requirements.",
+    "icon": "Conferbot.png",
+    "js": {
+      "ConferbotWidget": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "conferbot\\.defaults.*\\.min\\.js"
+    ],
+    "website": "https://www.conferbot.com"
+  },
   "Confiant": {
     "cats": [
       16
@@ -3085,13 +3391,42 @@
     "scriptSrc": "cdn\\.connectif\\.cloud/",
     "website": "https://connectif.ai"
   },
+  "Consent Manager": {
+    "cats": [
+      67
+    ],
+    "cookies": {
+      "__cmpcccx274": "",
+      "__cmpconsentx274": "",
+      "__cmpiuid": ""
+    },
+    "description": "Consent Manager is a provider ensuring GDPR and CCPA compliance for websites.",
+    "icon": "ConsentManager.svg",
+    "js": {
+      "cmpCCPA": "",
+      "cmpConsentPurposes": "",
+      "cmpConsentString": "",
+      "cmpCustomPurposeConsent": "",
+      "cmpGDPR": "",
+      "cmpGoogleVendorsConsent": "",
+      "cmp_closevendor": "",
+      "cmp_vendordelivery": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.consentmanager.net"
+  },
   "Constant Contact": {
     "cats": [
       32,
       75
     ],
     "description": "Constant Contact is a marketing automation and email marketing solution.",
-    "dom": "a[href*='.constantcontact.com/'][target='_blank']",
+    "dom": "a[href*='.constantcontact.com/'][target='_blank'], form[action*='.constantcontact.com/'][target='_blank']",
     "icon": "Constant Contact.svg",
     "js": {
       "_ctct_m": "",
@@ -3104,6 +3439,23 @@
     "saas": true,
     "scriptSrc": "\\.ctctcdn\\.com/",
     "website": "https://www.constantcontact.com"
+  },
+  "Constructor": {
+    "cats": [
+      6
+    ],
+    "description": "Constructor is an ecommerce tool optimizing site search and product discovery, leveraging AI, NLP, data, and personalization to enhance user experiences and meet KPIs.",
+    "icon": "ConstructorIO.svg",
+    "js": {
+      "ConstructorioAutocomplete": "",
+      "ConstructorioClient": "",
+      "ConstructorioTracker": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://constructor.io"
   },
   "Contabo": {
     "cats": [
@@ -3308,6 +3660,18 @@
     "scriptSrc": "\\.contlo\\.com/",
     "website": "https://www.contlo.com"
   },
+  "Control": {
+    "cats": [
+      51
+    ],
+    "description": "Control is a freehand website builder that allows users to create beautiful fully-custom responsive sites.",
+    "icon": "Control.svg",
+    "meta": {
+      "generator": "cntrl\\.site"
+    },
+    "saas": true,
+    "website": "https://cntrl.site"
+  },
   "Conversant Consent Tool": {
     "cats": [
       67
@@ -3419,6 +3783,22 @@
     "saas": true,
     "scriptSrc": "cdn\\.convertcart\\.com",
     "website": "https://www.convertcart.com/"
+  },
+  "Convertim": {
+    "cats": [
+      41
+    ],
+    "description": "Convertim is an ecommerce checkout platform.",
+    "icon": "Convertim.svg",
+    "js": {
+      "convertimSetup": ""
+    },
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.convertim.com"
   },
   "Convertr": {
     "cats": [
@@ -3550,6 +3930,25 @@
     "scriptSrc": "\\.cookie-script\\.com/",
     "website": "https://cookie-script.com"
   },
+  "Cookie Seal": {
+    "cats": [
+      67
+    ],
+    "description": "Cookie Seal is a tool or system that helps you manage and configure the use of cookies on your website in accordance with data protection laws, ensuring compliance with relevant regulations.",
+    "dom": "link[href*='assets.cookieseal.com']",
+    "icon": "Cookie Seal.svg",
+    "js": {
+      "CookieSeal": "",
+      "cookieSeal.consentEnabled": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cookieseal\\.com/",
+    "website": "https://cookieseal.com"
+  },
   "CookieFirst": {
     "cats": [
       67
@@ -3649,6 +4048,39 @@
     "scriptSrc": "copypoison\\.com/cp\\.js",
     "website": "https://copypoison.com/"
   },
+  "Cordial": {
+    "cats": [
+      76,
+      32
+    ],
+    "description": "Cordial is a cross-channel marketing and customer engagement platform for enterprise brands to send personalized email, SMS, mobile push notifications.",
+    "icon": "Cordial.svg",
+    "js": {
+      "CordialJS": "",
+      "CordialObject": "",
+      "Cordial_trackUrl": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cordial\\.io/",
+    "website": "https://cordial.com"
+  },
+  "Core Framework": {
+    "cats": [
+      87
+    ],
+    "description": "Core Framework is a visual CSS framework for WordPress and other platforms.",
+    "dom": "link#core-framework-frontend-css, style#core-framework-inline-inline-css",
+    "icon": "CoreFramework.svg",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://coreframework.com"
+  },
   "CoreMedia Content Cloud": {
     "cats": [
       1,
@@ -3687,7 +4119,7 @@
     "cats": [
       1
     ],
-    "description": "Corebine is a content management system designed for Sports",
+    "description": "Corebine is a content management system designed for Sports.",
     "dom": "#corebine-app",
     "icon": "Corebine.png",
     "js": {
@@ -3697,6 +4129,42 @@
       "poa"
     ],
     "website": "https://corebine.com"
+  },
+  "Corebook": {
+    "cats": [
+      95
+    ],
+    "description": "Corebook is a platform for brand guidelines, designed to assist creators of brilliant brands in managing their brand.",
+    "icon": "CoreBook.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa",
+      "onetime"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.corebook\\.io/",
+    "website": "https://www.corebook.io"
+  },
+  "Corksy": {
+    "cats": [
+      6
+    ],
+    "description": "Corksy is a solution for wineries, offering technology and services aimed at enhancing direct-to-consumer sales.",
+    "icon": "Corksy.png",
+    "implies": [
+      "Duda"
+    ],
+    "js": {
+      "corksyPubSub": ""
+    },
+    "pricing": [
+      "recurring",
+      "poa",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://corksy.io"
   },
   "Correos": {
     "cats": [
@@ -3796,7 +4264,7 @@
       76
     ],
     "description": "Coveo designs enterprise search and predictive insights platforms for businesses.",
-    "icon": "Coveo.png",
+    "icon": "Coveo.svg",
     "js": {
       "Coveo": ""
     },
@@ -3956,6 +4424,25 @@
     },
     "scriptSrc": "script\\.crazyegg\\.com/pages/scripts/\\d+/\\d+\\.js",
     "website": "https://crazyegg.com"
+  },
+  "Crealive": {
+    "cats": [
+      6
+    ],
+    "description": "Crealive is a boutique digital agency.",
+    "dom": "a[href*='//crealive.net'][target='_blank']",
+    "icon": "Crealive.svg",
+    "implies": [
+      "PHP",
+      "MySQL",
+      "Laravel"
+    ],
+    "pricing": [
+      "poa"
+    ],
+    "requires": "Cart Functionality",
+    "saas": true,
+    "website": "https://crealive.net"
   },
   "CreateJS": {
     "cats": [
@@ -4305,6 +4792,21 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/custom-fonts/",
     "website": "https://github.com/brainstormforce/custom-fonts"
+  },
+  "Customer Alliance": {
+    "cats": [
+      90
+    ],
+    "description": "Customer Alliance is a cloud-based platform facilitating customer reviews and feedback management and analysis.",
+    "icon": "CustomerAlliance.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.customer-alliance\\.com/",
+    "website": "https://www.customer-alliance.com"
   },
   "Customer.io": {
     "cats": [
