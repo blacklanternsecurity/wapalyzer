@@ -372,6 +372,9 @@
     "cats": [
       6
     ],
+    "cookies": {
+      "_ec_force_session": ""
+    },
     "description": "EcForce is an all-in-one ecommerce platform with all the functions necessary for ecommerce, from landing-page creation to order and customer data management analysis.",
     "icon": "EcForce.png",
     "implies": [
@@ -476,6 +479,47 @@
     },
     "oss": true,
     "website": "https://editorjs.io"
+  },
+  "Edwiser Bridge": {
+    "cats": [
+      21,
+      87
+    ],
+    "description": "Edwiser Bridge is a Wordpress plugin facilitating the sale of Moodle courses with synchronized data and single sign-on capability.",
+    "dom": "link[href*='/wp-content/plugins/edwiser-bridge']",
+    "icon": "EdwiserBridge.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "scriptSrc": "/wp-content/plugins/edwiser-bridge(?:-sso|-pro)?/public/assets/js/.+\\.js\\?ver=(\\d+(?:\\.\\d+)+)\\;version:\\1",
+    "website": "https://edwiser.org"
+  },
+  "Effector": {
+    "cats": [
+      59
+    ],
+    "description": "Effector is a JavaScript state management library that facilitates the handling of application state and side effects in a reactive and efficient manner, commonly used with frameworks like React.",
+    "icon": "Effector.svg",
+    "oss": true,
+    "scriptSrc": "/npm/effector(?:-(?:react|vue))?/",
+    "website": "https://effector.dev"
+  },
+  "Effiliation": {
+    "cats": [
+      71
+    ],
+    "description": "Effiliation is a performance marketing platform and affiliate network that facilitates partnerships between advertisers and publishers for commission-based promotion of products and services.",
+    "icon": "Effiliation.png",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.effiliation\\.com/",
+    "website": "https://www.effiliation.com"
   },
   "Efilli": {
     "cats": [
@@ -688,8 +732,11 @@
     "dom": "link[href*='/wp-content/plugins/elementor/']",
     "icon": "Elementor.svg",
     "js": {
+      "ElementorProFrontendConfig": "",
       "elementorFrontend.getElements": "",
-      "elementorFrontendConfig.version": "([\\d\\.]+)\\;version:\\1"
+      "elementorFrontendConfig.version": "([\\d\\.]+)\\;version:\\1",
+      "elementorModules": "",
+      "elementorProFrontend": ""
     },
     "meta": {
       "generator": "^Elementor\\s([\\d\\.]+)\\;version:\\1"
@@ -803,6 +850,23 @@
     "saas": true,
     "scriptSrc": "\\.elfsight\\.com/",
     "website": "https://elfsight.com"
+  },
+  "EliseAI": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "EliseAI is an AI-powered conversational platform for business automation.",
+    "dom": "div#meetelise-chat-launcher-container",
+    "icon": "EliseAI.svg",
+    "js": {
+      "eliseAi": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.eliseai.com"
   },
   "Elixir": {
     "cats": [
@@ -1004,6 +1068,7 @@
       5
     ],
     "description": "Embedly is a service that allows developers to convert URLs into rich previews and embeddable content.",
+    "dom": "div.w-embed > iframe.embedly-embed",
     "icon": "Embedly.svg",
     "js": {
       "embedly": ""
@@ -1066,7 +1131,7 @@
     "headers": {
       "set-cookie": "^EMPRETIENDA_SESSION"
     },
-    "icon": "Empretienda.png",
+    "icon": "Empretienda.svg",
     "pricing": [
       "low",
       "recurring"
@@ -1079,7 +1144,7 @@
       68
     ],
     "description": "Enable is a web accessibility plugin by uPress.",
-    "icon": "Enable.png",
+    "icon": "Enable.svg",
     "js": {
       "enable_toolbar.is_premium": ""
     },
@@ -1089,6 +1154,22 @@
     ],
     "scriptSrc": "cdn\\.enable\\.co\\.il/",
     "website": "https://www.enable.co.il"
+  },
+  "Enalyzer": {
+    "cats": [
+      73
+    ],
+    "description": "Enalyzer is an online survey creation platform.",
+    "icon": "Enalyzer.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "surveys\\.enalyzer\\.com/",
+    "website": "https://www.enalyzer.com"
   },
   "Endurance Page Cache": {
     "cats": [
@@ -1174,6 +1255,25 @@
     "scriptSrc": "cdn\\.enlistly\\.com/",
     "website": "https://enlistly.com"
   },
+  "Enonic": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "com-enonic-app-ga_disabled": ""
+    },
+    "description": "Enonic is a platform that helps you to create digital experiences by structuring and composing content.",
+    "icon": "Enonic.svg",
+    "meta": {
+      "author": "^Enonic$"
+    },
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.enonic.com"
+  },
   "Ensi": {
     "cats": [
       6
@@ -1197,6 +1297,19 @@
     "icon": "ensighten.png",
     "scriptSrc": "//nexus\\.ensighten\\.com/",
     "website": "https://success.ensighten.com/hc/en-us"
+  },
+  "Enterprise Bot": {
+    "cats": [
+      52
+    ],
+    "description": "Enterprise Bot specializes in developing and deploying complex conversational AI systems tailored for enterprise settings, leveraging natural language processing, machine learning, and automation to improve customer interactions and streamline operations.",
+    "icon": "Enterprise Bot.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.enterprisebot\\.co/",
+    "website": "https://www.enterprisebot.ai"
   },
   "Envialia": {
     "cats": [
@@ -1407,6 +1520,26 @@
     "saas": true,
     "website": "https://errorception.com"
   },
+  "EspoCRM": {
+    "cats": [
+      53
+    ],
+    "description": "EspoCRM is an open-source CRM software solution designed for businesses of all sizes.",
+    "icon": "EspoCRM.svg",
+    "implies": [
+      "Handlebars",
+      "Backbone.js"
+    ],
+    "js": {
+      "Espo": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.espocrm.com"
+  },
   "Essent SiteBuilder Pro": {
     "cats": [
       1,
@@ -1416,7 +1549,7 @@
     "dom": "a[href*='www.essent.com'][target='_blank']",
     "icon": "Essent.png",
     "meta": {
-      "GENERATOR": "^Essent® SiteBuilder Pro$"
+      "GENERATOR": "^Essent\u00ae SiteBuilder Pro$"
     },
     "pricing": [
       "low",
@@ -1472,6 +1605,22 @@
     "saas": true,
     "scriptSrc": "cart\\d+\\.shopserve\\.jp/",
     "website": "https://estore.co.jp/shopserve"
+  },
+  "Etail Systems": {
+    "cats": [
+      6
+    ],
+    "description": "Etail Systems is an all-in-one centralized platform to manage all of your ecommerce operations.",
+    "icon": "EtailSystems.svg",
+    "js": {
+      "EtailAlert": "",
+      "EtailEncodePersText": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.etailsystems.com"
   },
   "Etherpad": {
     "cats": [
@@ -1662,6 +1811,19 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/google-analytics-dashboard-for-wp/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.exactmetrics.com"
+  },
+  "Excel Impact": {
+    "cats": [
+      36
+    ],
+    "description": "Excel Impact is a provider of lead generation systems and advertiser solutions.",
+    "dom": "link[href*='api.excelimpact.com'][rel='preconnect']",
+    "icon": "ExcelImpact.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://excelimpact.com"
   },
   "Exemptify": {
     "cats": [
@@ -1937,6 +2099,20 @@
     "scriptSrc": "\\.(?:extole|xtlo)\\.(?:com|net)/",
     "website": "https://www.extole.com"
   },
+  "EzTix": {
+    "cats": [
+      104
+    ],
+    "description": "EzTix is an event ticketing system.",
+    "dom": "script#eztixKioskLinkId",
+    "icon": "EzTix.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "kiosk\\.eztix\\.co/",
+    "website": "https://www.eztix.com"
+  },
   "Ezoic": {
     "cats": [
       10,
@@ -2013,7 +2189,7 @@
       71,
       94
     ],
-    "description": "eBay Partner Network is an online referral program where eBay pays commissions to referrers on sales generated by customers they’ve referred.",
+    "description": "eBay Partner Network is an online referral program where eBay pays commissions to referrers on sales generated by customers they\u2019ve referred.",
     "icon": "eBay.svg",
     "scriptSrc": "epnt\\.ebay\\.com/",
     "website": "https://partnernetwork.ebay.com"
