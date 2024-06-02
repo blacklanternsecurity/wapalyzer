@@ -35,7 +35,7 @@
     "cats": [
       20
     ],
-    "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes",
+    "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes.",
     "headers": {
       "WebDevSrc": ""
     },
@@ -113,7 +113,7 @@
       1
     ],
     "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
-    "icon": "WHMCS.png",
+    "icon": "WHMCS.svg",
     "js": {
       "WHMCS": ""
     },
@@ -136,6 +136,25 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/wp-automatic/",
     "website": "https://wpautomatic.com"
+  },
+  "WP Courseware": {
+    "cats": [
+      87,
+      21
+    ],
+    "description": "WP Courseware is an LMS plugin that allows novice and professional users to build online courses using its easy-to-use drag and drop course builder.",
+    "icon": "WP Courseware.svg",
+    "js": {
+      "wpcw_course_note_params.api_url": "/wp-json/wpcw/"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "scriptSrc": "/wp-content/plugins/wp-courseware/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://flyplugins.com/wp-courseware-wordpress-lms"
   },
   "WP Engine": {
     "cats": [
@@ -182,13 +201,28 @@
     "scriptSrc": "/wpFeatherlight\\.pkgd\\.min\\.js",
     "website": "https://wordpress.org/plugins/wp-featherlight"
   },
+  "WP Google Map Embed": {
+    "cats": [
+      87
+    ],
+    "description": "WP Google Map Embed is a lightweight WordPress plugin for embedding Google Maps with custom markers via shortcodes in posts, pages, and sidebars.",
+    "dom": "link#wp-gmap-embed-front-css-css",
+    "icon": "WP Google Map Embed.png",
+    "implies": "Google Maps",
+    "pricing": [
+      "freemium",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "website": "https://wpgooglemap.com"
+  },
   "WP Google Map Plugin": {
     "cats": [
-      87,
-      35
+      87
     ],
     "description": "WP Google Map Plugin allows you to create google maps shortcodes to display responsive google maps on pages, widgets and custom templates.",
     "icon": "WP Google Map Plugin.png",
+    "implies": "Google Maps",
     "js": {
       "wpgmp_local": ""
     },
@@ -199,6 +233,23 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/wp-google-map-plugin/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.wpmapspro.com"
+  },
+  "WP Grid Builder": {
+    "cats": [
+      87
+    ],
+    "description": "WP Grid Builder is a WordPress plugin that enables the creation of advanced grid layouts.",
+    "icon": "WpGridBuilder.svg",
+    "js": {
+      "WP_Grid_Builder": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/wp-content/plugins/wp-grid-builder/frontend/assets/js/layout\\.js\\?ver=([\\d.]+)\\;version:\\1",
+    "website": "https://wpgridbuilder.com"
   },
   "WP Job Openings": {
     "cats": [
@@ -606,6 +657,22 @@
     "implies": "Haskell",
     "website": "https://www.stackage.org/package/warp"
   },
+  "Warp Store": {
+    "cats": [
+      108
+    ],
+    "description": "Warp Store is a website creation platform, where you can create a website for any type of game and sell products automatically.",
+    "dom": "link[href*='cdn.warpstore.app/']",
+    "icon": "WarpStore.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.warpstore\\.app",
+    "website": "https://warpstore.app"
+  },
   "Wask": {
     "cats": [
       10
@@ -708,6 +775,26 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/weaver-xtreme/.+weaverxjslib-end\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://weavertheme.com"
+  },
+  "Weaverse": {
+    "cats": [
+      51
+    ],
+    "description": "Weaverse is a theme customizer and headless CMS for Shopify Hydrogen.",
+    "icon": "Weaverse.svg",
+    "js": {
+      "__weaverses": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://weaverse.io"
   },
   "Web Shop Manager": {
     "cats": [
@@ -922,14 +1009,31 @@
   },
   "WebSite X5": {
     "cats": [
-      20
+      1,
+      51
     ],
     "description": "WebSite X5 is a tools to create and publish websites.",
     "icon": "WebSite X5.png",
     "meta": {
       "generator": "Incomedia WebSite X5 (\\w+ [\\d.]+)\\;version:\\1"
     },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
     "website": "https://websitex5.com"
+  },
+  "WebSocket": {
+    "cats": [
+      19
+    ],
+    "description": "WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection, enabling interactive communication between web browsers and servers.",
+    "dom": "link[rel='web-socket']",
+    "html": "<(?:link|a)[^>]+href=[\"']wss?://",
+    "icon": "WebSocket.svg",
+    "oss": true,
+    "website": "https://en.wikipedia.org/wiki/WebSocket"
   },
   "WebToffee Stripe Payment Plugin for WooCommerce": {
     "cats": [
@@ -949,6 +1053,24 @@
     "requires": "WordPress",
     "saas": true,
     "website": "https://www.webtoffee.com/product/woocommerce-stripe-payment-gateway/"
+  },
+  "WebWave": {
+    "cats": [
+      51
+    ],
+    "description": "WebWave is a drag and drop website builder.",
+    "icon": "WebWave.svg",
+    "js": {
+      "webwave.getAppVersion": "",
+      "webwaveFontsLoadedFlag": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webwavecms.com"
   },
   "WebZi": {
     "cats": [
@@ -991,6 +1113,28 @@
     ],
     "saas": true,
     "website": "https://www.shop-script.com"
+  },
+  "Webeo": {
+    "cats": [
+      76
+    ],
+    "description": "Webeo is a platform that enables website owners to customize the content on their website for each individual visitor, creating a unique experience for them.",
+    "dom": "script#__webeoCoreScript",
+    "icon": "Webeo.svg",
+    "js": {
+      "__webeoEventQueue": "",
+      "__webeoGlobals": "",
+      "__webeoRunPersonalisation": "",
+      "__webeoScriptStart": "",
+      "__webeoStarted": "",
+      "__webeoUnmask": "",
+      "__webeoVisitData": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.webeo.com"
   },
   "Webeyez": {
     "cats": [
@@ -1061,6 +1205,40 @@
     "scriptSrc": "analytics\\.webgains\\.io",
     "website": "https://www.webgains.com/"
   },
+  "Webica": {
+    "cats": [
+      36
+    ],
+    "description": "Webica is a web-based platform designed to manage online advertising campaigns for your website.",
+    "icon": "Webica.svg",
+    "js": {
+      "WebicaWidget": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://webica.pro"
+  },
+  "Webim": {
+    "cats": [
+      52
+    ],
+    "description": "Webim is a platform offering live chat service for website visitors, facilitating real-time communication between businesses and their online audience.",
+    "icon": "Webim.svg",
+    "js": {
+      "webim": "",
+      "webim.version": "^(.+)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.webim\\.ru/",
+    "website": "https://webim.ru"
+  },
   "Webix": {
     "cats": [
       12
@@ -1084,7 +1262,7 @@
       "XSLT"
     ],
     "meta": {
-      "generator": "^Weblication® CMS$"
+      "generator": "^Weblication\u00ae CMS$"
     },
     "pricing": [
       "recurring",
@@ -1146,6 +1324,9 @@
     "description": "Webolytics is an open API platform designed to track return on advertising spend.",
     "icon": "Webolytics.svg",
     "js": {
+      "webo_gtm_id": "",
+      "webo_gtm_label": "",
+      "webo_gtm_prefix": "",
       "webolytics_site_tag": "",
       "webolytics_webhook_call": ""
     },
@@ -1165,6 +1346,7 @@
       "webpackChunk": "",
       "webpackJsonp": ""
     },
+    "oss": true,
     "website": "https://webpack.js.org/"
   },
   "Webpushr": {
@@ -1302,6 +1484,24 @@
     "saas": true,
     "website": "https://www.webx.pk"
   },
+  "Webyn": {
+    "cats": [
+      76
+    ],
+    "description": "Webyn is a SaaS platform employing AI to analyse website traffic and implement automated, personalised enhancements aimed at improving user experience and potentially increasing conversions for clients.",
+    "dom": "link[href*='files.webyn.ai']",
+    "icon": "Webyn.png",
+    "js": {
+      "WebynInstance": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "files\\.webyn\\.ai/",
+    "website": "https://www.webyn.ai"
+  },
   "Webzie": {
     "cats": [
       1,
@@ -1346,10 +1546,17 @@
     "cats": [
       89
     ],
+    "description": "Weglot is a website translation solution facilitating automatic and manual multilingual content management for website owners and developers.",
     "headers": {
       "Weglot-Translated": ""
     },
-    "icon": "Weglot.png",
+    "icon": "Weglot.svg",
+    "pricing": [
+      "freemium",
+      "recurring",
+      "low"
+    ],
+    "saas": true,
     "scriptSrc": [
       "cdn\\.weglot\\.com",
       "wp-content/plugins/weglot"
@@ -1415,8 +1622,11 @@
       52
     ],
     "description": "WhatsApp Business is a free to download app available on Android and iPhone using which businesses can connect with their customers.",
-    "dom": "a[href*='api.whatsapp.com/send'], a[href*='web.whatsapp.com/send'], a[href*='wa.me/'], div[class*='wptwa-container'], a[href*='wa.link'][target='_blank']",
+    "dom": "a[href*='api.whatsapp.com/send'], a[href*='web.whatsapp.com/send'], div[class*='wptwa-container'], a[href*='wa.link'][target='_blank'], link[href*='plugins/creame-whatsapp-me']",
     "icon": "WhatsApp.svg",
+    "scriptSrc": [
+      "/plugins/creame-whatsapp-me.*joinchat\\.min\\.js"
+    ],
     "website": "https://www.whatsapp.com/business"
   },
   "Wheelio": {
@@ -1508,7 +1718,7 @@
     "cats": [
       32
     ],
-    "description": "Wigzo is e-commerce marketing automation platform that helps businesses of every size dig deeper into data to find opportunities to increase their sales and revenue.",
+    "description": "Wigzo is ecommerce marketing automation platform that helps businesses of every size dig deeper into data to find opportunities to increase their sales and revenue.",
     "icon": "Wigzo.png",
     "js": {
       "wigzo": ""
@@ -1632,6 +1842,20 @@
     },
     "website": "https://winstone.sourceforge.net"
   },
+  "Wipe Analytics": {
+    "cats": [
+      10
+    ],
+    "description": "Wipe Analytics provides user behavior analysis for high-traffic and dynamically generated websites.",
+    "icon": "Wipe Analytics.svg",
+    "pricing": [
+      "recurring",
+      "high"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.wipe\\.de/wwa\\.js",
+    "website": "https://wipe-analytics.de"
+  },
   "Wirecard": {
     "cats": [
       41
@@ -1667,6 +1891,25 @@
     "saas": true,
     "scriptSrc": "loader\\.wisepops\\.com/get-loader\\.js",
     "website": "https://wisepops.com"
+  },
+  "WiserNotify": {
+    "cats": [
+      76
+    ],
+    "description": "WiserNotify is a platform offering social proof and FOMO features for ecommerce sites.",
+    "dom": "link[href*='app.wisernotify.com/']",
+    "icon": "WiserNotify.svg",
+    "js": {
+      "wiser": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://wisernotify.com"
   },
   "Wishlist King": {
     "cats": [
@@ -1825,10 +2068,29 @@
     "cats": [
       1
     ],
+    "description": "Wolf CMS is an open-source, lightweight content management system written in PHP.",
     "html": "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)",
     "icon": "Wolf CMS.png",
     "implies": "PHP",
-    "website": "https://www.wolfcms.org"
+    "oss": true,
+    "website": "https://github.com/wolfcms/wolfcms"
+  },
+  "Wolfeo": {
+    "cats": [
+      32,
+      71
+    ],
+    "cookies": {
+      "wolfeo_new_session_5": ""
+    },
+    "description": "Wolfeo is an online platform for selling digital products and services, catering to coaches, consultants, and entrepreneurs.",
+    "icon": "Wolfeo.png",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://wolfeo.fr"
   },
   "Woltlab Community Framework": {
     "cats": [
@@ -1838,6 +2100,24 @@
     "implies": "PHP",
     "scriptSrc": "WCF\\..*\\.js",
     "website": "https://www.woltlab.com"
+  },
+  "WooChat": {
+    "cats": [
+      32
+    ],
+    "description": "WooChat is a marketing automation tool that helps store owners to grow their business.",
+    "dom": "link[href*='app.woochat.io/']",
+    "icon": "WooChat.svg",
+    "js": {
+      "woochat_wa_chat_init": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://woochat.io"
   },
   "WooCommerce": {
     "cats": [
@@ -1928,7 +2208,7 @@
     "cats": [
       87
     ],
-    "description": "WooCommerce Stripe Payment Gateway plugin extends WooCommerce allowing you to take payments directly on your store via Stripe’s API.",
+    "description": "WooCommerce Stripe Payment Gateway plugin extends WooCommerce allowing you to take payments directly on your store via Stripe\u2019s API.",
     "dom": "link[href*='/wp-content/plugins/woocommerce-gateway-stripe/']",
     "icon": "WooCommerce Stripe Payment Gateway.png",
     "implies": "Stripe",
@@ -1953,6 +2233,23 @@
     ],
     "requires": "WordPress",
     "website": "https://woocommerce.com/products/woocommerce-subscriptions"
+  },
+  "Woodmart": {
+    "cats": [
+      80
+    ],
+    "description": "Woodmart is a multipurpose WordPress theme offering for website creation and customization.",
+    "icon": "Woodmart.svg",
+    "js": {
+      "woodmartThemeModule": "",
+      "woodmart_settings": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "website": "https://woodmart.xtemos.com"
   },
   "Woopra": {
     "cats": [
@@ -2048,7 +2345,7 @@
     ],
     "saas": true,
     "scriptSrc": [
-      "/wp-(?:content|includes|admin)/",
+      "/wp-(?:content|includes)/",
       "wp-embed\\.min\\.js"
     ],
     "website": "https://wordpress.org"
@@ -2092,6 +2389,20 @@
     "oss": true,
     "requires": "WordPress",
     "website": "https://wordpress.org/documentation/article/create-a-network/"
+  },
+  "WordPress Popular Posts": {
+    "cats": [
+      87,
+      5
+    ],
+    "description": "WordPress Popular Posts is a plugin for the WordPress content management system that allows users to display a widget or shortcode featuring a list of the most popular posts on their website based on criteria such as pageviews or comments.",
+    "headers": {
+      "WordPressPopularPosts": ""
+    },
+    "icon": "WordPress Popular Posts.svg",
+    "requires": "WordPress",
+    "scriptSrc": "/wp-content/plugins/wordpress-popular-posts/.+wpp\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
+    "website": "https://wordpress.org/plugins/wordpress-popular-posts/"
   },
   "WordPress Super Cache": {
     "cats": [
@@ -2251,7 +2562,7 @@
       5,
       76
     ],
-    "description": "Worldz calculates the economic value of a user’s social popularity (qualitatively and quantitatively). In proportion to this value, it provides a personalised discount, which can be applied in exchange for a social sharing by the user on their Instagram or Facebook profile.",
+    "description": "Worldz calculates the economic value of a user\u2019s social popularity (qualitatively and quantitatively). In proportion to this value, it provides a personalised discount, which can be applied in exchange for a social sharing by the user on their Instagram or Facebook profile.",
     "icon": "Worldz.png",
     "pricing": [
       "mid",
