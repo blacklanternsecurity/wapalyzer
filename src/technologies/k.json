@@ -435,6 +435,20 @@
     "oss": true,
     "website": "https://keen-slider.io"
   },
+  "KelonCloud": {
+    "cats": [
+      31
+    ],
+    "description": "KelonCloud offers a variety of cloud-based services, such as CDN, DDoS mitigation, cloud security, streaming, cloud compute, and more.",
+    "headers": {
+      "server": "^(?:(?:KelonCloud|KC)-Private-CDN|KelonCloud)$"
+    },
+    "icon": "KelonCloud.svg",
+    "pricing": [
+      "recurring"
+    ],
+    "website": "https://www.keloncloud.com"
+  },
   "Kemal": {
     "cats": [
       18,
@@ -451,13 +465,21 @@
       66
     ],
     "description": "Kendo UI is a HTML5 user interface framework for building interactive and high-performance websites and applications.",
-    "html": "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>",
+    "dom": {
+      "link[href*=kendo]": {
+        "attributes": {
+          "href": "/([\\d\\.]+).*/kendo\\.common\\.min\\.css\\;version:\\1"
+        }
+      }
+    },
     "icon": "Kendo UI.png",
     "implies": "jQuery",
     "js": {
       "kendo": "",
       "kendo.version": "^(.+)$\\;version:\\1"
     },
+    "oss": true,
+    "scriptSrc": "/kendo/.*-([\\d]{4})%20([\\d\\.]{6})\\;version:\\1.\\2",
     "website": "https://www.telerik.com/kendo-ui"
   },
   "Kentico CMS": {
@@ -470,7 +492,8 @@
     },
     "cpe": "cpe:2.3:a:kentico:kentico_cms:*:*:*:*:*:*:*:*",
     "description": "Kentico CMS is a web content management system for building websites, online stores, intranets, and Web 2.0 community sites.",
-    "icon": "Kentico CMS.png",
+    "dom": "link[href*='/kentico/bundles/pageComponents/']",
+    "icon": "Kentico CMS.svg",
     "js": {
       "CMS.Application": ""
     },
@@ -478,6 +501,8 @@
       "generator": "Kentico CMS ([\\d.R]+ \\(build [\\d.]+\\))\\;version:\\1"
     },
     "pricing": [
+      "high",
+      "recurring",
       "poa"
     ],
     "saas": true,
@@ -644,18 +669,31 @@
     "cats": [
       53
     ],
-    "description": "Kicksite is a gym and martial arts member management software with attendance tracking, automated billing, free texting, lead capture forms and more.",
-    "icon": "Kicksite.png",
     "cookies": {
       "_kicksite_session": ""
     },
-    "dom":"iframe[src*='.kicksite.net/']",
+    "description": "Kicksite is a gym and martial arts member management software with attendance tracking, automated billing, free texting, lead capture forms and more.",
+    "dom": "iframe[src*='.kicksite.net/']",
+    "icon": "Kicksite.png",
     "pricing": [
       "mid",
       "recurring"
     ],
     "saas": true,
     "website": "https://kicksite.com"
+  },
+  "Kilatech": {
+    "cats": [
+      100
+    ],
+    "description": "Kilatech is a Shopify ecommerce application builder.",
+    "icon": "Kilatech.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.kilatechapps\\.com/",
+    "website": "https://web.kilatechapps.com"
   },
   "Kiliba": {
     "cats": [
@@ -708,12 +746,55 @@
       62,
       88
     ],
+    "description": "Kinsta is a managed WordPress hosting provider leveraging the Google Cloud Platform to offer high-performance, secure, and user-friendly hosting solutions for WordPress websites.",
     "headers": {
       "x-kinsta-cache": ""
     },
     "icon": "kinsta.svg",
     "implies": "WordPress",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
     "website": "https://kinsta.com"
+  },
+  "Kintone": {
+    "cats": [
+      53
+    ],
+    "description": "Kintone is a versatile cloud-based platform offering business data management, CRM, and custom app development.",
+    "dom": "iframe[src*='.kintoneapp.com/'], a[href*='.kintoneapp.com/'][target='_blank']",
+    "icon": "Kintone.png",
+    "js": {
+      "kintoneappHost": ""
+    },
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://kintone.cybozu.co.jp"
+  },
+  "Kirby": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "kirby_session": ""
+    },
+    "cpe": "cpe:2.3:a:getkirby:kirby:*:*:*:*:*:*:*:*",
+    "description": "Kirby is a file-based content management system (CMS) that simplifies website and web application development by using text files for content management instead of a traditional database.",
+    "icon": "Kirby.svg",
+    "implies": [
+      "PHP",
+      "Vue.js"
+    ],
+    "pricing": [
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://getkirby.com"
   },
   "Kirki Customizer Framework": {
     "cats": [
@@ -838,12 +919,28 @@
     "scriptSrc": "klaviyo\\.com",
     "website": "https://www.klaviyo.com/"
   },
+  "Kleeja": {
+    "cats": [
+      1
+    ],
+    "description": "Kleeja is a PHP-based solution for managing file upload services on websites.",
+    "icon": "Kleeja.svg",
+    "js": {
+      "update_kleeja_captcha": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://kleeja.net"
+  },
   "Klevu": {
     "cats": [
       29
     ],
     "description": "Klevu is a highly advanced AI-Powered search solution for ecommerce platforms.",
-    "icon": "Klevu.png",
+    "icon": "Klevu.svg",
     "js": {
       "klevu.version": "([\\d\\.]+)\\;version:\\1",
       "klevu_apiKey": "",
@@ -878,6 +975,21 @@
     "saas": true,
     "scriptSrc": "\\.klickpages\\.com\\.br/",
     "website": "https://klickpages.com.br"
+  },
+  "KlickTipp": {
+    "cats": [
+      32
+    ],
+    "description": "KlickTipp is an email marketing service offering a range of features for businesses, including newsletter creation, SMS functionality, and marketing automation tools.",
+    "dom": "form[action*='app.klicktipp.com/api']",
+    "icon": "KlickTipp.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.klicktipp\\.com/",
+    "website": "https://www.klicktipp.com"
   },
   "Klickly": {
     "cats": [
@@ -983,6 +1095,22 @@
     },
     "website": "https://koala-framework.org"
   },
+  "Kobalte": {
+    "cats": [
+      66
+    ],
+    "cookies": {
+      "kb-color-mode": ""
+    },
+    "description": "Kobalte is a UI toolkit for building accessible web apps and design systems with SolidJS.",
+    "dom": "div[data-kb-top-layer], html[data-kb-theme]",
+    "icon": "kobalte.png",
+    "implies": [
+      "SolidJS"
+    ],
+    "oss": true,
+    "website": "https://kobalte.dev"
+  },
   "KobiMaster": {
     "cats": [
       6
@@ -1001,10 +1129,7 @@
     ],
     "cpe": "cpe:2.3:a:koha:koha:*:*:*:*:*:*:*:*",
     "description": "Koha is an open-source Integrated Library System (ILS).",
-    "html": [
-      "<input name=\"koha_login_context\" value=\"intranet\" type=\"hidden\">",
-      "<a href=\"/cgi-bin/koha/"
-    ],
+    "dom": "input[name*='koha_login_context'][type='hidden'], a[href*='/cgi-bin/koha/']",
     "icon": "koha.png",
     "implies": "Perl",
     "js": {
@@ -1023,12 +1148,26 @@
       "kohanasession": ""
     },
     "cpe": "cpe:2.3:a:kohanaframework:kohana:*:*:*:*:*:*:*:*",
+    "description": "Kohana is an open-source PHP web framework designed for building web applications, following the Model-View-Controller (MVC) architectural pattern.",
     "headers": {
       "X-Powered-By": "Kohana Framework ([\\d.]+)\\;version:\\1"
     },
-    "icon": "Kohana.png",
+    "icon": "Kohana.svg",
     "implies": "PHP",
     "website": "https://kohanaframework.org"
+  },
+  "Koishi.js": {
+    "cats": [
+      12
+    ],
+    "description": "Koishi.js is a cross-platform chatbot framework.",
+    "icon": "Koishi.js.png",
+    "implies": "TypeScript",
+    "js": {
+      "KOISHI_CONFIG": ""
+    },
+    "oss": true,
+    "website": "https://github.com/koishijs"
   },
   "Koken": {
     "cats": [
@@ -1037,11 +1176,10 @@
     "cookies": {
       "koken_referrer": ""
     },
-    "html": [
-      "<html lang=\"en\" class=\"k-source-essays k-lens-essays\">",
-      "<!--\\s+KOKEN DEBUGGING"
-    ],
-    "icon": "Koken.png",
+    "description": "Koken is a free web site publishing system developed for photographers, designers, artists and creative DIYs.",
+    "dom": "html[lang='en'][class*='k-source-essays']",
+    "html": "<!--\\s+KOKEN DEBUGGING",
+    "icon": "Koken.svg",
     "implies": [
       "PHP",
       "MySQL"
@@ -1051,6 +1189,19 @@
     },
     "scriptSrc": "koken(?:\\.js\\?([\\d.]+)|/storage)\\;version:\\1",
     "website": "https://koken.me"
+  },
+  "Kommi": {
+    "cats": [
+      32
+    ],
+    "description": "Kommi is a provider of digital marketing services.",
+    "icon": "Kommi.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "tracker\\.kommi\\.io/",
+    "website": "https://kommi.io"
   },
   "Komodo CMS": {
     "cats": [
@@ -1173,7 +1324,7 @@
       27
     ],
     "cpe": "cpe:2.3:a:jetbrains:kotlin:*:*:*:*:*:*:*:*",
-    "description": "Kotlin is a general purpose, free, open-source, statically typed “pragmatic” programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features.",
+    "description": "Kotlin is a general purpose, free, open-source, statically typed \u201cpragmatic\u201d programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features.",
     "icon": "Kotlin.svg",
     "oss": true,
     "website": "https://kotlinlang.org"
@@ -1197,6 +1348,23 @@
       "shopify\\.kount\\.net/js"
     ],
     "website": "https://kount.com"
+  },
+  "Kssib": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "kssib_session": ""
+    },
+    "description": "Kssib is a provider of integrated ecommerce solutions.",
+    "icon": "Kssib.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://kssib.com"
   },
   "Ktor": {
     "cats": [
@@ -1286,7 +1454,7 @@
     "cats": [
       6
     ],
-    "description": "k-eCommerce is mdf commerce’s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
+    "description": "k-eCommerce is mdf commerce\u2019s platform for SMBs, providing all-in-one ecommerce and digital payment solutions integrated to Microsoft Dynamics and SAP Business One. ",
     "dom": "a[href*='.k-ecommerce.com/'][target='_blank']",
     "icon": "k-eCommerce.png",
     "meta": {
