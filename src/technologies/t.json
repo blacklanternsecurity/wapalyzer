@@ -89,6 +89,20 @@
     ],
     "website": "https://www.tcadmin.com"
   },
+  "TDO Software": {
+    "cats": [
+      53
+    ],
+    "description": "TDO is a practice management software designed for endodontists to build a modern office environment.",
+    "dom": "link[href*='//tdosites.com'][rel='dns-prefetch']",
+    "icon": "TDOSoftware.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "tdosites\\.com/",
+    "website": "https://wwww.tdo4endo.com"
+  },
   "TDesign": {
     "cats": [
       66
@@ -537,6 +551,25 @@
     "saas": true,
     "website": "https://www.talkable.com"
   },
+  "Talkdesk": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Talkdesk is a platform providing modern AI-powered customer service solutions.",
+    "icon": "Talkdesk.svg",
+    "js": {
+      "TalkdeskChatSDK": "",
+      "webpackChunkTalkdeskChatSDK": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.talkdeskapp\\.com/",
+    "website": "https://www.talkdesk.com"
+  },
   "Tallentor": {
     "cats": [
       10
@@ -629,6 +662,19 @@
       "recurring"
     ],
     "website": "https://tanglednetwork.com"
+  },
+  "Tap Payments": {
+    "cats": [
+      41
+    ],
+    "description": "Tap Payments is a company based in KSA provides payment services to merchants.",
+    "dom": "iframe[src*='checkout.payments.tap.company/']",
+    "icon": "Tap Payments.svg",
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.tap.company"
   },
   "Tapad": {
     "cats": [
@@ -759,7 +805,9 @@
     "description": "Tealium provides a sales enterprise tag management system and marketing software.",
     "icon": "Tealium.png",
     "js": {
-      "TEALIUMENABLED": ""
+      "TEALIUMENABLED": "",
+      "TealiumUtils": "",
+      "__tealium_twc_switch": ""
     },
     "pricing": [
       "mid",
@@ -770,6 +818,7 @@
       "^(?:https?:)?//tags\\.tiqcdn\\.com/",
       "/tealium/utag\\.js$"
     ],
+    "scripts": "tealium_js_path",
     "website": "https://tealium.com"
   },
   "Tealium AudienceStream": {
@@ -833,6 +882,45 @@
     },
     "website": "https://www.jetbrains.com/teamcity/"
   },
+  "TeamLinkt": {
+    "cats": [
+      13
+    ],
+    "description": "Teamlinkt is a software facilitating team management, enabling users to track progress, assign tasks, and coordinate activities.",
+    "icon": "TeamLinkt.svg",
+    "meta": {
+      "author": "^TeamLinkt$"
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://teamlinkt.com"
+  },
+  "TeamSystem Commerce": {
+    "cats": [
+      6
+    ],
+    "headers": {
+      "X-Powered-By": "(?:Storeden|TeamSystem Commerce)"
+    },
+    "icon": "storeden.svg",
+    "website": "https://www.teamsystemcommerce.com/"
+  },
+  "TeamUp": {
+    "cats": [
+      72
+    ],
+    "description": "TeamUp is fitness management software catering to boutique gyms, studios, and fitness boxes worldwide.",
+    "dom": "a[href*='//goteamup.com/']",
+    "icon": "TeamUp.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://goteamup.com"
+  },
   "Teamtailor": {
     "cats": [
       101
@@ -876,6 +964,44 @@
     "scripts": "\\.tebexLogin",
     "website": "https://www.tebex.io"
   },
+  "Teeinblue": {
+    "cats": [
+      76
+    ],
+    "description": "Teeinblue is a personalization tool tailored for print-on-demand merchants using Shopify.",
+    "icon": "TeeinBlue.svg",
+    "js": {
+      "TEEINBLUE_LOADED": "",
+      "teeinblue": "",
+      "teeinblueShop": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "sdk\\.teeinblue\\.com",
+    "website": "https://teeinblue.com"
+  },
+  "TeleportHQ": {
+    "cats": [
+      51
+    ],
+    "description": "TeleportHQ is a front-end development platform featuring a visual builder and headless content modeling capabilities.",
+    "dom": "link[href*='/@teleporthq/teleport-custom-scripts/']",
+    "icon": "TeleportHq.svg",
+    "implies": "React",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://teleporthq.io"
+  },
   "Telescope": {
     "cats": [
       1
@@ -890,7 +1016,7 @@
     },
     "website": "https://telescopeapp.org"
   },
-  "Tencent Analytics (腾讯分析)": {
+  "Tencent Analytics (\u817e\u8baf\u5206\u6790)": {
     "cats": [
       10
     ],
@@ -1157,6 +1283,19 @@
     "saas": true,
     "scriptSrc": "the-dotcom-public-cdn\\.s3\\.amazonaws\\.com/",
     "website": "https://www.the.com"
+  },
+  "Theatre.js": {
+    "cats": [
+      25
+    ],
+    "description": "Theatre.js is a javascript animation library with a professional motion design toolset.",
+    "icon": "Theatre.js.svg",
+    "js": {
+      "__TheatreJS_CoreBundle": "",
+      "__TheatreJS_CoreBundle.version": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://www.theatrejs.com"
   },
   "Thefork": {
     "cats": [
@@ -1966,10 +2105,13 @@
     "cats": [
       6
     ],
+    "description": "Ticimax provides ecommerce infrastructure services.",
     "icon": "Ticimax.png",
-    "scriptSrc": [
-      "cdn\\.ticimax\\.com/"
-    ],
+    "js": {
+      "ticimaxApi": "",
+      "ticimaxServices": ""
+    },
+    "scriptSrc": "cdn\\.ticimax\\.(?:com|cloud)/",
     "website": "https://www.ticimax.com"
   },
   "Tictail": {
@@ -2413,6 +2555,24 @@
     "icon": "Trac.png",
     "implies": "Python",
     "website": "https://trac.edgewall.org"
+  },
+  "Track123": {
+    "cats": [
+      100,
+      99
+    ],
+    "description": "Track123 is a product under Lingxing, founded in September 2021, with a focus on providing all-in-one tracking and management services for cross-border sellers.",
+    "icon": "Track123.svg",
+    "js": {
+      "track123": ""
+    },
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://www.track123.com"
   },
   "TrackJs": {
     "cats": [
@@ -2989,6 +3149,29 @@
     "scriptSrc": "\\.trynow\\.net/shopify/([\\d\\.]+)/\\;version:\\1",
     "website": "https://www.trynow.io"
   },
+  "Tula": {
+    "cats": [
+      53,
+      72
+    ],
+    "cookies": {
+      "_tulayoga_session": ""
+    },
+    "description": "Tula is a web-based yoga studio software facilitating management of payments, memberships, calendar sharing, registrations, credit tracking, attendance recording, and more for studio owners.",
+    "icon": "TulaSoftware.svg",
+    "js": {
+      "Tula": "",
+      "TulaSpinner": "",
+      "TulaUtil": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://tulasoftware.com"
+  },
   "Tumblr": {
     "cats": [
       11
@@ -3001,6 +3184,23 @@
     "icon": "Tumblr.png",
     "url": "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/",
     "website": "https://www.tumblr.com"
+  },
+  "Tunosite": {
+    "cats": [
+      51
+    ],
+    "description": "Tunosite is a web app builder for startups and business with combining content, membership, and discussions in one place, under your own brand with no coding skills required.",
+    "dom": "link[href*='app.tunosite.com']",
+    "icon": "Tunosite.png",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.tunosite\\.com",
+    "website": "https://tunosite.com"
   },
   "Turbo": {
     "cats": [
@@ -3362,7 +3562,8 @@
     "dom": "iframe[src*='player\\.twitch\\.tv']",
     "icon": "Twitch.svg",
     "js": {
-      "Twitch.Player": ""
+      "Twitch.Embed": "",
+      "twitchPlayer": ""
     },
     "website": "https://dev.twitch.tv/docs/embed/video-and-clips/"
   },
@@ -3523,6 +3724,15 @@
     ],
     "scriptSrc": "use\\.typekit\\.com",
     "website": "https://typekit.com"
+  },
+  "Typer.js": {
+    "cats": [
+      59
+    ],
+    "description": "Typer.js is a JavaScript library for creating a fully configurable typing effect in HTML.",
+    "oss": true,
+    "scriptSrc": "unpkg\\.com/typer-dot-js@([\\d\\.]+)/typer\\.js\\;version:\\1",
+    "website": "https://github.com/straversi/Typer.js"
   },
   "Typof": {
     "cats": [

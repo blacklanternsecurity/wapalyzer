@@ -18,7 +18,7 @@
     ],
     "description": " A8.net is an affiliate marketing network.",
     "dom": "img[src*='.a8.net']",
-    "icon": "A8.net.png",
+    "icon": "A8.net.svg",
     "js": {
       "A8salesCookieRepository": "",
       "a8sales": "",
@@ -133,7 +133,7 @@
       80
     ],
     "description": "AFThemes CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine.",
-    "icon": "AFThemes.png",
+    "icon": "AFThemes.svg",
     "pricing": [
       "freemium",
       "onetime",
@@ -143,6 +143,22 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/covernews(?:-pro)?/",
     "website": "https://afthemes.com/products/covernews"
+  },
+  "AIMEOS": {
+    "cats": [
+      6
+    ],
+    "description": "Aimeos is a PHP ecommerce framework designed for custom online shops, multi-vendor marketplaces, and complex B2B applications.",
+    "dom": "link[href*='aimeos.com']",
+    "icon": "aimeos.png",
+    "js": {
+      "Aimeos": "",
+      "AimeosAccountFavorite": "",
+      "AimeosBasketMini": "",
+      "AimeosCatalog": ""
+    },
+    "oss": true,
+    "website": "https://aimeos.org"
   },
   "ALL-INKL": {
     "cats": [
@@ -164,11 +180,16 @@
       12
     ],
     "description": "AMP, originally created by Google, is an open-source HTML framework developed by the AMP open-source Project. AMP is designed to help webpages load faster.",
-    "html": [
-      "<html[^>]* (?:amp|⚡)[^-]",
-      "<link rel=\"amphtml\""
-    ],
     "icon": "Accelerated-Mobile-Pages.svg",
+    "js": {
+      "AMP_CONFIG": "",
+      "AMP_EXP": "",
+      "__AMP_BASE_CE_CLASS": "",
+      "__AMP_EXTENDED_ELEMENTS": "",
+      "__AMP_TAG": "",
+      "ampInaboxIframes": "",
+      "ampInaboxPendingMessages": ""
+    },
     "oss": true,
     "website": "https://www.amp.dev",
     "xhr": "cdn\\.ampproject\\.org"
@@ -186,6 +207,25 @@
     },
     "requires": "WordPress",
     "website": "https://amp-wp.org"
+  },
+  "ANDCommerce": {
+    "cats": [
+      6
+    ],
+    "description": "ANDCommerce is an all-in-one ecommerce platform from Brasil.",
+    "dom": "link[href*='/css/andcommerce.css']",
+    "icon": "ANDCommerce.png",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": "Cart Functionality",
+    "saas": true,
+    "website": "https://www.andcommerce.com.br"
   },
   "AOLserver": {
     "cats": [
@@ -232,7 +272,7 @@
       6
     ],
     "description": "ARI Network Services provides website, software, and data solutions to help dealers, distributors, and OEMs improve their selling process.",
-    "icon": "ARI Network Services.png",
+    "icon": "ARINetworkServices.svg",
     "pricing": [
       "poa"
     ],
@@ -745,7 +785,7 @@
     "dom": [
       "div[class*='coh-component coh-component-instance']"
     ],
-    "icon": "acquia-site-studio.png",
+    "icon": "acquia-site-studio.svg",
     "implies": [
       "Acquia Cloud Platform"
     ],
@@ -848,6 +888,20 @@
       "\\.advisor\\.smartfocus\\.com"
     ],
     "website": "https://www.actito.com"
+  },
+  "Activ8 Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "Activ8 Commerce is a sales solution tailored for winery and distillery businesses.",
+    "icon": "Activ8.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/wp-content/plugins/activ8-commerce/",
+    "website": "https://activ8commerce.com"
   },
   "ActiveCampaign": {
     "cats": [
@@ -955,7 +1009,7 @@
     "cats": [
       36
     ],
-    "icon": "AdOcean.png",
+    "icon": "AdOcean.svg",
     "implies": "Gemius",
     "js": {
       "ado.master": "",
@@ -1024,7 +1078,7 @@
       36,
       77
     ],
-    "description": "AdRoll is a digital marketing technology platform that specializes in retargeting.",
+    "description": "AdRoll is a digital marketing technology platform that specialises in retargeting.",
     "dom": "link[href*='.adroll.com']",
     "icon": "AdRoll.svg",
     "js": {
@@ -1038,6 +1092,7 @@
     ],
     "saas": true,
     "scriptSrc": "(?:a|s)\\.adroll\\.com",
+    "scripts": "(?:d|s)\\.adroll\\.com/",
     "website": "https://adroll.com"
   },
   "AdRoll CMP System": {
@@ -1152,6 +1207,22 @@
     "scriptSrc": "cloudfront\\.net/.*/adally\\.js",
     "website": "https://adally.com/"
   },
+  "Adalo": {
+    "cats": [
+      51
+    ],
+    "description": "Adalo is a no-code platform enabling the creation of mobile and web applications.",
+    "dom": "link[href*='.adalo.com/static/'][rel='stylesheet']",
+    "icon": "Adalo.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.adalo\\.com/",
+    "website": "https://www.adalo.com"
+  },
   "Adalyser": {
     "cats": [
       36
@@ -1187,13 +1258,16 @@
       72
     ],
     "description": "AddEvent is used to Add to Calendar and event tools for websites and newsletters.",
-    "icon": "addevent.png",
+    "icon": "AddEvent.svg",
+    "js": {
+      "addeventatc": ""
+    },
     "pricing": [
-      "mid",
+      "low",
       "recurring",
-      "poa"
+      "freemium"
     ],
-    "scriptSrc": "//addevent\\.com/",
+    "scriptSrc": "(?://|\\.)addevent\\.com/",
     "website": "https://www.addevent.com"
   },
   "AddShoppers": {
@@ -1304,6 +1378,21 @@
     "saas": true,
     "website": "https://www.adjust.com"
   },
+  "Adline": {
+    "cats": [
+      10,
+      36
+    ],
+    "description": "Adline is an advertising & analytics software that helps launch multichannel ads with automatic ad optimization.",
+    "icon": "Adline.svg",
+    "js": {
+      "adlineConfig": ""
+    },
+    "pricing": [],
+    "saas": true,
+    "scriptSrc": "prod\\.api\\.adline\\.com",
+    "website": "https://adline.com"
+  },
   "Adloox": {
     "cats": [
       36
@@ -1326,7 +1415,7 @@
       "Adminer</a> <span class=\"version\">([\\d.]+)</span>\\;version:\\1",
       "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">\\;version:\\1"
     ],
-    "icon": "adminer.png",
+    "icon": "Adminer.svg",
     "implies": "PHP",
     "website": "https://www.adminer.org"
   },
@@ -1518,11 +1607,7 @@
     ],
     "cpe": "cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*",
     "description": "Adobe Experience Manager (AEM) is a content management solution for building websites, mobile apps and forms.",
-    "html": [
-      "<div class=\"[^\"]*parbase",
-      "<div[^>]+data-component-path=\"[^\"+]jcr:",
-      "<div class=\"[^\"]*aem-Grid"
-    ],
+    "dom": "div[class*='parbase'], div[data-component-path*='jcr:'], div[class*='aem-Grid']",
     "icon": "Adobe Experience Platform.svg",
     "implies": "Java",
     "pricing": [
@@ -1543,8 +1628,8 @@
     ],
     "cpe": "cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*",
     "description": "Adobe Experience Manager Franklin, also known as Project Helix or Composability, is a new way to publish AEM pages using Google Drive or Microsoft Office via Sharepoint. Instead of components, Franklin uses blocks to build pages. Blocks are pieces of a document that will be transformed into web page content.",
-    "icon": "Adobe Experience Manager Franklin.svg",
     "excludes": "Adobe Experience Manager",
+    "icon": "Adobe Experience Manager Franklin.svg",
     "scriptSrc": "^.+/scripts/lib-franklin\\.js$",
     "website": "https://www.hlx.live"
   },
@@ -1599,6 +1684,24 @@
       "generator": "Adobe GoLive(?:\\s([\\d.]+))?\\;version:\\1"
     },
     "website": "https://www.adobe.com/products/golive"
+  },
+  "Adobe Muse": {
+    "cats": [
+      57
+    ],
+    "description": "Adobe Muse is a no code offline website builder used to create fixed, fluid, or adaptive websites, without the need to write code.",
+    "icon": "AdobeMuse.svg",
+    "js": {
+      "Muse": "",
+      "museConfigLoadedAndExecuted": "",
+      "muse_init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://helpx.adobe.com/muse/kb/adobe-muse-end-of-service.html"
   },
   "Adobe Portfolio": {
     "cats": [
@@ -1661,8 +1764,10 @@
       "adonis-session": "",
       "adonis-session-values": ""
     },
-    "icon": "AdonisJS.png",
+    "description": "AdonisJS is a Node.js web application framework that follows the MVC pattern, simplifying web development with features like ORM, authentication, and WebSockets.",
+    "icon": "AdonisJS.svg",
     "implies": "Node.js",
+    "oss": true,
     "website": "https://adonisjs.com"
   },
   "Advally": {
@@ -1765,7 +1870,11 @@
     "description": "Aero Commerce is a performance-based platform designed with the evolving needs of retailers in mind.",
     "icon": "Aero Commerce.svg",
     "js": {
-      "AeroEvents.on": ""
+      "AeroComponents": "",
+      "AeroEvents.on": "",
+      "iosAEROBook": "",
+      "iosAEROBookCalcTotal": "",
+      "iosAEROTrim": ""
     },
     "pricing": [
       "poa"
@@ -1954,6 +2063,23 @@
     ],
     "website": "https://www.afterpay.com/"
   },
+  "Agoda": {
+    "cats": [
+      104
+    ],
+    "description": "Agoda is an online travel platform offering its services globally via its app and website.",
+    "dom": "link[href*='banner.agoda.com']",
+    "icon": "Agoda.svg",
+    "js": {
+      "agoda": "",
+      "agoda_ad_client": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.agoda.com"
+  },
   "Ahoy": {
     "cats": [
       10
@@ -2000,6 +2126,23 @@
     },
     "scriptSrc": "aispeed\\.js",
     "website": "https://apps.shopify.com/aispeed"
+  },
+  "Aidbase": {
+    "cats": [
+      53
+    ],
+    "description": "Aidbase is an AI-driven support ecosystem designed to enhance user experiences.",
+    "icon": "Aidbase.svg",
+    "js": {
+      "AIDBASE_CHATBOT_ID": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.aidbase.ai"
   },
   "Aimtell": {
     "cats": [
@@ -2050,6 +2193,23 @@
     ],
     "saas": true,
     "website": "https://airrobe.com"
+  },
+  "Airbridge": {
+    "cats": [
+      10
+    ],
+    "description": "Airbridge is a marketing attribution tool that helps you measure and attribute growth to your marketing campaigns.",
+    "icon": "Airbridge.svg",
+    "js": {
+      "airBridgeSentData": "",
+      "airbridge.version": "^(.+)$\\;version:\\1"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.airbridge\\.io",
+    "website": "https://www.airbridge.io"
   },
   "Aircall": {
     "cats": [
@@ -2109,6 +2269,26 @@
     ],
     "saas": true,
     "website": "https://www.airtable.com"
+  },
+  "Aivo": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Aivo is a conversational AI platform offering omnichannel tools and live agent solutions to automate customer experiences.",
+    "icon": "Aivo.svg",
+    "js": {
+      "$aivo": "",
+      "aivoStorage": ""
+    },
+    "pricing": [
+      "mid",
+      "freemium",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.aivo.co"
   },
   "Akamai": {
     "cats": [
@@ -2173,9 +2353,7 @@
       "akaas_AB-Testing": ""
     },
     "description": "Akamai mPulse is a real user monitoring (RUM) solution that enables companies to monitor, find, and fix website and application performance issues.",
-    "html": [
-      "<script>[\\s\\S]*?go-mpulse\\.net\\/boomerang[\\s\\S]*?</script>"
-    ],
+    "dom": "script#boomr-if-as, script#boomr-scr-as, link[href*='s.go-mpulse.net/boomerang/'][rel='preload']",
     "icon": "Akamai.svg",
     "implies": [
       "Boomerang"
@@ -2264,7 +2442,7 @@
     "headers": {
       "Server": "akka-http(?:/([\\d.]+))?\\;version:\\1"
     },
-    "icon": "akka-http.png",
+    "icon": "AkkaHttp.svg",
     "website": "https://akka.io"
   },
   "Aklamio": {
@@ -2358,7 +2536,8 @@
       29
     ],
     "cookies": {
-      "_ALGOLIA": ""
+      "_ALGOLIA": "",
+      "didomiVendorsConsent": "\\balgolia\\b"
     },
     "description": "Algolia offers a hosted web search product delivering real-time results.",
     "headers": {
@@ -2372,7 +2551,9 @@
       "__NEXT_DATA__.props.pageProps.appSettings.ALGOLIA_APP_ID": "",
       "__algolia": "",
       "__algolia.algoliasearch.version": "^(.+)$\\;version:\\1",
-      "algoliasearch.version": "^(.+)$\\;version:\\1"
+      "_didomi_vendors_consent": "\\balgolia\\b",
+      "algoliasearch.version": "^(.+)$\\;version:\\1",
+      "didomiState.didomiVendorsConsent": "\\balgolia\\b"
     },
     "pricing": [
       "freemium",
@@ -2448,6 +2629,24 @@
     "scriptSrc": "cf\\.aliyun\\.com/",
     "website": "https://help.aliyun.com/document_detail/193141.html"
   },
+  "All in One Accessibility": {
+    "cats": [
+      68
+    ],
+    "description": "All in One Accessibility is a website accessibility widget developed by Skynet Technologies to enhance compliance with WCAG 2.0, 2.1, 2.2, and ADA accessibility standards.",
+    "icon": "Skynet Technologies.svg",
+    "js": {
+      "aiao_modal_footer_height": "",
+      "aioa_accessibility_profiles_STATUS": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.skynettechnologies\\.com/accessibility/",
+    "website": "https://www.skynettechnologies.com/all-in-one-accessibility"
+  },
   "All in One SEO Pack": {
     "cats": [
       54,
@@ -2455,8 +2654,11 @@
     ],
     "cpe": "cpe:2.3:a:aioseo:all_in_one_seo:*:*:*:*:*:wordpress:*:*",
     "description": "All in One SEO plugin optimizes WordPress website and its content for search engines.",
-    "html": "<!-- All in One SEO Pack ([\\d.]+) \\;version:\\1",
+    "dom": "script.aioseo-schema",
     "icon": "AIOSEO.svg",
+    "meta": {
+      "generator": "^All in One SEO \\(AIOSEO\\)\\s([\\d.]+)$\\;version:\\1"
+    },
     "pricing": [
       "freemium",
       "low",
@@ -2470,7 +2672,7 @@
       54
     ],
     "description": "Alli is artificial intelligence for search engine optimisation.",
-    "icon": "Alli.png",
+    "icon": "Alli.svg",
     "pricing": [
       "mid",
       "recurring"
@@ -2516,7 +2718,7 @@
       68
     ],
     "description": "Allyable is an automated web accessibility solution with an AI engine.",
-    "icon": "Allyable.png",
+    "icon": "Allyable.svg",
     "pricing": [
       "freemium",
       "mid",
@@ -2555,15 +2757,17 @@
     "cats": [
       12
     ],
-    "html": "<[^>]+[^\\w-]x-data[^\\w-][^<]+\\;confidence:75",
-    "icon": "Alpine.js.png",
+    "description": "Alpine.js is a minimal framework for composing behavior directly in your markup.",
+    "icon": "Alpine.js.svg",
     "js": {
-      "Alpine.version": "^(.+)$\\;version:\\1"
+      "Alpine.version": "^(.+)$\\;version:\\1",
+      "deferLoadingAlpine": ""
     },
+    "oss": true,
     "scriptSrc": [
       "/alpine(?:\\.min)?\\.js"
     ],
-    "website": "https://github.com/alpinejs/alpine"
+    "website": "https://alpinejs.dev"
   },
   "AlternC": {
     "cats": [
@@ -2576,6 +2780,27 @@
     "saas": false,
     "scriptSrc": "js/alternc\\.js",
     "website": "https://alternc.com"
+  },
+  "Altis": {
+    "cats": [
+      1
+    ],
+    "description": "Altis is a digital experience platform built on top of WordPress.",
+    "icon": "Altis.svg",
+    "js": {
+      "Altis": ""
+    },
+    "meta": {
+      "generator": "^Altis ?([\\d.]+)?\\;version:\\1"
+    },
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "website": "https://www.altis-dxp.com"
   },
   "AlumnIQ": {
     "cats": [
@@ -2591,6 +2816,23 @@
       "poa"
     ],
     "website": "https://www.alumniq.com/platform/"
+  },
+  "Alumni Channel": {
+    "cats": [
+      53
+    ],
+    "description": "Alumni Channel is a platform facilitating organization and communication with alumni and members.",
+    "icon": "AlumniChannel.svg",
+    "meta": {
+      "author": "Alumni Channel - www.alumnichannel.com"
+    },
+    "pricing": [
+      "onetime",
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://alumnichannel.com"
   },
   "AlvandCMS": {
     "cats": [
@@ -2882,7 +3124,7 @@
       94
     ],
     "description": "Ambassador is a marketer-friendly software that simplifies referral marketing and helps automating the enrolment, tracking, rewarding and management process.",
-    "icon": "Ambassador.png",
+    "icon": "Ambassador.svg",
     "js": {
       "_mbsy.integrations": ""
     },
@@ -2899,10 +3141,12 @@
       18,
       22
     ],
+    "description": "Amber is a web application framework written in Crystal inspired by Kemal, Rails, Phoenix and other popular application frameworks.",
     "headers": {
       "X-Powered-By": "^Amber$"
     },
-    "icon": "amber.png",
+    "icon": "Amber.svg",
+    "oss": true,
     "website": "https://amberframework.org"
   },
   "American Express": {
@@ -2931,7 +3175,8 @@
       41
     ],
     "description": "Amex Express Checkout is a service that simplifies the checkout experience by auto-filling necessary cardholder payment data into merchant checkout fields.",
-    "icon": "amex.png",
+    "dom": "img[alt*='We accept Amex']",
+    "icon": "AmexExpress.svg",
     "scriptSrc": "aexp-static\\.com",
     "website": "https://www.americanexpress.com/us/express-checkout/"
   },
@@ -3260,6 +3505,25 @@
     "scriptSrc": "player\\.aniview\\.com/script/([\\d\\.]+)/\\;version:\\1",
     "website": "https://aniview.com/video-ad-player/"
   },
+  "AnnounceKit": {
+    "cats": [
+      49
+    ],
+    "description": "AnnounceKit is a platform facilitating announcements for product updates and company news.",
+    "icon": "AnnounceKit.svg",
+    "js": {
+      "announcekit": "",
+      "announcekit_feed": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.announcekit\\.app/",
+    "website": "https://announcekit.app"
+  },
   "AnswerDash": {
     "cats": [
       5
@@ -3500,7 +3764,7 @@
     "description": "Apereo CAS is an open and well-documented authentication protocol. The primary implementation of the protocol is an open-source Java server component by the same name hosted here, with support for a plethora of additional authentication protocols and features.",
     "dom": {
       "head > title": {
-        "text": "CAS – (?:Central Authentication Service|Service Central d'Authentification)"
+        "text": "CAS \u2013 (?:Central Authentication Service|Service Central d'Authentification)"
       }
     },
     "icon": "Apereo CAS.png",
@@ -3550,6 +3814,23 @@
     "implies": "Salesforce",
     "website": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro.htm"
   },
+  "Aphix": {
+    "cats": [
+      6
+    ],
+    "description": "Aphix is a provider of a fully integrated ecommerce and mobile ordering platform.",
+    "dom": "p#aphix-brand-footer > a[href*='.aphixsoftware.com/']",
+    "icon": "Aphix.svg",
+    "meta": {
+      "generator": "^WebShop by Aphix Software$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.aphixsoftware.com"
+  },
   "Apigee": {
     "cats": [
       4,
@@ -3578,6 +3859,22 @@
     "saas": true,
     "scriptSrc": "static\\.apisearch\\.cloud",
     "website": "https://apisearch.io"
+  },
+  "Apizee": {
+    "cats": [
+      103
+    ],
+    "description": "Apizee is a platform for easy, real-time, multi-device video interaction services.",
+    "icon": "Apizee.svg",
+    "js": {
+      "Apizee": "",
+      "apizee": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.apizee.com"
   },
   "Aplazame": {
     "cats": [
@@ -3716,6 +4013,36 @@
     "scriptSrc": "tempo/ui/sail-client/embeddedBootstrap\\.nocache\\.js",
     "website": "https://www.appian.com"
   },
+  "Appier": {
+    "cats": [
+      36
+    ],
+    "description": "Appier is a platform that helps clients optimize advertising ROI.",
+    "dom": "link[href*='.appier.net'][rel='dns-prefetch']",
+    "icon": "Appier.svg",
+    "js": {
+      "APPIER_LOG": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.appier\\.net",
+    "website": "https://www.appier.com"
+  },
+  "Appifiny": {
+    "cats": [
+      47
+    ],
+    "description": "Appifiny is a platform that provides a streamlined solution for developing, customizing, and launching apps.",
+    "icon": "Appifiny.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "recently\\.appifiny\\.io/",
+    "website": "https://www.appifiny.co.uk"
+  },
   "Apple Business Chat": {
     "cats": [
       52
@@ -3842,6 +4169,38 @@
     "implies": "IIS",
     "website": "https://www.iis.net/downloads/microsoft/application-request-routing"
   },
+  "Appointedd": {
+    "cats": [
+      72
+    ],
+    "description": "Appointedd is an online booking technology.",
+    "icon": "Appointedd.svg",
+    "js": {
+      "Appointedd": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.appointedd.com"
+  },
+  "Appointo": {
+    "cats": [
+      72
+    ],
+    "description": "Appointo is a Shopify based booking engine from Sidepanda.",
+    "icon": "Appointo.svg",
+    "pricing": [
+      "poa"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "/appointo-14/assets/appointo_bundle.js",
+    "website": "https://www.sidepanda.com/appointo"
+  },
   "Appointy": {
     "cats": [
       72
@@ -3891,6 +4250,23 @@
     "scriptSrc": "cdn\\.esales\\.apptus\\.com.+(?:apptus-esales-api-([\\d.]+))\\.min\\.js\\;version:\\1",
     "website": "https://www.apptus.com"
   },
+  "Appwrite": {
+    "cats": [
+      47
+    ],
+    "cpe": "cpe:2.3:a:appwrite:appwrite:*:*:*:*:*:*:*:*",
+    "description": "Appwrite is an end-to-end backend server for web, mobile or native applications packaged as a set of Docker microservices.",
+    "icon": "Appwrite.svg",
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://appwrite.io",
+    "xhr": "cloud\\.appwrite\\.io"
+  },
   "Aprimo": {
     "cats": [
       95
@@ -3898,6 +4274,9 @@
     "description": "Aprimo is a United States-based company that develops and sells marketing automation software and digital asset management technology.",
     "dom": "source[data-srcset*='/media/aprimo'], img[data-src*='/media/Aprimo'], img[src*='aprimo']",
     "icon": "Aprimo.png",
+    "js": {
+      "Aprimo": ""
+    },
     "pricing": [
       "poa"
     ],
@@ -3917,6 +4296,19 @@
       "onetime"
     ],
     "website": "https://www.aptusshop.pl"
+  },
+  "Apxium": {
+    "cats": [
+      41
+    ],
+    "description": "Apxium is a software solution designed for automating accounts payable processes.",
+    "dom": "div > apx-appskin-page-header",
+    "icon": "Apxium.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.apxium.com"
   },
   "AquilaCMS": {
     "cats": [
@@ -4006,6 +4398,37 @@
     ],
     "website": "https://developers.arcgis.com/javascript/"
   },
+  "ArcSpan": {
+    "cats": [
+      36
+    ],
+    "cookies": {
+      "arcid": "",
+      "aspan_s": ""
+    },
+    "description": "ArcSpan is an audience monetization DMP platform enabling direct sold and programmatic deal results for the world\u2019s finest publishers and retail media networks.",
+    "icon": "ArcSpan.svg",
+    "js": {
+      "aspan": "",
+      "aspan_extern": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.arcspan.com"
+  },
+  "Arco Design Vue": {
+    "cats": [
+      66
+    ],
+    "description": "Arco Design is a set of open-source UI Components for Vue, aiming to address experience issues in products.",
+    "dom": "link[href*='arcodesign'], link[href*='arco-design'], body[arco-theme]",
+    "icon": "ArcoDesign.svg",
+    "implies": "Vue.js",
+    "oss": true,
+    "website": "https://arco.design"
+  },
   "Arena": {
     "cats": [
       5
@@ -4025,6 +4448,23 @@
     ],
     "saas": true,
     "website": "https://arena.im"
+  },
+  "AroSoftware": {
+    "cats": [
+      53
+    ],
+    "description": "AroSoftware provides real estate CRM and website design solutions.",
+    "icon": "AroSoftware.svg",
+    "meta": {
+      "generator": "^AroSoftware Pty Ltd$"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.arosoftware.com"
   },
   "Arreva": {
     "cats": [
@@ -4213,7 +4653,6 @@
     ],
     "description": "Assertive Yield is a SaaS company that specialises in helping SSPs (Supply-Side Platforms), publishers, and ad networks optimise their advertising revenue through real-time attribution and yield optimisation strategies.",
     "icon": "Assertive Yield.svg",
-    "saas": true,
     "js": {
       "assertive.predict": ""
     },
@@ -4221,6 +4660,7 @@
       "payg",
       "poa"
     ],
+    "saas": true,
     "website": "https://www.assertiveyield.com"
   },
   "Astra": {
@@ -4291,6 +4731,9 @@
         "attributes": {
           "href": "/_astro/(?:[\\W\\w]+)(?:-|\\.)[\\d\\w]+\\.css"
         }
+      },
+      "link[href*='/_astro/'][href$='.css']": {
+        "exists": ""
       }
     },
     "icon": "Astro.svg",
@@ -4334,11 +4777,28 @@
     "scriptSrc": "/atatus\\.js",
     "website": "https://www.atatus.com"
   },
+  "Atera": {
+    "cats": [
+      46
+    ],
+    "description": "Atera is a software solution for RMM network discovery, PSA, and remote access.",
+    "icon": "Atera.svg",
+    "js": {
+      "ateraAnalyticsFirstLoad": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.atera.com"
+  },
   "Athena Search": {
     "cats": [
       29
     ],
-    "description": "Athena Search is a customizable autocomplete, feature-rich dashboard, smart predictions, real-time reports search engine developed from scratch by Syncit Group’s.",
+    "description": "Athena Search is a customizable autocomplete, feature-rich dashboard, smart predictions, real-time reports search engine developed from scratch by Syncit Group\u2019s.",
     "dom": "link[href*='athena/autocomplete/css/autocomplete.css']",
     "icon": "Athena Search.svg",
     "pricing": [
@@ -4671,8 +5131,8 @@
       87
     ],
     "description": "Automatic.css is a CSS framework for WordPress page builders.",
-    "icon": "Automatic.css.png",
     "dom": "link[href*='/wp-content/uploads/automatic-css/']",
+    "icon": "Automatic.css.png",
     "pricing": [
       "low",
       "recurring"
@@ -4883,8 +5343,8 @@
       29
     ],
     "description": "Awesomplete is a tool in the Javascript UI Libraries category of a tech stack.",
-    "html": "<link[^>]+href=\"[^>]*awesomplete(?:\\.min)?\\.css",
     "js": {
+      "Awesomplete": "",
       "awesomplete": ""
     },
     "scriptSrc": "/awesomplete\\.js(?:$|\\?)",
@@ -4894,10 +5354,17 @@
     "cats": [
       67
     ],
+    "cookies": {
+      "axeptio_all_vendors": "",
+      "axeptio_authorized_vendors": "",
+      "axeptio_cookies": ""
+    },
     "description": "Axeptio is a trusted third party that collects and archive users' consent in a GDPR compliant fashion.",
-    "dom": "img[src*='axeptio.imgix.net/']",
-    "icon": "Axeptio.png",
+    "dom": "img[src*='axeptio.imgix.net/'], div#axeptio_overlay",
+    "icon": "Axeptio.svg",
     "js": {
+      "axeptioBuildTimestamp": "",
+      "axeptioHandleVendors": "",
       "axeptioSDK": "",
       "axeptioSettings": ""
     },
@@ -4907,7 +5374,7 @@
       "recurring"
     ],
     "saas": true,
-    "website": "https://www.axeptio.eu"
+    "website": "https://www.axept.io"
   },
   "Axios": {
     "cats": [
@@ -4930,6 +5397,7 @@
     "dns": {
       "CNAME": "azioncdn\\.net\\.?$"
     },
+    "dom": "link[href*='.azion.com/'][rel='canonical']",
     "headers": {
       "Server": "^Azion "
     },
@@ -5201,7 +5669,7 @@
     "headers": {
       "X-Powered-By": "actionhero API"
     },
-    "icon": "actionhero.js.png",
+    "icon": "ActionHeroJs.svg",
     "implies": "Node.js",
     "js": {
       "actionheroClient": ""
@@ -5247,7 +5715,7 @@
     "cats": [
       25
     ],
-    "description": "Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API.It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+    "description": "Anime.js (/\u02c8\u00e6n.\u0259.me\u026a/) is a lightweight JavaScript animation library with a simple, yet powerful API.It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
     "icon": "anime.js.svg",
     "js": {
       "anime.version": "^([\\d\\.]+)$\\;version:\\1"
@@ -5261,7 +5729,7 @@
     ],
     "description": "augmented-ui is a UI framework inspired by cyberpunk and sci-fi.",
     "dom": "[data-augmented-ui]",
-    "icon": "augmented-ui.png",
+    "icon": "Augmented-Ui.svg",
     "oss": true,
     "website": "https://augmented-ui.com"
   },
