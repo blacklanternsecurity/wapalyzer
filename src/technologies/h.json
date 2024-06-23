@@ -208,6 +208,21 @@
     "scriptSrc": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://handlebarsjs.com"
   },
+  "Handsontable": {
+    "cats": [
+      59
+    ],
+    "description": "Handsontable is a JavaScript component that combines data grid features with spreadsheet-like UX.",
+    "icon": "Handsontable.svg",
+    "js": {
+      "Handsontable": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://handsontable.com"
+  },
   "Handtalk": {
     "cats": [
       68
@@ -237,6 +252,20 @@
     "saas": true,
     "scriptSrc": "\\.hansel\\.io/web/([\\d\\.]+)/\\;version:\\1",
     "website": "https://hansel.io"
+  },
+  "Happy Meal Prep": {
+    "cats": [
+      6,
+      93
+    ],
+    "description": "Happy Meal Prep is a food order management system tailored for the food industry.",
+    "dom": "div.footer-block > a[href*='happymealprep.com']",
+    "icon": "HappyMealPrep.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://happymealprep.com"
   },
   "Happy Returns": {
     "cats": [
@@ -306,11 +335,21 @@
       6
     ],
     "description": "Haravan is a multi-channel ecommerce services provider from Vietnam.",
+    "excludes": [
+      "PrestaShop",
+      "Shopify"
+    ],
     "icon": "Haravan.svg",
     "js": {
-      "Haravan": ""
+      "Haravan.shop": "",
+      "HaravanAnalytics.meta": "",
+      "hrvBeacon.host": "stats\\.hstatic\\.net"
     },
-    "scriptSrc": "haravan.*\\.js",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
     "website": "https://www.haravan.com"
   },
   "Harbor": {
@@ -373,6 +412,23 @@
     ],
     "icon": "Haskell.png",
     "website": "https://wiki.haskell.org/Haskell"
+  },
+  "Hasura": {
+    "cats": [
+      19
+    ],
+    "cpe": "cpe:2.3:a:hasura:graphql_engine:*:*:*:*:*:*:*:*",
+    "description": "Hasura is an open-source engine that enables developers to effortlessly create real-time GraphQL APIs by auto-generating them from existing database schemas.",
+    "icon": "Hasura.svg",
+    "implies": "GraphQL",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "payg",
+      "poa"
+    ],
+    "scriptSrc": "\\.hasura\\.io/",
+    "website": "https://hasura.io"
   },
   "Hatena Blog": {
     "cats": [
@@ -677,6 +733,21 @@
     "scriptSrc": "cdn\\.usehero\\.com",
     "website": "https://www.usehero.com/"
   },
+  "Heroic": {
+    "cats": [
+      51
+    ],
+    "description": "Heroic is a platform that offers design templates and tools for creating websites.",
+    "icon": "Heroic.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.heroicnow\\.com/",
+    "website": "https://heroicnow.com"
+  },
   "Heroku": {
     "cats": [
       62
@@ -806,6 +877,31 @@
     "saas": true,
     "scriptSrc": "\\.hextom\\.com/js/ultimatesalesboost\\.js",
     "website": "https://hextom.com/case_study/ultimate-sales-boost"
+  },
+  "HeySummit": {
+    "cats": [
+      103
+    ],
+    "description": "HeySummit is a platform facilitating the organization of virtual summits.",
+    "icon": "HeySummit.svg",
+    "js": {
+      "heySummitAnimationItems": "",
+      "prepHeySummitAnimationParent": "",
+      "resetHeySummitAnimation": "",
+      "startHeySummitAnimation": "",
+      "startHeySummitAnimationLoadTop": "",
+      "stopHeySummitAnimation": ""
+    },
+    "meta": {
+      "author": "^HeySummit$"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://heysummit.com"
   },
   "Hi Platform": {
     "cats": [
@@ -985,6 +1081,24 @@
     ],
     "website": "https://github.com/ReactTraining/history"
   },
+  "Hocalwire": {
+    "cats": [
+      1
+    ],
+    "description": "Hocalwire is a simplified newsroom CMS platform focused on Digital Media Publishers.",
+    "dom": "link[href*='//hocalwire.com']",
+    "icon": "Hocalwire.png",
+    "js": {
+      "Hocalwire": "",
+      "hocalApiEndPoints": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.hocalwire.com"
+  },
   "HockeyStack": {
     "cats": [
       10
@@ -1027,6 +1141,19 @@
       "([\\d.]+)/hogan(?:\\.min)?\\.js\\;version:\\1"
     ],
     "website": "https://twitter.github.io/hogan.js/"
+  },
+  "HomHero": {
+    "cats": [
+      93
+    ],
+    "description": "Homhero is a platform that offers a range of tools and services to help vacation rental owners manage their properties and bookings.",
+    "dom": "script#homhero-scripts-js",
+    "icon": "HomHero.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://homhero.com.au"
   },
   "Homerr": {
     "cats": [
@@ -1442,6 +1569,27 @@
     ],
     "saas": true,
     "website": "https://www.hubalz.com"
+  },
+  "Hubb": {
+    "cats": [
+      1
+    ],
+    "description": "Hubb is an all-in-one integrated system designed for churches, enabling website content management without the need for technical expertise.",
+    "dom": "div.endis-jquery-ui",
+    "icon": "Hubb.svg",
+    "js": {
+      "EndisDialog": "",
+      "EndisForm": "",
+      "IsHubbPage": "",
+      "SubmitEndisForm": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.hubb.church"
   },
   "Huberway": {
     "cats": [

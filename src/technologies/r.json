@@ -29,7 +29,8 @@
     "description": "RD Station is a platform that helps medium and small businesses manage and automate their Digital Marketing strategy.",
     "icon": "RD Station.png",
     "js": {
-      "RDStation": ""
+      "RDStation": "",
+      "RDStationTrackingCodeChecker": ""
     },
     "scriptSrc": "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js",
     "website": "https://rdstation.com.br"
@@ -51,6 +52,21 @@
       "rdoc_rel_prefix": ""
     },
     "website": "https://github.com/ruby/rdoc"
+  },
+  "RE:Guest": {
+    "cats": [
+      32
+    ],
+    "description": "Re:Guest is a digital room seller that helps hoteliers increase their online visibility and reach more guests.",
+    "icon": "REGuest.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.reguest-hub-api\\.reguest\\.io",
+    "website": "https://www.reguest.io"
   },
   "REDAXO": {
     "cats": [
@@ -103,11 +119,16 @@
     "cats": [
       19
     ],
-    "description": "RSS is a family of web feed formats used to publish frequently updated works—such as blog entries, news headlines, audio, and video—in a standardized format.",
+    "description": "RSS is a family of web feed formats used to publish frequently updated works\u2014such as blog entries, news headlines, audio, and video\u2014in a standardized format.",
     "dom": {
       "link[type*='application']": {
         "attributes": {
           "type": "application/(?:rss|atom)\\+xml"
+        }
+      },
+      "rss": {
+        "attributes": {
+          "version": "([\\d\\.]+)\\;version:\\1"
         }
       }
     },
@@ -137,6 +158,20 @@
     "icon": "RXWeb.svg",
     "website": "https://developers.rokitax.co.uk/projects/rxweb"
   },
+  "RabbitLoader": {
+    "cats": [
+      23
+    ],
+    "description": "RabbitLoader is a plugin designed to enhance PageSpeed Insights Score by addressing Core Web Vitals issues including FID, LCP, & CLS.",
+    "dom": "link[href*='cfw.rabbitloader.xyz']",
+    "icon": "RabbitLoader.svg",
+    "pricing": [
+      "low",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://rabbitloader.com"
+  },
   "RackCache": {
     "cats": [
       23
@@ -148,6 +183,22 @@
     "icon": "RackCache.png",
     "implies": "Ruby",
     "website": "https://github.com/rtomayko/rack-cache"
+  },
+  "Radancy": {
+    "cats": [
+      101
+    ],
+    "description": "Radancy is an online platform facilitating virtual hiring events and career fairs.",
+    "icon": "Radancy.svg",
+    "js": {
+      "brazenTechnologies": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.brazenconnect\\.com/js",
+    "website": "https://www.radancy.com"
   },
   "Radix UI": {
     "cats": [
@@ -250,6 +301,20 @@
     ],
     "saas": true,
     "website": "https://raisely.com"
+  },
+  "Raku-uru Cart": {
+    "cats": [
+      6
+    ],
+    "description": "Raku-uru Cart is an all-in-one ecommerce platform from Japan.",
+    "icon": "Raku-uru Cart.png",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.raku-uru\\.jp/cms",
+    "website": "https://business.kuronekoyamato.co.jp/raku-uru/"
   },
   "Rakuten": {
     "cats": [
@@ -409,6 +474,20 @@
     "scriptSrc": "code\\.rateparity\\.com/",
     "website": "https://www.rateparity.com"
   },
+  "Ratesight": {
+    "cats": [
+      90
+    ],
+    "description": "Ratesight is an online review management software that helps businesses collect and track online reviews.",
+    "dom": "script#ratesight-sidebar-widget",
+    "icon": "RateSight.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.ratesight\\.com/",
+    "website": "https://ratesight.com"
+  },
   "Rawabit": {
     "cats": [
       51
@@ -567,7 +646,7 @@
           "_reactRootContainer": ""
         }
       },
-      "div[id*='react-root'], span[id*='react-']": {
+      "div[id*='react-root'], span[id*='react-'], style[id*='react-tooltip-core-styles']": {
         "exists": ""
       }
     },
@@ -576,7 +655,8 @@
     "js": {
       "React.version": "^([\\d\\.]+)$\\;version:\\1",
       "ReactOnRails": "",
-      "__REACT_ON_RAILS_EVENT_HANDLERS_RAN_ONCE__": ""
+      "__REACT_ON_RAILS_EVENT_HANDLERS_RAN_ONCE__": "",
+      "__isReactFizzContext": ""
     },
     "meta": {
       "description": "^Web site created using create-react-app$"
@@ -610,6 +690,32 @@
     "saas": true,
     "website": "https://reactbricks.com"
   },
+  "React Flow": {
+    "cats": [
+      59
+    ],
+    "description": "React Flow is a library for building node-based applications.",
+    "dom": {
+      "style[type='text/css']": {
+        "text": "react-flow"
+      }
+    },
+    "icon": "React Flow.svg",
+    "oss": true,
+    "requires": "React",
+    "website": "https://reactflow.dev"
+  },
+  "React Native for Web": {
+    "cats": [
+      59
+    ],
+    "description": "React Native for Web is a library that allows developers to use React Native components and patterns to build cross-platform web applications alongside native mobile applications.",
+    "dom": "style#react-native-stylesheet",
+    "icon": "React.svg",
+    "implies": "React",
+    "oss": true,
+    "website": "https://necolas.github.io/react-native-web/"
+  },
   "React Redux": {
     "cats": [
       12
@@ -632,6 +738,9 @@
     "description": "React Router provides declarative routing for React.",
     "icon": "React Router.svg",
     "implies": "React",
+    "js": {
+      "__reactRouterVersion": "^([\\d\\.]+)$\\;version:\\1"
+    },
     "oss": true,
     "scriptSrc": [
       "(?:/react-router(@|/)([\\d.]+)(?:/[a-z]+)?)?/react-router(?:\\.min)?\\.js\\;version:\\2"
@@ -743,8 +852,10 @@
       "x-rebelmouse-cache-control": "",
       "x-rebelmouse-surrogate-control": ""
     },
-    "html": "<!-- Powered by RebelMouse\\.",
     "icon": "RebelMouse.svg",
+    "js": {
+      "REBELMOUSE_ACTIVE_TASKS_QUEUE": ""
+    },
     "website": "https://www.rebelmouse.com/"
   },
   "Rebuy": {
@@ -862,6 +973,28 @@
     "icon": "Recite Me.png",
     "scriptSrc": "api\\.reciteme\\.com/asset/js",
     "website": "https://reciteme.com/"
+  },
+  "Recombee": {
+    "cats": [
+      76
+    ],
+    "description": "Recombee is a Recommender as a Service offering a RESTful API and SDKs, custom-tailored by data scientists.",
+    "icon": "Recombee.svg",
+    "js": {
+      "obsPostRecombee": "",
+      "obsRecombee": "",
+      "recombee": "",
+      "recombeeClient": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "recurring",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.recombee.com"
   },
   "Recomify": {
     "cats": [
@@ -1048,7 +1181,7 @@
       34
     ],
     "cpe": "cpe:2.3:a:redislabs:redis:*:*:*:*:*:*:*:*",
-    "description": "Redis is an in-memory data structure project implementing a distributed, in-memory key–value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
+    "description": "Redis is an in-memory data structure project implementing a distributed, in-memory key\u2013value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
     "icon": "Redis.svg",
     "website": "https://redis.io"
   },
@@ -1095,7 +1228,12 @@
       12
     ],
     "description": "Redux is a predictable state container for JavaScript applications.",
+    "dom": "link[href*='//redux.js.org']",
     "icon": "Redux.svg",
+    "js": {
+      "__REDUX_DEVTOOLS_EXTENSION__": ""
+    },
+    "oss": true,
     "scriptSrc": [
       "/redux(@|/)([\\d.]+)(?:/[a-z]+)?/redux(?:.min)?\\.js\\;version:\\2"
     ],
@@ -1211,6 +1349,29 @@
     "scriptSrc": "\\.refersion\\.com",
     "website": "https://refersion.com"
   },
+  "Refiner": {
+    "cats": [
+      73
+    ],
+    "description": "Refiner provides a survey solution designed to help SaaS companies get more survey responses and gain a better understanding of their users.",
+    "dom": "div#refiner-widget-wrapper",
+    "icon": "Refiner.svg",
+    "js": {
+      "_refiner": "",
+      "_refinerAlreadyBooted": "",
+      "_refinerQueue": "",
+      "_refinerTracker": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "js\\.refiner\\.io/v([\\d]+)/client\\.js\\;version:\\1",
+    "website": "https://refiner.io"
+  },
   "Reflektion": {
     "cats": [
       76
@@ -1304,6 +1465,9 @@
       6
     ],
     "description": "Remarkable Commerce is a technology and services company which provides a ecommerce platform for mid-sized retailers.",
+    "headers": {
+      "x-powered-by": "Remarkable Commerce"
+    },
     "icon": "Remarkable.png",
     "js": {
       "Remarkable.BasketItems": ""
@@ -1338,6 +1502,24 @@
     "icon": "remixd.svg",
     "scriptSrc": "tags\\.remixd\\.com/player",
     "website": "https://www.remixd.com"
+  },
+  "Remotion": {
+    "cats": [
+      14
+    ],
+    "description": "Remotion is a software tool that enables the creation of videos through React programming.",
+    "icon": "Remotion.png",
+    "implies": "React",
+    "js": {
+      "remotion_imported": "^([\\d\\.]+)$\\;version:\\1",
+      "remotion_renderReady": ""
+    },
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "website": "https://remotion.dev"
   },
   "Render": {
     "cats": [
@@ -1406,6 +1588,25 @@
       "recurring"
     ],
     "website": "https://replit.com"
+  },
+  "Replo": {
+    "cats": [
+      51
+    ],
+    "description": "Replo is a platform offering customizable landing pages designed for ecommerce teams.",
+    "dom": [
+      "div[id='replo-fullpage-element']",
+      "script[id='replo-deps-element-id']"
+    ],
+    "icon": "replo.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "replocdn\\.com/",
+    "website": "https://www.replo.app"
   },
   "Reputon": {
     "cats": [
@@ -1571,6 +1772,25 @@
     "saas": true,
     "website": "https://resova.com"
   },
+  "Respond.io": {
+    "cats": [
+      52
+    ],
+    "description": "Respond.io is an AI-powered customer conversation management software.",
+    "dom": "script#respondio__growth_tool",
+    "icon": "RespondIO.svg",
+    "js": {
+      "$__respond": "",
+      "$respond": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.respond.io"
+  },
   "Responsive Lightbox & Gallery": {
     "cats": [
       87,
@@ -1648,6 +1868,42 @@
     "saas": true,
     "scriptSrc": "cdn\\.retailrocket\\.net",
     "website": "https://retailrocket.net"
+  },
+  "Retention.com": {
+    "cats": [
+      100,
+      36
+    ],
+    "description": "Retention.com's identity resolution software helps Shopify merchants recover lost shoppers.",
+    "icon": "Retention.com.svg",
+    "js": {
+      "addedToCartRetentionButton": "",
+      "viewedProductRetention": ""
+    },
+    "pricing": [
+      "mid",
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://retention.com"
+  },
+  "Retool": {
+    "cats": [
+      47
+    ],
+    "description": "Retool is a development platform that enables the rapid creation and customisation of internal tools, including admin dashboards and database interfaces, through a combination of drag-and-drop components and code.",
+    "icon": "Retool.svg",
+    "js": {
+      "RETOOL_PAGE_SUSPEND_DETECTED": ""
+    },
+    "pricing": [
+      "low",
+      "freemium",
+      "recurring"
+    ],
+    "url": "^https://retool\\.[\\d\\w\\-]+\\.(?:com|io)/",
+    "website": "https://retool.com"
   },
   "Return Prime": {
     "cats": [
@@ -1757,13 +2013,15 @@
     "cats": [
       12
     ],
-    "icon": "Reveal.js.png",
+    "description": "Reveal.js is a JavaScript framework for building dynamic and interactive presentations using web technologies like HTML, CSS, and JavaScript.",
+    "icon": "reveal.js.svg",
     "implies": "Highlight.js",
     "js": {
       "Reveal.VERSION": "^(.+)$\\;version:\\1"
     },
+    "oss": true,
     "scriptSrc": "(?:^|/)reveal(?:\\.min)?\\.js",
-    "website": "https://lab.hakim.se/reveal-js"
+    "website": "https://revealjs.com"
   },
   "Revel": {
     "cats": [
@@ -1785,6 +2043,19 @@
     "icon": "RevenueHunt.png",
     "scriptSrc": "admin\\.revenuehunt\\.com/",
     "website": "https://revenuehunt.com"
+  },
+  "Reverse Market Insight": {
+    "cats": [
+      10
+    ],
+    "description": "Reverse Market Insight is a provider of performance data and analytics solutions for the reverse mortgage industry.",
+    "icon": "ReverseMarketInsight.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.rminsight\\.net",
+    "website": "https://www.rminsight.net"
   },
   "Revieve": {
     "cats": [
@@ -2012,6 +2283,23 @@
     },
     "oss": true,
     "website": "https://github.com/rightjs"
+  },
+  "Rinsed": {
+    "cats": [
+      53
+    ],
+    "description": "Rinsed is a customer relationship management software tailored for the car wash industry.",
+    "icon": "Rinsed.svg",
+    "js": {
+      "isRinsedScriptLoaded": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.app\\.rinsed\\.co/",
+    "website": "https://www.rinsed.com"
   },
   "Riot": {
     "cats": [
@@ -2275,6 +2563,25 @@
     ],
     "website": "https://rollbar.com/"
   },
+  "Roller": {
+    "cats": [
+      53
+    ],
+    "description": "Roller is an all-in-one software that helps operators boost revenue and deliver a better guest experience.",
+    "dom": "iframe#roller-widget, template[data-nitro-marker-id='roller-checkout']",
+    "icon": "Roller.svg",
+    "js": {
+      "RollerCheckout": "",
+      "RollerConstants": "",
+      "rollerDL": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.roller.software"
+  },
   "Rosti": {
     "cats": [
       88
@@ -2532,5 +2839,21 @@
     ],
     "scripts": "/recaptcha/api\\.js",
     "website": "https://www.google.com/recaptcha/"
+  },
+  "riyo.ai": {
+    "cats": [
+      10
+    ],
+    "description": "riyo.ai (formerly known as Traek) is a website insights, analytics and lead generation tool.",
+    "icon": "Riyo.AI.svg",
+    "js": {
+      "Traek": ""
+    },
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.riyo.ai"
   }
 }

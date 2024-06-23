@@ -132,6 +132,25 @@
     "scriptSrc": "\\.mgpanel\\.org/",
     "website": "https://mgpanel.org"
   },
+  "MICE Operations": {
+    "cats": [
+      5
+    ],
+    "description": "MICE Operations is a software solution tailored for event venues, catering, and hospitality businesses, streamlining operational processes, sales, and client relationship management.",
+    "icon": "MICEOperations.svg",
+    "js": {
+      "miceWidgetSettings": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.miceoperations\\.com/widget/widget\\.js\\?ver=([\\d\\.]+)\\;version:\\1",
+    "website": "https://www.miceoperations.com"
+  },
   "MIYN Online Appointment": {
     "cats": [
       72
@@ -180,6 +199,20 @@
     "saas": true,
     "scriptSrc": "/assets/components/templates/\\;confidence:50",
     "website": "https://modx.com/content-management-framework"
+  },
+  "MRI Eagle": {
+    "cats": [
+      53
+    ],
+    "description": "MRI Eagle is a technology solution catering to real estate firms, offering efficiency and cost-saving benefits.",
+    "dom": "link[href*='cdn.eaglesoftware.com.au']",
+    "icon": "MRIEagle.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.eaglesoftware\\.com\\.au",
+    "website": "https://www.mrisoftware.com/au/products/eagle"
   },
   "MRW": {
     "cats": [
@@ -230,7 +263,7 @@
     ],
     "css": "\\.MuiPaper-root",
     "description": "MUI(formerly Material UI) is a simple and customisable component library to build faster, beautiful, and more accessible React applications.",
-    "dom": "style[data-meta='MuiPaper'], div.MuiBox-root, div.MuiPaper-root, style[data-meta='MuiButton']",
+    "dom": "style[data-meta='MuiPaper'], div.MuiBox-root, div.MuiPaper-root, style[data-meta='MuiButton'], input.MuiInputBase-input",
     "icon": "MUI.svg",
     "implies": "React",
     "oss": true,
@@ -240,6 +273,23 @@
     ],
     "saas": true,
     "website": "https://mui.com"
+  },
+  "Mabisy": {
+    "cats": [
+      6
+    ],
+    "description": "Mabisy is an online platform facilitating the creation of custom ecommerce stores.",
+    "icon": "Mabisy.svg",
+    "meta": {
+      "generator": "^Mabisy$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.mabisy.com"
   },
   "Macaron": {
     "cats": [
@@ -413,6 +463,26 @@
     "scriptSrc": "acc\\.magixite\\.com/",
     "website": "https://acc.magixite.com"
   },
+  "Magnolia CMS": {
+    "cats": [
+      1
+    ],
+    "cpe": "cpe:2.3:a:magnolia-cms:magnolia_cms:*:*:*:*:*:*:*:*",
+    "description": "Magnolia CMS is a Java-based, open-source content management system that employs a modular architecture and JCR (Java Content Repository) standards, facilitating the creation, storage, and retrieval of digital content within a customisable framework.",
+    "headers": {
+      "x-magnolia-registration": ""
+    },
+    "icon": "Magnolia CMS.svg",
+    "implies": "Java",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "website": "https://www.magnolia-cms.com"
+  },
   "MailChimp": {
     "cats": [
       32,
@@ -425,7 +495,11 @@
         "spf\\.mandrillapp\\.com"
       ]
     },
-    "dom": "form#mc-embedded-subscribe-form, form[name*='mc-embedded-subscribe-form']",
+    "dom": [
+      "form#mc-embedded-subscribe-form",
+      "form[name*='mc-embedded-subscribe-form']",
+      "form[class*='mailchimp-ext-']"
+    ],
     "html": [
       "<input [^>]*id=\"mc-email\"\\;confidence:20",
       "<!-- Begin MailChimp Signup Form -->"
@@ -466,7 +540,7 @@
     ],
     "description": "MailChimp for WordPress is an email marketing plugin that enables you to build subscriber lists.",
     "dom": "link[href*='/wp-content/plugins/mailchimp-for-wp/']",
-    "icon": "MailChimp for WordPress.png",
+    "icon": "MailChimpforWordPress.svg",
     "implies": "MailChimp",
     "js": {
       "mc4wp": ""
@@ -601,6 +675,20 @@
     "scriptSrc": "\\.mainadv\\.com/",
     "website": "https://www.mainad.com"
   },
+  "Maisey": {
+    "cats": [
+      1
+    ],
+    "description": "Maisey is a website builder for churches.",
+    "dom": "script[data-cb-site='maisey']",
+    "icon": "Maisey.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.maisey.co"
+  },
   "Make-Sense": {
     "cats": [
       68
@@ -686,7 +774,7 @@
       66
     ],
     "description": "Mantine is an open-source UI framework and component library for React.",
-    "dom": "style[data-emotion='mantine-global'], style[data-emotion='mantine']",
+    "dom": "style[data-emotion='mantine-global'], style[data-emotion='mantine'], html[data-mantine-color-scheme]",
     "icon": "Mantine.svg",
     "implies": "TypeScript",
     "oss": true,
@@ -893,6 +981,24 @@
     },
     "scriptSrc": "backbone\\.marionette.*\\.js",
     "website": "https://marionettejs.com"
+  },
+  "Markate": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "Markate is an all-in-one CRM and sales and marketing automation platform.",
+    "icon": "Markate.svg",
+    "meta": {
+      "author": "^Markate$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.markate\\.com/",
+    "website": "https://www.markate.com"
   },
   "Marked": {
     "cats": [
@@ -1127,8 +1233,7 @@
     "icon": "Matomo.svg",
     "js": {
       "Matomo": "",
-      "Piwik": "",
-      "_paq": ""
+      "Piwik": ""
     },
     "meta": {
       "apple-itunes-app": "app-id=737216887",
@@ -1153,6 +1258,20 @@
       "MatomoTagManager": ""
     },
     "website": "https://developer.matomo.org/guides/tagmanager/introduction"
+  },
+  "Matter.js": {
+    "cats": [
+      59
+    ],
+    "description": "Matter.js is a JavaScript 2D rigid body physics engine for the web.",
+    "icon": "MatterJs.svg",
+    "js": {
+      "Matter.version": "^(.+)$\\;version:\\1"
+    },
+    "oss": true,
+    "saas": true,
+    "scriptSrc": "js/matter\\.js",
+    "website": "https://brm.io/matter-js"
   },
   "Mattermost": {
     "cats": [
@@ -1350,6 +1469,26 @@
     },
     "website": "https://www.mediawiki.org"
   },
+  "Mediahawk": {
+    "cats": [
+      10
+    ],
+    "description": "Mediahawk is a call analytics software for marketers.",
+    "icon": "Mediahawk.svg",
+    "js": {
+      "_mhct": "",
+      "mhctRequestFiredBeforeComplete": "",
+      "mhctRequestInitial": "",
+      "mhctRequestRunning": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "http://mediahawk.co.uk"
+  },
   "Mediavine": {
     "cats": [
       36
@@ -1379,6 +1518,16 @@
     "url": "^https?://(?:www\\.)?medium\\.com",
     "website": "https://medium.com"
   },
+  "Medusajs": {
+    "cats": [
+      6
+    ],
+    "description": "Medusa is an open-source ecommerce platform that enables users to create online stores.",
+    "dom": "div.content-container > a[href*='www.medusajs.com'], a[href*='mailto:hello@medusajs.com']",
+    "icon": "MedusaJs.svg",
+    "oss": true,
+    "website": "https://medusajs.com/"
+  },
   "Meebo": {
     "cats": [
       5
@@ -1402,7 +1551,7 @@
     "cats": [
       1
     ],
-    "description": "Megagroup CMS.S3 management system is provided not as a “boxed product”, but as a separate service, that is, it works using SaaS technology. This means that you manage your site directly through your browser using an intuitive interface.",
+    "description": "Megagroup CMS.S3 management system is provided not as a \u201cboxed product\u201d, but as a separate service, that is, it works using SaaS technology. This means that you manage your site directly through your browser using an intuitive interface.",
     "icon": "Megagroup.svg",
     "js": {
       "megacounter_key": ""
@@ -1464,6 +1613,24 @@
     },
     "website": "https://www.melistechnology.com/"
   },
+  "MemberSpace": {
+    "cats": [
+      19,
+      41
+    ],
+    "description": "MemberSpace is a cloud-based membership solution, which allows users to provide role-based access to content.",
+    "icon": "MemberSpace.svg",
+    "js": {
+      "MemberSpace": "",
+      "MemberSpaceParams": ""
+    },
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.memberspace.com"
+  },
   "MemberStack": {
     "cats": [
       1
@@ -1485,6 +1652,26 @@
     "scriptSrc": "memberstack\\.js",
     "url": "^https?//.+\\.memberstack\\.io",
     "website": "https://www.memberstack.io"
+  },
+  "Mendix": {
+    "cats": [
+      47
+    ],
+    "description": "Mendix is a low-code platform utilized by businesses for development of mobile and web applications at scale.",
+    "dom": "script[type='mendix/widget']",
+    "icon": "Mendix.svg",
+    "js": {
+      "CKEditorForMendix": "",
+      "mendix": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.mendix.com"
   },
   "Mention Me": {
     "cats": [
@@ -1616,6 +1803,26 @@
     ],
     "website": "https://metomic.io"
   },
+  "MetricsCube": {
+    "cats": [
+      10
+    ],
+    "cookies": {
+      "METRICSCUBE_ANALITYCS": ""
+    },
+    "description": "MetricsCube is a WHMCS-integrated business analysis platform, offering real-time stats and reports.",
+    "dom": "script#metricscubestats",
+    "icon": "MetricsCube.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.metricscube\\.io",
+    "website": "https://www.metricscube.io"
+  },
   "Metrilo": {
     "cats": [
       10,
@@ -1677,6 +1884,21 @@
     "saas": true,
     "scriptSrc": "\\.mews\\.li/",
     "website": "https://www.mews.com"
+  },
+  "Mezereon": {
+    "cats": [
+      76
+    ],
+    "description": "Mezereon is an AI-powered platform that provides search, filters, insights, analytics, personalization, autocomplete, and recommendations to help businesses optimize their user experiences.",
+    "icon": "Mezereon.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.mezereon\\.net",
+    "website": "https://www.mezereon.com"
   },
   "Microsoft 365": {
     "cats": [
@@ -2135,6 +2357,16 @@
     },
     "website": "https://join.misskey.page/"
   },
+  "Mithril.js": {
+    "cats": [
+      12
+    ],
+    "description": "Mithril.js is a lightweight JavaScript framework for building efficient and declarative single-page applications (SPAs).",
+    "icon": "Mithril.js.svg",
+    "oss": true,
+    "scriptSrc": "/mithril(?:\\.min)?\\.js",
+    "website": "https://mithril.js.org"
+  },
   "Mittwald": {
     "cats": [
       88
@@ -2367,6 +2599,22 @@
     },
     "website": "https://www.modified-shop.org/"
   },
+  "Modula": {
+    "cats": [
+      87
+    ],
+    "description": "Modula is a customizable gallery plugin for WordPress.",
+    "icon": "Modula.svg",
+    "js": {
+      "ModulaIsotope": "",
+      "modulaInViewport": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://wp-modula.com"
+  },
   "Module Federation": {
     "cats": [
       19
@@ -2536,7 +2784,7 @@
     "cats": [
       87
     ],
-    "description": "Moneris is Canada’s leading processor of Debit and credit card payments. This WooCommerce extension automatically adds moneris payment gateway to your woocommerce website and allows you to keep the customer on your site for the checkout process.",
+    "description": "Moneris is Canada\u2019s leading processor of Debit and credit card payments. This WooCommerce extension automatically adds moneris payment gateway to your woocommerce website and allows you to keep the customer on your site for the checkout process.",
     "icon": "Moneris.svg",
     "implies": [
       "Moneris",
@@ -2761,6 +3009,37 @@
     ],
     "website": "https://www.motherhost.com"
   },
+  "Motion": {
+    "cats": [
+      72
+    ],
+    "description": "Motion is an AI-powered tool that helps users manage their calendars, meetings, and projects.",
+    "dom": "iframe[src*='app.usemotion.com']",
+    "icon": "Motion.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "scriptSrc": "segmentcdn\\.usemotion\\.com/next-integrations/integrations/vendor/commons\\.[a-z0-9]+\\.js",
+    "website": "https://www.usemotion.com"
+  },
+  "Motion.page": {
+    "cats": [
+      87
+    ],
+    "description": "Motion.page is a WordPress animation plugin utilizing GSAP and ScrollTrigger.",
+    "icon": "Motion.Page.svg",
+    "js": {
+      "MOTIONPAGE_FRONT.version": "^([0-9\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://motion.page"
+  },
   "MotoCMS": {
     "cats": [
       1
@@ -2774,6 +3053,24 @@
     ],
     "scriptSrc": "/mt-includes/js/website(?:assets)?\\.(?:min)?\\.js",
     "website": "https://motocms.com"
+  },
+  "Mottor": {
+    "cats": [
+      51
+    ],
+    "description": "Mottor is a no-code tool for creating websites, online stores, landing pages, and more.",
+    "icon": "Mottor.svg",
+    "js": {
+      "mottorLogError": "",
+      "serviceBaseUrl": "\\lpmotor\\.ru"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://lpmotor.ru"
   },
   "Mouse Flow": {
     "cats": [
@@ -2814,6 +3111,21 @@
     },
     "website": "https://movabletype.org"
   },
+  "Moveo.AI": {
+    "cats": [
+      52
+    ],
+    "description": "Moveo.AI is a no-code platform that allows businesses to create, manage and deploy AI virtual agents (chatbots).",
+    "icon": "Moveo.AI.svg",
+    "js": {
+      "MoveoAI": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://moveo.ai"
+  },
   "Mozard Suite": {
     "cats": [
       1
@@ -2824,6 +3136,23 @@
     },
     "url": "/mozard/!suite",
     "website": "https://mozard.nl"
+  },
+  "MudBlazor": {
+    "cats": [
+      66
+    ],
+    "description": "MudBlazor is a component library for Blazor implementing Material Design.",
+    "dom": "link[href*='/MudBlazor.min.css']",
+    "icon": "Mudblazor.svg",
+    "implies": "Blazor",
+    "js": {
+      "mudWindow": ""
+    },
+    "oss": true,
+    "scriptSrc": [
+      "_content/MudBlazor/MudBlazor\\.min\\.js"
+    ],
+    "website": "https://mudblazor.com/"
   },
   "Mulberry": {
     "cats": [
@@ -2872,6 +3201,24 @@
     },
     "scriptSrc": "mustache(?:\\.min)?\\.js",
     "website": "https://mustache.github.io"
+  },
+  "Mutiny": {
+    "cats": [
+      76
+    ],
+    "description": "Mutiny is a no-code AI platform designed to aid marketers in converting top-of-funnel demand into revenue without requiring the expertise of engineers.",
+    "icon": "Mutiny.svg",
+    "js": {
+      "mutiny": "",
+      "mutinyData": "",
+      "mutinyEditor": "",
+      "mutinyWpJsonp": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.mutinyhq.com"
   },
   "Muuri": {
     "cats": [

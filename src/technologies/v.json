@@ -1,4 +1,14 @@
 {
+  "V2Board": {
+    "cats": [
+      64
+    ],
+    "description": "V2Board is a multi-agent protocol management system with an interface for managing multiple proxy protocols.",
+    "dom": "link[href*='/theme/v2board/assets/']",
+    "icon": "V2Board.png",
+    "oss": true,
+    "website": "https://v2board.com"
+  },
   "VAPTCHA": {
     "cats": [
       16
@@ -217,6 +227,11 @@
         "attributes": {
           "href": "cdn\\.jsdelivr\\.net/npm/vant@([\\d\\.]+)/\\;version:\\1"
         }
+      },
+      "link[href*='/vant-']": {
+        "attributes": {
+          "href": "/vant-[\\w\\d]{8}\\.js"
+        }
       }
     },
     "icon": "Vant.png",
@@ -227,6 +242,19 @@
     "oss": true,
     "requires": "Vue.js",
     "website": "https://github.com/youzan/vant"
+  },
+  "Vanta": {
+    "cats": [
+      16
+    ],
+    "description": "Vanta is a compliance automation platform for SOC 2, HIPAA, ISO 27001, PCI, and GDPR.",
+    "icon": "Vanta.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.vanta\\.com/",
+    "website": "https://www.vanta.com"
   },
   "Varbase": {
     "cats": [
@@ -241,6 +269,18 @@
     },
     "oss": true,
     "website": "https://www.vardot.com/solutions/varbase"
+  },
+  "Variance": {
+    "cats": [
+      25
+    ],
+    "description": "Variance is a provider of custom charting data graphics tools for web platforms, utilizing HTML and CSS.",
+    "dom": "link[href*='variancecharts.com/'], script#variance-js",
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://variancecharts.com"
   },
   "Variti": {
     "cats": [
@@ -298,12 +338,28 @@
     ],
     "website": "https://www.vectary.com"
   },
+  "Vendio": {
+    "cats": [
+      6
+    ],
+    "description": "Vendio is an ecommerce software facilitating selling across platforms like eBay, Amazon, and Etsy.",
+    "icon": "Vendio.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "stores\\.vendio\\.com",
+    "website": "https://www.vendio.com"
+  },
   "Vendre": {
     "cats": [
       6
     ],
     "description": "Vendre is a module-based ecommerce system where you choose which functions your organisation needs.",
-    "icon": "Vendre.png",
+    "icon": "Vendre.svg",
     "js": {
       "VendreMap.maps_loaded": "",
       "vendre_config": ""
@@ -314,6 +370,26 @@
     ],
     "saas": true,
     "website": "https://vendre.io"
+  },
+  "Venly": {
+    "cats": [
+      19
+    ],
+    "description": "Venly is a blockchain technology provider creating products to help companies succeed in Web3.",
+    "icon": "Venly.svg",
+    "js": {
+      "VenlyConnect": ""
+    },
+    "meta": {
+      "application-name": "^Venly$"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.venly.io"
   },
   "Venmo": {
     "cats": [
@@ -367,6 +443,21 @@
     "scriptSrc": "tracking\\.veoxa\\.com",
     "website": "https://veoxa.com"
   },
+  "Vepaar": {
+    "cats": [
+      53
+    ],
+    "description": "Vepaar is a software solution designed to help boost online businesses, providing features such as WhatsApp CRM, an online store, and a WhatsApp poll.",
+    "icon": "Vepaar.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "analytics\\.vepaar\\.com/",
+    "website": "https://vepaar.com"
+  },
   "Vercel": {
     "cats": [
       62
@@ -406,6 +497,20 @@
       "/_vercel/insights/script\\.js"
     ],
     "website": "https://vercel.com/analytics"
+  },
+  "Vergic": {
+    "cats": [
+      52
+    ],
+    "description": "Vergic is a platform facilitating real-time online engagement between site owners, customer service agents, and individual customers, prospects, or visitors.",
+    "icon": "Vergic.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "us-content\\.vergic\\.com/",
+    "website": "https://www.vergic.com"
   },
   "Verifone 2Checkout": {
     "cats": [
@@ -1007,7 +1112,7 @@
       19
     ],
     "description": "Vite is a rapid development tool for modern web projects.",
-    "dom": "script#vite-legacy-polyfill, script#vite-legacy-entry",
+    "dom": "script#vite-legacy-polyfill, script#vite-legacy-entry, link[href*='vite.svg'][rel='icon']",
     "icon": "vite.svg",
     "js": {
       "__vite_is_modern_browser": ""
@@ -1050,6 +1155,19 @@
     "saas": true,
     "scriptSrc": "\\.vitrin\\.me/",
     "website": "https://vitrin.me"
+  },
+  "Vivenu": {
+    "cats": [
+      6
+    ],
+    "description": "Vivenu is a ticketing platform.",
+    "dom": "title#vivenuId",
+    "icon": "Vivenu.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://vivenu.com"
   },
   "Vizury": {
     "cats": [
@@ -1141,6 +1259,20 @@
     "scriptSrc": "\\.opentok\\.com/",
     "website": "https://www.vonage.com/communications-apis/video/"
   },
+  "Voog": {
+    "cats": [
+      51
+    ],
+    "description": "Voog is a user-friendly website building platform.",
+    "icon": "Voog.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.voog\\.com/",
+    "website": "https://www.voog.com"
+  },
   "Voog.com Website Builder": {
     "cats": [
       1,
@@ -1150,6 +1282,20 @@
     "icon": "Voog.png",
     "scriptSrc": "voog\\.com/tracker\\.js",
     "website": "https://www.voog.com/"
+  },
+  "Vop": {
+    "cats": [
+      6
+    ],
+    "description": "Vop is a service facilitating the integration of ecommerce into social content.",
+    "icon": "Vop.svg",
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.getvop\\.com/",
+    "website": "https://getvop.com"
   },
   "Voracio": {
     "cats": [
@@ -1169,6 +1315,28 @@
     ],
     "saas": true,
     "website": "https://www.voracio.co.uk"
+  },
+  "Vouchley": {
+    "cats": [
+      90
+    ],
+    "description": "Vouchley is a review platform designed for freelancers, allowing them to receive and showcase client reviews to build credibility and attract more business.",
+    "dom": "iframe[src*='.reputize.org/widgets/']",
+    "icon": "Vouchley.svg",
+    "website": "https://www.vouchley.com"
+  },
+  "Vox Media": {
+    "cats": [
+      1
+    ],
+    "description": "Vox Media is a digital platform that operates news and opinion websites.",
+    "icon": "VoxMedia.svg",
+    "js": {
+      "VoxMediaFontLoader": ""
+    },
+    "saas": true,
+    "scriptSrc": "\\.voxmedia\\.com/",
+    "website": "https://corp.voxmedia.com"
   },
   "Vtiger": {
     "cats": [
@@ -1241,9 +1409,9 @@
       12
     ],
     "css": "\\.vue-notification-group",
-    "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
-    "dom": ".vue-app",
-    "html": "<[^>]+\\sdata-v(?:ue)?-",
+    "description": "Vue.js is an open-source model\u2013view\u2013viewmodel JavaScript framework for building user interfaces and single-page applications.",
+    "dom": ".vue-app, link[href*='docsify/themes/vue.css']",
+    "html": "<(?!svg)[^>]+\\sdata-v(?:ue)?-",
     "icon": "vue.svg",
     "js": {
       "Vue": "",
@@ -1342,6 +1510,7 @@
       16
     ],
     "description": "Checkpoint is a product of v4Guard that verifies website users and prevents fraudulent access to sensitive areas, by checking for any use of anonymisation services with a captcha-like widget.",
+    "dom": "iframe[src*='.v4guard.io/checkpoint/']",
     "icon": "v4Guard.svg",
     "pricing": [
       "poa",
