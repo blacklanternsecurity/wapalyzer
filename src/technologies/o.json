@@ -24,6 +24,9 @@
       "NS": "\\d+\\.ovh\\.net",
       "SOA": "\\d+\\.ovh\\.net"
     },
+    "headers": {
+      "x-iplb-request-id": ""
+    },
     "icon": "OVHcloud.svg",
     "pricing": [
       "payg"
@@ -306,6 +309,23 @@
     "saas": true,
     "website": "https://www.ocuco.com/fitmix"
   },
+  "Odeum": {
+    "cats": [
+      38
+    ],
+    "description": "Odeum is a SaaS platform for creating a video-based subscription service including a completely branded website & set of apps.",
+    "icon": "Odeum.svg",
+    "js": {
+      "OdeumAccount": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://odeum.io"
+  },
   "Odoo": {
     "cats": [
       1
@@ -345,6 +365,22 @@
     "saas": true,
     "scriptSrc": "\\.ohdear\\.app/",
     "website": "https://ohdear.app"
+  },
+  "OkMenu": {
+    "cats": [
+      5
+    ],
+    "description": "OkMenu is a provider of an all-in-one restaurant QR menu.",
+    "dom": "div#__okmenu__",
+    "icon": "OkMenu.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://oktabletmenu.com"
   },
   "Okendo": {
     "cats": [
@@ -915,6 +951,16 @@
     },
     "website": "https://open-eshop.com/"
   },
+  "Open-Props": {
+    "cats": [
+      66
+    ],
+    "description": "Open-Props is a collection of CSS custom properties to help accelerate adaptive and consistent design.",
+    "dom": "link[href*='unpkg.com/open-props'][rel='stylesheet']",
+    "icon": "Open-Props.svg",
+    "oss": true,
+    "website": "https://open-props.style"
+  },
   "Open-Xchange App Suite": {
     "cats": [
       30,
@@ -1157,16 +1203,43 @@
     "implies": "Microsoft ASP.NET",
     "website": "https://websolutions.opentext.com"
   },
+  "OpenTiendas": {
+    "cats": [
+      6
+    ],
+    "description": "OpenTiendas is a hosted no-code All in One ecommerce technology that allows anyone to create online stores with advanced features without plugins.",
+    "dom": "link[href*='/opentiendasfont/font/opentiendasfont.woff2']",
+    "icon": "OpenTiendas.svg",
+    "meta": {
+      "generator": "^OpenTiendas$"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://www.opentiendas.com"
+  },
   "OpenUI5": {
     "cats": [
-      12
+      12,
+      66
     ],
+    "cookies": {
+      "sap-usercontext": "sap-client"
+    },
+    "description": "OpenUI5 is a JavaScript UI Framework released by SAP under the Apache 2.0 license.",
     "icon": "OpenUI5.png",
     "js": {
       "sap.ui.version": "^(.+)$\\;version:\\1"
     },
+    "meta": {
+      "sap-ui-fesr": ""
+    },
+    "oss": true,
     "scriptSrc": "sap-ui-core\\.js",
-    "website": "https://openui5.org/"
+    "website": "https://openui5.org"
   },
   "OpenWeb": {
     "cats": [
@@ -1243,6 +1316,16 @@
     "saas": true,
     "scriptSrc": "\\.foresee\\.com/code/([\\d.]+)-oo/oo_engine\\.min\\.js\\;version:\\1",
     "website": "https://www.opinionlab.com"
+  },
+  "Ops Calendar": {
+    "cats": [
+      32
+    ],
+    "description": "Ops Calendar is a marketing calendar to manage content marketing, social media, and more.",
+    "icon": "OpsCalendar.svg",
+    "saas": true,
+    "scriptSrc": "app\\.opscalendar\\.com/",
+    "website": "https://opscalendar.com"
   },
   "OptiMonk": {
     "cats": [
@@ -1463,6 +1546,19 @@
     "icon": "Oracle.svg",
     "website": "https://cloud.oracle.com/commerce-cloud"
   },
+  "Oracle Content Management": {
+    "cats": [
+      1
+    ],
+    "description": "Oracle Content Management is a cloud-based platform designed for organisations to create, store, manage, and deliver digital content while supporting structured content organisation, collaboration, and seamless integration with other applications.",
+    "icon": "Oracle.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "/_sitesclouddelivery/renderer/renderer\\.js",
+    "website": "https://www.oracle.com/content-management"
+  },
   "Oracle Dynamic Monitoring Service": {
     "cats": [
       19
@@ -1560,6 +1656,23 @@
       "poa"
     ],
     "website": "https://www.oracle.com/java/weblogic/"
+  },
+  "Orama": {
+    "cats": [
+      29
+    ],
+    "description": "Orama is a platform offering full-text and vector search capabilities across 300 global locations.",
+    "dom": "li > a[href*='/@orama/orama'], link[href*='orama-search']",
+    "icon": "OramaSearch.png",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://oramasearch.com"
   },
   "Orankl": {
     "cats": [
@@ -1757,6 +1870,24 @@
     ],
     "website": "https://oroinc.com"
   },
+  "Ortto": {
+    "cats": [
+      32,
+      97
+    ],
+    "description": "Ortto is a marketing automation and customer data platform that integrates your data, messaging, and analytics into one unified system.",
+    "icon": "Ortto.svg",
+    "js": {
+      "AP3_WIDGETS_PREFIX": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://ortto.com"
+  },
   "Osano": {
     "cats": [
       67
@@ -1779,13 +1910,13 @@
     "cats": [
       99
     ],
-    "description": "Österreichische Post is an Austrian logistics and postal services provider.",
+    "description": "\u00d6sterreichische Post is an Austrian logistics and postal services provider.",
     "icon": "Post AG.svg",
     "requiresCategory": 6,
     "text": [
       "\\bpost\\.at\\b",
       "\\bPost AG\\b",
-      "\\b[ÖO]sterreichische Post\\b"
+      "\\b[\u00d6O]sterreichische Post\\b"
     ],
     "website": "https://www.post.at"
   },
@@ -1943,7 +2074,7 @@
     "cookies": {
       "osCsid": ""
     },
-    "description": "OsCommerce is an open-source ecommerce and online store-management software program​.",
+    "description": "OsCommerce is an open-source ecommerce and online store-management software program\u200b.",
     "html": [
       "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com",
       "<(?:input|a)[^>]+name=\"osCsid\"",

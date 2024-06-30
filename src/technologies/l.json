@@ -161,6 +161,22 @@
     },
     "website": "https://laravel.com/docs/broadcasting#client-side-installation"
   },
+  "Lasso CRM": {
+    "cats": [
+      53
+    ],
+    "description": "Lasso CRM is a new home sales CRM solution for builders, developers, and new homes agencies.",
+    "icon": "LassoCRM.svg",
+    "js": {
+      "LassoAnalytics": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.lassocrm\\.com/",
+    "website": "https://www.ecisolutions.com/products/lasso-crm"
+  },
   "Laterpay": {
     "cats": [
       41,
@@ -237,6 +253,22 @@
     "scriptSrc": "builder\\.launchrock\\.com",
     "website": "https://www.launchrock.com"
   },
+  "LawPay": {
+    "cats": [
+      41
+    ],
+    "description": "Payment for law firms.",
+    "icon": "Lawpay.svg",
+    "pricing": [
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\b(?:lawpay)\\b"
+    ],
+    "website": "https://www.lawpay.com"
+  },
   "LayBuy": {
     "cats": [
       91
@@ -261,6 +293,24 @@
       "/wp-content/plugins/woo-laybuy/"
     ],
     "website": "https://www.laybuy.com"
+  },
+  "LayUp": {
+    "cats": [
+      41
+    ],
+    "description": "LayUp is a payment technology platform enabling customers to pay for goods and services over time.",
+    "icon": "LayUp.svg",
+    "js": {
+      "LayUpCheckoutButton": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\layup\\.co\\.za",
+    "website": "https://layup.co.za"
   },
   "LayoutHub": {
     "cats": [
@@ -331,6 +381,20 @@
     "scriptSrc": "ls\\.unveilhooks(?:\\.min)?\\.js",
     "website": "https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/unveilhooks"
   },
+  "LeadBoxer": {
+    "cats": [
+      10
+    ],
+    "description": "LeadBoxer is a lead generation program that measures invitations from website visitors, aiding businesses in tracking and analyzing potential leads.",
+    "icon": "LeadBoxer.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "ip\\.leadboxer\\.com",
+    "website": "https://www.leadboxer.com"
+  },
   "LeadChat": {
     "cats": [
       53
@@ -345,6 +409,67 @@
     "requires": "LiveChat",
     "scriptSrc": "(?://|\\.)chatsystem\\.io/",
     "website": "https://www.leadchat.com"
+  },
+  "LeadDyno": {
+    "cats": [
+      71,
+      10
+    ],
+    "cookies": {
+      "_leaddyno_session": ""
+    },
+    "description": "LeadDyno is a platform that provides affiliate marketing and tracking services, allowing businesses to set up, manage, and analyse their affiliate programs.",
+    "icon": "LeadDyno.svg",
+    "js": {
+      "LeadDyno": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.leaddyno.com"
+  },
+  "LeadScore": {
+    "cats": [
+      32
+    ],
+    "description": "LeadScore is an inbound marketing automation system facilitating streamlined digital marketing processes.",
+    "icon": "LeadScore.svg",
+    "js": {
+      "trackLeadScore": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.leadscore.io/"
+  },
+  "LeadSimple": {
+    "cats": [
+      53
+    ],
+    "description": "LeadSimple is a platform that allows property managers to automate their sales and operational processes.",
+    "icon": "LeadSimple.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "assets2\\.leadsimple\\.com/",
+    "website": "https://www.leadsimple.com"
+  },
+  "LeadSlide": {
+    "cats": [
+      32
+    ],
+    "description": "LeadSlide is a marketing campaign software designed for wordpress, ecommerce, and Shopify.",
+    "icon": "LeadSlide.svg",
+    "saas": true,
+    "scriptSrc": "\\leadslide\\.com/",
+    "website": "https://v1.leadslide.com"
   },
   "Leadfeeder": {
     "cats": [
@@ -385,6 +510,51 @@
     "scriptSrc": "cdn\\.leadinfo\\.net",
     "website": "https://www.leadinfo.com"
   },
+  "LeadsBridge": {
+    "cats": [
+      32
+    ],
+    "description": "LeadsBridge is an all-in-one solution for lead generation.",
+    "icon": "LeadsBridge.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\leadsbridge\\.com/",
+    "website": "https://leadsbridge.com"
+  },
+  "Leadspace": {
+    "cats": [
+      97
+    ],
+    "description": "Leadspace is a customer data platform catering to B2B sales and marketing needs.",
+    "icon": "Leadspace.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "sfc\\.leadspace\\.com/",
+    "website": "https://www.leadspace.com"
+  },
+  "Leadsquared": {
+    "cats": [
+      32
+    ],
+    "description": "Leadsquared is a marketing automation software suite.",
+    "icon": "Leadsquared.svg",
+    "js": {
+      "leadsquared": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.leadsquared.com"
+  },
   "Leadster": {
     "cats": [
       52
@@ -409,7 +579,7 @@
       35
     ],
     "description": "Leaflet is the open-source JavaScript library for mobile-friendly interactive maps.",
-    "icon": "Leaflet.png",
+    "icon": "Leaflet.svg",
     "js": {
       "L.DistanceGrid": "",
       "L.PosAnimation": "",
@@ -456,7 +626,6 @@
       87
     ],
     "description": "LearnDash is a WordPress plugin that enables the creation and management of online courses, quizzes, and educational content within a website.",
-    "icon": "LearnDash.svg",
     "dom": {
       "link[href*='/wp-content/plugins/sfwd-lms/']": {
         "attributes": {
@@ -464,12 +633,13 @@
         }
       }
     },
-    "requires": "WordPress",
+    "icon": "LearnDash.svg",
     "pricing": [
       "low",
       "onetime",
       "recurring"
     ],
+    "requires": "WordPress",
     "website": "https://www.learndash.com"
   },
   "LearnWorlds": {
@@ -584,6 +754,7 @@
     "description": "Lenis is a smooth scroll library to normalise the scrolling experience across devices.",
     "icon": "Lenis.svg",
     "js": {
+      "Lenis": "",
       "lenisVersion": "([\\d\\.]+)\\;version:\\1"
     },
     "oss": true,
@@ -610,8 +781,10 @@
     "cats": [
       19
     ],
-    "html": "<link[^>]+ rel=\"stylesheet/less\"",
-    "icon": "Less.png",
+    "description": "Less is a CSS preprocessor, providing a set of extensions and features to traditional Cascading Style Sheets (CSS) for improved maintainability and ease of styling in web development.",
+    "dom": "link[rel='stylesheet/less']",
+    "icon": "Less.svg",
+    "oss": true,
     "website": "https://lesscss.org"
   },
   "Let's Encrypt": {
@@ -768,6 +941,23 @@
     "implies": "Scala",
     "website": "https://liftweb.net"
   },
+  "LifterLMS": {
+    "cats": [
+      21,
+      87
+    ],
+    "description": "LifterLMS is a learning management system plugin for WordPress.",
+    "dom": "link#lifterlms-styles-css",
+    "icon": "LifterLMS.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/plugins/lifterlms/assets/js/llms\\.min\\.js\\?ver=([\\d\\.]+)\\;version:\\1",
+    "website": "https://lifterlms.com"
+  },
   "LightMon Engine": {
     "cats": [
       1
@@ -918,6 +1108,24 @@
     "oss": true,
     "website": "https://www.linen.dev"
   },
+  "Linguise": {
+    "cats": [
+      89
+    ],
+    "description": "Linguise is an automatic translation service with a front-end translation editor.",
+    "dom": "script[type='linguise/json]",
+    "icon": "Linguise.svg",
+    "js": {
+      "linguise_configs": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/modules/mod_linguise/assets/",
+    "website": "https://www.linguise.com"
+  },
   "LinkMink": {
     "cats": [
       10,
@@ -1027,6 +1235,23 @@
     "saas": true,
     "website": "https://www.linx.com.br/linx-impulse"
   },
+  "LipScore": {
+    "cats": [
+      90
+    ],
+    "description": "LipScore is a ratings and reviews engine.",
+    "icon": "LipScore.svg",
+    "js": {
+      "LipscoreSwiper": "",
+      "wcLipscoreInit": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.lipscore\\.com/",
+    "website": "https://lipscore.com"
+  },
   "Liquid Web": {
     "cats": [
       62,
@@ -1093,6 +1318,25 @@
     "icon": "LiteSpeed.svg",
     "website": "https://litespeedtech.com"
   },
+  "LiteSpeed Cache": {
+    "cats": [
+      23,
+      87
+    ],
+    "description": "LiteSpeed Cache is an all-in-one site acceleration plugin for WordPress.",
+    "headers": {
+      "x-litespeed-cache": "",
+      "x-turbo-charged-by": "LiteSpeed"
+    },
+    "icon": "litespeed-cache.png",
+    "implies": "LiteSpeed",
+    "js": {
+      "litespeed_docref": ""
+    },
+    "requires": "WordPress",
+    "scriptSrc": "wp-content/plugins/litespeed-cache/",
+    "website": "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+  },
   "Litespeed Cache": {
     "cats": [
       23,
@@ -1121,6 +1365,51 @@
       "LITHIUM": ""
     },
     "website": "https://www.lithium.com"
+  },
+  "Litium": {
+    "cats": [
+      6
+    ],
+    "description": "Litium is a versatile ecommerce solution tailored for businesses aiming to enhance their online presence.",
+    "icon": "Litium.svg",
+    "meta": {
+      "generator": "^Litium$"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.litium.com"
+  },
+  "Litmus": {
+    "cats": [
+      10
+    ],
+    "description": "Litmus is an Email Analytics tool that offers email designers advanced open and read statistics for their email campaigns.",
+    "dom": "img[src*='.emltrk.com/']",
+    "icon": "Litmus.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://emltrk.com"
+  },
+  "Little Hotelier": {
+    "cats": [
+      93
+    ],
+    "cookies": {
+      "_littlehotelier_session": ""
+    },
+    "description": "Little Hotelier is an all-in-one property management solution designed for small accomodation businesses.",
+    "icon": "LittleHotelier.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.littlehotelier.com"
   },
   "Littledata": {
     "cats": [
@@ -1206,7 +1495,7 @@
       53
     ],
     "description": "LiveHelp is an online chat tool.",
-    "icon": "LiveHelp.png",
+    "icon": "LiveHelp.svg",
     "js": {
       "LHready": ""
     },
@@ -1403,7 +1692,7 @@
     ],
     "description": "LlamaLink Cloud Server is a custom dynamic web server based on Nginx Web server that load balance user traffic between hosting nodes and allows fast and cached experience to web and app users.",
     "headers": {
-      "Server": "^LlamaLink"
+      "Serverversion": "^LlamaLink"
     },
     "icon": "LlamaLink.png",
     "implies": "Nginx",
@@ -1491,6 +1780,18 @@
     "saas": true,
     "website": "https://apps.shopify.com/locksmith"
   },
+  "Locomotive Scroll": {
+    "cats": [
+      59
+    ],
+    "description": "Locomotive Scroll is an opinionated JavaScript library that provides smooth scrolling animations and advanced scroll interactions for web applications.",
+    "implies": "Lenis",
+    "js": {
+      "LocomotiveScroll": ""
+    },
+    "oss": true,
+    "website": "https://github.com/locomotivemtl/locomotive-scroll"
+  },
   "LocomotiveCMS": {
     "cats": [
       1
@@ -1518,23 +1819,6 @@
     },
     "scriptSrc": "lodash.*\\.js",
     "website": "https://www.lodash.com"
-  },
-  "Loglib": {
-    "cats": [
-      10
-    ],
-    "description": "Loglib is a Open Source and Privacy-First web analytics that aims to provide simple yet can be powerful based on your needs.",
-    "icon": "Loglib.svg",
-    "js": {
-      "lli": "",
-      "llc": ""
-    },
-    "pricing": [
-      "freemium"
-    ],
-    "oss": true,
-    "saas": true,
-    "website": "https://www.loglib.io"
   },
   "LogRocket": {
     "cats": [
@@ -1626,6 +1910,23 @@
       "\\.lrcontent\\.com"
     ],
     "website": "https://www.loginradius.com"
+  },
+  "Loglib": {
+    "cats": [
+      10
+    ],
+    "description": "Loglib is a Open Source and Privacy-First web analytics that aims to provide simple yet can be powerful based on your needs.",
+    "icon": "Loglib.svg",
+    "js": {
+      "llc": "",
+      "lli": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.loglib.io"
   },
   "LogoiX": {
     "cats": [
@@ -1745,6 +2046,23 @@
     "saas": true,
     "website": "https://www.loopreturns.com"
   },
+  "Loop Web": {
+    "cats": [
+      47
+    ],
+    "description": "Loop Web is a provider in web, internet, network, and design services. Their offerings encompass website design, SMS, VoIP&IVR, Type, hosting, VPS, and more.",
+    "dom": "link[href*='.loopweb.net']",
+    "icon": "Loop Web.png",
+    "meta": {
+      "id": "LoopWeb",
+      "loopweb": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://www.loopweb.net"
+  },
   "Loop54": {
     "cats": [
       29,
@@ -1764,6 +2082,21 @@
     ],
     "saas": true,
     "website": "https://www.loop54.com"
+  },
+  "LoopedIn": {
+    "cats": [
+      13
+    ],
+    "description": "LoopedIn is an all-in-one tool for collecting feedback, building roadmaps, sharing changelogs, and publishing knowledge bases.",
+    "icon": "LoopedIn.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.productstash\\.io/",
+    "website": "https://www.loopedin.io"
   },
   "Lootly": {
     "cats": [
@@ -1818,6 +2151,23 @@
     "saas": true,
     "website": "https://www.loqate.com"
   },
+  "LotLinx": {
+    "cats": [
+      32
+    ],
+    "description": "LotLinx is a provider of digital retailing and marketing technologies for the automotive industry.",
+    "icon": "LotLinx.svg",
+    "js": {
+      "LXLoader": "",
+      "LotLinxID": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.lotlinx\\.com/",
+    "website": "https://lotlinx.com/"
+  },
   "LottieFiles": {
     "cats": [
       19
@@ -1826,6 +2176,7 @@
     "dom": "lottie-player, div[data-animation-type='lottie'], div[data-testid='lottie-player'], clipPath[id*='__lottie_element_']",
     "icon": "LottieFiles.svg",
     "js": {
+      "dotlottie-player": "",
       "lottie.version": "^(.+)$\\;version:\\1"
     },
     "oss": true,
@@ -1904,6 +2255,16 @@
     "implies": "Java",
     "website": "https://lucene.apache.org/core/"
   },
+  "Lucide": {
+    "cats": [
+      17
+    ],
+    "description": "Lucide is an open-source icon library that provides 1000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects.",
+    "dom": "svg.lucide",
+    "icon": "Lucide.svg",
+    "oss": true,
+    "website": "https://lucide.dev"
+  },
   "Lucky Orange": {
     "cats": [
       10
@@ -1923,7 +2284,7 @@
     "scriptSrc": "\\.luckyorange\\.com/",
     "website": "https://www.luckyorange.com"
   },
-  "Luigi’s Box": {
+  "Luigi\u2019s Box": {
     "cats": [
       10,
       29
@@ -1969,6 +2330,22 @@
     ],
     "saas": true,
     "website": "https://luna.io"
+  },
+  "Lychee": {
+    "cats": [
+      7
+    ],
+    "description": "Lychee is a photo-management tool designed to operate on your server or web-space.",
+    "icon": "Lychee.png",
+    "js": {
+      "lychee": "",
+      "lychee.version": "^(.+)$\\;version:\\1"
+    },
+    "meta": {
+      "generator": "Lychee v([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://lycheeorg.github.io"
   },
   "LyraThemes Kale": {
     "cats": [

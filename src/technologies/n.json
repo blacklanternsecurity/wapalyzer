@@ -170,6 +170,22 @@
     "scriptSrc": "app\\.najva\\.com/",
     "website": "https://www.najva.com"
   },
+  "NamelessMC": {
+    "cats": [
+      1
+    ],
+    "cpe": "cpe:2.3:a:namelessmc:nameless:*:*:*:*:*:*:*:*",
+    "description": "NamelessMC is an open-source website software geared towards gaming communities, offering features such as forums and user profiles for managing online presence.",
+    "dom": "span.item > a[href*='//namelessmc.com']",
+    "icon": "NamelessMC.png",
+    "implies": [
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
+    "oss": true,
+    "website": "https://namelessmc.com"
+  },
   "Narrativ": {
     "cats": [
       71
@@ -402,9 +418,15 @@
       6
     ],
     "cookies": {
-      "NS_VER": ""
+      "NS_VER": "^([\\d\\.]+)$\\;version:\\1"
     },
-    "icon": "NetSuite.png",
+    "description": "NetSuite is a cloud-based enterprise resource planning (ERP) software suite that provides a comprehensive set of business management applications, including financial management, CRM, ecommerce, and more.",
+    "icon": "NetSuite.svg",
+    "pricing": [
+      "onetime",
+      "high"
+    ],
+    "saas": true,
     "website": "https://netsuite.com"
   },
   "Netcore Cloud": {
@@ -439,6 +461,24 @@
     "saas": true,
     "website": "https://www.netdeal.com.br"
   },
+  "Nethouse Website Builder": {
+    "cats": [
+      1,
+      6
+    ],
+    "description": "Nethouse Website Builder is a platform enabling individuals to craft websites, online stores, or landing pages independently, without the need for programmers or designers.",
+    "icon": "Nethouse.svg",
+    "js": {
+      "Nethouse": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://nethouse.ru"
+  },
   "Netlify": {
     "cats": [
       62,
@@ -459,6 +499,39 @@
     "url": "^https?://[^/]+\\.netlify\\.(?:com|app)/",
     "website": "https://www.netlify.com/",
     "xhr": "cdn\\.netlify\\.com"
+  },
+  "Netlify Create": {
+    "cats": [
+      51
+    ],
+    "description": "Netlify Create (formerly Stackbit) is a visual experience platform for building decoupled websites.",
+    "dom": {
+      "[data-sb-object-id]": {
+        "exists": ""
+      },
+      "header[data-sb-field-path]": {
+        "attributes": {
+          "data-sb-field-path": ""
+        }
+      },
+      "script#__NEXT_DATA__": {
+        "text": "stackbit"
+      }
+    },
+    "icon": "Netlify.svg",
+    "js": {
+      "__NEXT_DATA__.props.pageProps.withStackbit": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "\\.stackbit\\.com"
+    ],
+    "website": "https://www.stackbit.com"
   },
   "Netlify Forms": {
     "cats": [
@@ -489,14 +562,10 @@
     "cookies": {
       "nette-browser": ""
     },
+    "dom": "input[data-nette-rules], div[id^='snippet-'], input[id^='frm-']",
     "headers": {
       "X-Powered-By": "^Nette Framework"
     },
-    "html": [
-      "<input[^>]+data-nette-rules",
-      "<div[^>]+id=\"snippet-",
-      "<input[^>]+id=\"frm-"
-    ],
     "icon": "Nette Framework.png",
     "implies": "PHP",
     "js": {
@@ -580,7 +649,7 @@
     "cats": [
       87
     ],
-    "description": "Newspack is an open-source publishing platform built on WordPress for small to medium sized news organizations. It is an “opinionated” platform that stakes out clear, best-practice positions on technology, design, and business practice for news publishers.",
+    "description": "Newspack is an open-source publishing platform built on WordPress for small to medium sized news organizations. It is an \u201copinionated\u201d platform that stakes out clear, best-practice positions on technology, design, and business practice for news publishers.",
     "dom": "a.imprint[href*='newspack.pub']",
     "icon": "NewspackLogo.png",
     "oss": true,
@@ -601,6 +670,22 @@
       "recurring"
     ],
     "website": "https://newspack.pub/"
+  },
+  "Newt": {
+    "cats": [
+      1
+    ],
+    "description": "Newt is a headless CMS that allows you to create and manage structured content and distribute it to a variety of channels.",
+    "icon": "Newt.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://www.newt.so",
+    "xhr": "\\.newt\\.so"
   },
   "Nexcess": {
     "cats": [
@@ -740,7 +825,7 @@
     "cats": [
       36
     ],
-    "description": "Nextdoor Ads is an easy-to-use expansion of Nextdoor’s proprietary self-serve campaign management platform, designed to help small and medium-sized businesses (SMBs) advertise on Nextdoor.",
+    "description": "Nextdoor Ads is an easy-to-use expansion of Nextdoor\u2019s proprietary self-serve campaign management platform, designed to help small and medium-sized businesses (SMBs) advertise on Nextdoor.",
     "icon": "Nextdoor Ads.png",
     "scriptSrc": "ads\\.nextdoor\\.com/",
     "website": "https://help.nextdoor.com/s/article/About-Neighborhood-Ad-Center-NAC-Conversion-Pixel"
@@ -863,6 +948,20 @@
     "saas": true,
     "website": "https://nicepage.com"
   },
+  "Nidux": {
+    "cats": [
+      6
+    ],
+    "description": "Nidux is an ecommerce platform catering to small and medium businesses.",
+    "icon": "Nidux.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.nidux\\.net/",
+    "website": "https://nidux.com"
+  },
   "Nift": {
     "cats": [
       84
@@ -945,6 +1044,7 @@
     ],
     "cpe": "cpe:2.3:a:nodejs:node.js:*:*:*:*:*:*:*:*",
     "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.",
+    "dom": "div.appVersion i.icon-nodejs",
     "icon": "Node.js.svg",
     "website": "https://nodejs.org"
   },
@@ -1015,6 +1115,70 @@
     "saas": true,
     "website": "https://noibu.com"
   },
+  "Nootiz": {
+    "cats": [
+      13
+    ],
+    "description": "Nootiz is a visual feedback tool designed to streamline the process of collecting and managing user feedback on websites.",
+    "icon": "Nootiz.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "load\\.nootiz\\.com/",
+    "website": "https://www.nootiz.com"
+  },
+  "Norby": {
+    "cats": [
+      52
+    ],
+    "description": "Norby is an AI-powered chat solution catering to ecommerce, healthcare, crypto, and fintech industries.",
+    "icon": "NorbyAI.svg",
+    "js": {
+      "norbyChat": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "chat\\.norby\\.io/",
+    "website": "https://norby.io"
+  },
+  "Normi": {
+    "cats": [
+      67
+    ],
+    "description": "Normi is a Compliance Management Platform designed to ensure adherence to Quebec's C-25 regulation.",
+    "icon": "Normi.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.normi\\.ca/",
+    "website": "https://normi.ca"
+  },
+  "Northbeam": {
+    "cats": [
+      10
+    ],
+    "description": "Northbeam is a platform for marketing measurement that uses machine learning for DTC and ecommerce brands.",
+    "dom": "script[data-src*='.northbeam.io/']",
+    "icon": "Northbeam.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.northbeam\\.io/",
+    "website": "https://www.northbeam.io"
+  },
   "Norton Shopping Guarantee": {
     "cats": [
       16
@@ -1073,6 +1237,23 @@
     "scriptSrc": "\\.stackla\\.com/",
     "website": "https://www.nosto.com/products/visual-ugc/"
   },
+  "Notifly": {
+    "cats": [
+      32
+    ],
+    "description": "Notifly is a marketing automation tool designed to streamline the process of running multi-channel campaigns.",
+    "icon": "Notifly.svg",
+    "js": {
+      "NotiflyWebMessageRenderer": "",
+      "__notiflyCafe24Config": "",
+      "notifly": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://notifly.tech"
+  },
   "Notion": {
     "cats": [
       51
@@ -1088,6 +1269,58 @@
     ],
     "saas": true,
     "website": "https://notion.so"
+  },
+  "Notix": {
+    "cats": [
+      77
+    ],
+    "description": "Notix is a web push notifications service for audience re-engagement.",
+    "icon": "Notix.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "notix\\.io/ent",
+    "website": "https://notix.co"
+  },
+  "Nrdevo": {
+    "cats": [
+      1
+    ],
+    "description": "Nrdevo is a subscription-based software that allows anyone to set up a website, online store, and more.",
+    "icon": "Nrdevo.svg",
+    "meta": {
+      "generator": "^Nrdevo(?: ([0-9.]+))?$\\;version:\\1"
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://nrdevo.com/"
+  },
+  "Nucleus CMS": {
+    "cats": [
+      1
+    ],
+    "description": "Nucleus CMS is a free, open-source web application framework and content management system.",
+    "icon": "NucleusCMS.svg",
+    "meta": {
+      "generator": "^Nucleus(?: CMS)?\\s+v?(\\d+\\.\\d+(?:\\.\\d+)?)\\;version:\\1"
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "scriptSrc": "nucleuscms\\.er\\.cz/",
+    "website": "https://www.nucleus-cms.com"
   },
   "Nudgify": {
     "cats": [
@@ -1204,7 +1437,7 @@
     "cookies": {
       "Nop.customer": ""
     },
-    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP​.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
+    "description": "nopCommerce is an open-source ecommerce solution based on Microsoft's ASP\u200b.NET Core framework and MS SQL Server 2012 (or higher) backend database.",
     "html": "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)",
     "icon": "nopCommerce.png",
     "implies": "Microsoft ASP.NET",

@@ -110,7 +110,9 @@
     "implies": "Microsoft ASP.NET",
     "js": {
       "DotNetNuke": "",
-      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1"
+      "__dnncore": "",
+      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1",
+      "dnnJscriptVersion": ""
     },
     "meta": {
       "generator": "DotNetNuke"
@@ -250,6 +252,22 @@
       "name": "dailymotion-domain-verification"
     },
     "website": "https://www.dailymotion.com"
+  },
+  "DanDomain Webshop": {
+    "cats": [
+      6
+    ],
+    "description": "DanDomain Webshop is a Danish ecommerce platform provided by DanDomain, offering businesses the tools to create and manage their online stores.",
+    "icon": "DanDomain.svg",
+    "meta": {
+      "generator": "^DanDomain\\sWebshop$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dandomain.dk/webshop"
   },
   "Dancer": {
     "cats": [
@@ -558,6 +576,57 @@
     "saas": true,
     "website": "https://www.delacon.com.au"
   },
+  "Delight XR": {
+    "cats": [
+      14
+    ],
+    "description": "Delight XR is a video platform catering to regular, AR, and VR content with high-quality delivery.",
+    "icon": "DelightXR.svg",
+    "js": {
+      "DelightVR": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.delight-vr\\.com",
+    "website": "https://delight-vr.com"
+  },
+  "DelightChat": {
+    "cats": [
+      100
+    ],
+    "description": "DelightChat is a customer service platform for Shopify, offering omnichannel support via Email, Live Chat, Facebook, Instagram, and WhatsApp, all managed through a shared inbox.",
+    "dom": "div#delightchat-widget, div#delightchat-welcome-widget",
+    "icon": "DelightChat.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://www.delightchat.io"
+  },
+  "Delighted": {
+    "cats": [
+      73
+    ],
+    "description": "Delighted is a feedback collection and analysis SaaS, offering a web and mobile solution that uses the Net Promoter System (NPS) to gauge and score customer experience.",
+    "icon": "Delighted.svg",
+    "js": {
+      "_delighted": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://delighted.com"
+  },
   "Delivengo": {
     "cats": [
       99
@@ -607,6 +676,23 @@
     "saas": true,
     "scriptSrc": "tag.demandbase.com",
     "website": "https://www.demandbase.com"
+  },
+  "DenGro": {
+    "cats": [
+      53
+    ],
+    "description": "DenGro is a software solution tailored for dental practitioners, facilitating streamlined practice operations.",
+    "dom": "form[action*='app.dengro.com/']",
+    "icon": "DenGro.svg",
+    "js": {
+      "dengro.version": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dengro.com"
   },
   "Deno": {
     "cats": [
@@ -683,6 +769,31 @@
     "saas": true,
     "website": "https://www.deskpro.com/product/chat"
   },
+  "Desku": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Desku is a customer support tool that helps ecommerce businesses manage and respond to customer inquiries.",
+    "icon": "Desku.svg",
+    "js": {
+      "Desku": "",
+      "isDeskuManagerRunning": "",
+      "isDeskuWidgetAuthSetup": "",
+      "isdeskuManagerRunning": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.desku\\.io/chat-widget\\.js",
+      "livechat\\.desku\\.io/cdn/widget\\.js"
+    ],
+    "website": "https://desku.io"
+  },
   "Deta": {
     "cats": [
       62
@@ -719,6 +830,42 @@
       "\\bDeutsche Post\\b"
     ],
     "website": "https://www.deutschepost.de"
+  },
+  "DevExtreme": {
+    "cats": [
+      66
+    ],
+    "description": "DevExtreme is a collection of JavaScript UI components designed for Angular, React, Vue, and jQuery, developed by DevExpress.",
+    "icon": "DevExtreme.svg",
+    "implies": [
+      "React",
+      "Vue.js",
+      "jQuery",
+      "Angular"
+    ],
+    "js": {
+      "DevExpress._DEVEXTREME_BUNDLE_INITIALIZED": ""
+    },
+    "oss": true,
+    "website": "https://js.devexpress.com"
+  },
+  "Dialogue": {
+    "cats": [
+      76
+    ],
+    "description": "Dialogue is an ecommerce personalization platform that helps brands increase sales and conversion rates through AI-driven recommendations.",
+    "icon": "Dialogue.svg",
+    "js": {
+      "DialogueAI": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://nowdialogue.com/"
   },
   "DiamondCDN": {
     "cats": [
@@ -766,6 +913,23 @@
     },
     "website": "https://tools.ietf.org/html/rfc7616"
   },
+  "DigiCDN": {
+    "cats": [
+      31
+    ],
+    "description": "DigiCDN by Digicloud is a content delivery network featuring multiple servers and Anycast architecture, safeguarding your website against cyber attacks.",
+    "icon": "DigicloudCDN.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://digicloud.ir",
+    "xhr": [
+      "digicloud"
+    ]
+  },
   "DigiCert": {
     "cats": [
       70
@@ -773,6 +937,22 @@
     "certIssuer": "DigiCert",
     "icon": "DigiCert.svg",
     "website": "https://www.digicert.com/"
+  },
+  "DigiFi": {
+    "cats": [
+      6
+    ],
+    "description": "DigiFi is a subscription-based software that allows anyone to set up an online store and sell their products.",
+    "icon": "DigiFi.svg",
+    "meta": {
+      "generator": "^Digify$"
+    },
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://digify.shop"
   },
   "Digismoothie Candy Rack": {
     "cats": [
@@ -862,6 +1042,19 @@
     "saas": true,
     "scriptSrc": "\\.digitalriver\\.com/",
     "website": "https://www.digitalriver.com"
+  },
+  "Digizuite": {
+    "cats": [
+      95
+    ],
+    "description": "Digizuite is a Digital Asset Management software for enterprises.",
+    "dom": "img[src^='/globalassets/digizuite/']",
+    "icon": "Digizuite.png",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.digizuite.com"
   },
   "DirectAdmin": {
     "cats": [
@@ -998,6 +1191,23 @@
     "scriptSrc": "storage\\.googleapis\\.com/dito/sdk\\.js",
     "website": "https://www.dito.com.br"
   },
+  "Divhunt": {
+    "cats": [
+      51
+    ],
+    "description": "Divhunt is an SPA builder.",
+    "icon": "Divhunt.svg",
+    "js": {
+      "Divhunt": ""
+    },
+    "pricing": [
+      "onetime",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "divhunt-site\\.\\w-cdn\\.net/",
+    "website": "https://www.divhunt.com"
+  },
   "Divi": {
     "cats": [
       51,
@@ -1109,6 +1319,22 @@
     "html": "<!-- This comment is expected by the docker HEALTHCHECK  -->",
     "icon": "Docker.svg",
     "website": "https://www.docker.com/"
+  },
+  "Docket": {
+    "cats": [
+      53
+    ],
+    "description": "Docket is a waste management and dumpster rental software, helping businesses manage assets, invoices, accounting, and communication.",
+    "icon": "Docket.svg",
+    "js": {
+      "DocketPay": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "dockethosting\\.com/",
+    "website": "https://www.yourdocket.com"
   },
   "Docsify": {
     "cats": [
@@ -1359,6 +1585,21 @@
     "scriptSrc": "/wp-content/plugins/doppler-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/doppler-for-woocommerce/"
   },
+  "Dorik AI": {
+    "cats": [
+      66
+    ],
+    "description": "Dorik is an AI website-building platform that requires no design or coding experience.",
+    "dom": "link[href*='cdn.dorik.com'], section[class*='dorik-section'] ",
+    "icon": "DorikAI.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://dorik.com"
+  },
   "Dotclear": {
     "cats": [
       1
@@ -1434,6 +1675,41 @@
     ],
     "saas": true,
     "website": "https://www.doteasy.com/website-builder/"
+  },
+  "Dotser": {
+    "cats": [
+      6
+    ],
+    "description": "Dotser is a web software development company specialising in ecommerce and cloud-based business solutions.",
+    "icon": "Dotser.png",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "meta": {
+      "generator": "^Dotser\\sCommerce\\s([\\d\\.]+)/\\;version:\\1"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.dotser.ie"
+  },
+  "Dotter": {
+    "cats": [
+      6
+    ],
+    "description": "Dotter is a platform offering solutions for making media and websites shoppable.",
+    "icon": "Dotter.svg",
+    "js": {
+      "Dotter": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "apps\\.dotter\\.me",
+    "website": "https://www.dotter.me"
   },
   "DoubleClick Ad Exchange (AdX)": {
     "cats": [
@@ -1983,7 +2259,7 @@
     "cookies": {
       "Dynamicweb": ""
     },
-    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing​, product information management (PIM) and integration.",
+    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing\u200b, product information management (PIM) and integration.",
     "icon": "Dynamicweb.svg",
     "implies": "Microsoft ASP.NET",
     "meta": {
