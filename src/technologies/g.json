@@ -302,6 +302,22 @@
     },
     "website": "https://get.gaug.es"
   },
+  "Gcore": {
+    "cats": [
+      31
+    ],
+    "description": "Gcore is a public cloud and content delivery network (CDN) company.",
+    "headers": {
+      "x-id": "^[\\w-]+-gc\\d{2}$",
+      "x-id-fe": "^[\\w-]+-gc\\d{2}$"
+    },
+    "icon": "Gcore.svg",
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "website": "https://gcore.com"
+  },
   "GeeTest": {
     "cats": [
       16
@@ -646,6 +662,22 @@
     "scriptSrc": "api\\.at\\.getsocial\\.io",
     "website": "https://getsocial.io"
   },
+  "GetTerms": {
+    "cats": [
+      4
+    ],
+    "description": "GetTerms is a tool that generates privacy policies for web platforms.",
+    "icon": "GetTerms.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "onetime",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.getterms\\.io",
+    "website": "https://getterms.io"
+  },
   "GetYourGuide": {
     "cats": [
       72
@@ -848,7 +880,7 @@
     "cpe": "cpe:2.3:a:gitea:gitea:*:*:*:*:*:*:*:*",
     "description": "Gitea is an open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. It supports self-hosting but also provides a free public first-party instance hosted on DiDi's cloud.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+© Gitea Version: ([\\d.]+)\\;version:\\1"
+      "<div class=\"ui left\">\\n\\s+\u00a9 Gitea Version: ([\\d.]+)\\;version:\\1"
     ],
     "icon": "gitea.svg",
     "implies": "Go",
@@ -1131,6 +1163,19 @@
     ],
     "saas": true,
     "website": "https://apps.shopify.com/pre-order-pro"
+  },
+  "Glofox": {
+    "cats": [
+      72
+    ],
+    "description": "Glofox is a fitness management platform that assists gyms and fitness studios in managing memberships, class scheduling, and other business operations.",
+    "dom": "a[href*='.glofox.com/'], iframe[src*='.glofox.com/']",
+    "icon": "Glofox.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.glofox.com"
   },
   "Glopal": {
     "cats": [
@@ -1476,6 +1521,23 @@
     },
     "website": "https://www.gomage.com/magento-2-pwa"
   },
+  "GoPrep": {
+    "cats": [
+      93
+    ],
+    "cookies": {
+      "goprep_session": ""
+    },
+    "description": "GoPrep is a meal prep software tailored for the Meal Preparation & Delivery industry.",
+    "icon": "GoPrep.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://goprep.com"
+  },
   "GoStats": {
     "cats": [
       10
@@ -1488,6 +1550,24 @@
     },
     "website": "https://gostats.com/"
   },
+  "Goat Slider": {
+    "cats": [
+      59
+    ],
+    "description": "Goat Slider is a webflow library that enables users to construct advanced sliders for their sites.",
+    "icon": "GoatSlider.svg",
+    "js": {
+      "GoatSliderCarousel": "",
+      "GoatSliderSlider": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://goatslider.com"
+  },
   "GoatCounter": {
     "cats": [
       10
@@ -1497,6 +1577,20 @@
     "oss": true,
     "scriptSrc": "gc\\.zgo\\.at/count\\.js",
     "website": "https://www.goatcounter.com/"
+  },
+  "Godot": {
+    "cats": [
+      19
+    ],
+    "description": "Godot is a game engine that supports exporting to HTML5 with WebAssembly compatibility.",
+    "icon": "Godot.svg",
+    "implies": "WebAssembly",
+    "js": {
+      "GODOT_CONFIG": "",
+      "Godot": ""
+    },
+    "oss": true,
+    "website": "https://godotengine.org"
   },
   "Goftino": {
     "cats": [
@@ -1529,7 +1623,7 @@
     "cpe": "cpe:2.3:a:gogs:gogs:*:*:*:*:*:*:*:*",
     "description": "Gogs is a self-hosted Git service written in Go.",
     "html": [
-      "<div class=\"ui left\">\\n\\s+© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
+      "<div class=\"ui left\">\\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
       "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
     ],
     "icon": "gogs.png",
@@ -1565,13 +1659,28 @@
     "saas": true,
     "website": "https://www.gomag.ro"
   },
+  "Goober": {
+    "cats": [
+      59
+    ],
+    "description": "Goober is a minified CSS-in-JS styling solution.",
+    "dom": "style#_goober",
+    "icon": "Goober.png",
+    "js": {
+      "goober": "",
+      "gooberGlobal": "",
+      "gooberPrefixer": ""
+    },
+    "oss": true,
+    "website": "https://goober.js.org"
+  },
   "Google AdSense": {
     "cats": [
       36
     ],
     "description": "Google AdSense is a program run by Google through which website publishers serve advertisements that are targeted to the site content and audience.",
-    "icon": "Google AdSense.svg",
     "dom": "amp-ad[type='adsense']",
+    "icon": "Google AdSense.svg",
     "js": {
       "Goog_AdSense_": "",
       "Goog_AdSense_OsdAdapter": "",
@@ -1811,7 +1920,7 @@
     "cats": [
       35
     ],
-    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
+    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360\u00b0 interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
     "dom": "iframe[src*='google.com/maps']",
     "icon": "Google Maps.svg",
     "js": {
@@ -1890,6 +1999,9 @@
     "description": "Google Sign-In is a secure authentication system that reduces the burden of login for users, by enabling them to sign in with their Google account.",
     "dom": "iframe[src*='accounts.google.com/o/oauth2'], a[href*='accounts.google.com/o/oauth2']",
     "icon": "Google.svg",
+    "js": {
+      "googleSignInClientId": ""
+    },
     "meta": {
       "google-signin-client_id": "",
       "google-signin-scope": ""
@@ -1911,16 +2023,17 @@
       42
     ],
     "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
-    "html": [
-      "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
-      "<!-- (?:End )?Google Tag Manager -->"
-    ],
     "icon": "Google Tag Manager.svg",
     "js": {
+      "google_tag_data": "",
+      "google_tag_manager": "",
       "googletag": ""
     },
     "saas": true,
-    "scriptSrc": "googletagmanager\\.com/gtm\\.js",
+    "scriptSrc": [
+      "googletagmanager\\.com/gtm\\.js",
+      "\\.googletagmanager\\.com/"
+    ],
     "website": "https://www.google.com/tagmanager"
   },
   "Google Tag Manager for WordPress": {
@@ -2062,6 +2175,23 @@
     "saas": true,
     "scriptSrc": "grab-paylater\\.js",
     "website": "https://www.grab.com/sg/finance/pay-later/"
+  },
+  "Grade.us": {
+    "cats": [
+      32,
+      90
+    ],
+    "description": "Grade.us is a review management platform for marketing agencies.",
+    "dom": "script#gradeus-wjs, iframe[src*='www.grade.us']",
+    "icon": "GradeUs.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.grade\\.us",
+    "website": "https://www.grade.us"
   },
   "Grafana": {
     "cats": [
@@ -2347,6 +2477,23 @@
     },
     "website": "https://gridsome.org"
   },
+  "Gridster": {
+    "cats": [
+      5,
+      12
+    ],
+    "description": "Gridster is a jQuery plugin used to draw dashboards with drag-and-drop widgets.",
+    "implies": "jQuery",
+    "js": {
+      "Gridster": "",
+      "GridsterCollision": "",
+      "GridsterCoords": "",
+      "GridsterDraggable": ""
+    },
+    "oss": true,
+    "saas": true,
+    "website": "https://dsmorse.github.io/gridster.js"
+  },
   "Grin": {
     "cats": [
       32
@@ -2410,9 +2557,29 @@
       "gr_user_id": "",
       "grwng_uid": ""
     },
-    "icon": "GrowingIO.png",
+    "icon": "GrowingIO.svg",
     "scriptSrc": "assets\\.growingio\\.com/([\\d.]+)/gio\\.js\\;version:\\1",
     "website": "https://www.growingio.com/"
+  },
+  "GrowthBook": {
+    "cats": [
+      74
+    ],
+    "description": "GrowthBook is a platform for product teams to run and track experiments, analyze results, and make data-driven decisions to optimize their products for growth.",
+    "dom": "link[href*='cdn.growthbook.io']",
+    "icon": "GrowthBook.svg",
+    "js": {
+      "_growthbook.version": "([\\d\\.]+)\\;version:\\1",
+      "_siteSetting.growthBookApiHost": "",
+      "growthbook": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.growthbook.io"
   },
   "Guestonline": {
     "cats": [
@@ -2428,6 +2595,20 @@
     "saas": true,
     "scriptSrc": "ib\\.guestonline\\.\\w+",
     "website": "https://www.guestonline.io"
+  },
+  "Guidap": {
+    "cats": [
+      104
+    ],
+    "description": "Guidap is a platform enabling online activity sales, streamlining booking, scheduling, and payment collection processes across all devices, without commissions.",
+    "dom": "link[href*='//cart.guidap.net/']",
+    "icon": "Guidap.svg",
+    "js": {
+      "GUIDAP": "",
+      "GUIDAPInitConfig": ""
+    },
+    "saas": true,
+    "website": "https://guidap.com"
   },
   "GuideIT": {
     "cats": [
