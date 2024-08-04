@@ -1,4 +1,24 @@
 {
+  "S-COREpion": {
+    "cats": [
+      1
+    ],
+    "description": "S-COREpion is a PHP and MySQL-based content management system (CMS) used for creating and managing websites and web applications.",
+    "headers": {
+      "x-powered-by": "^S-COREpion CMS$"
+    },
+    "icon": "S-COREpion.svg",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "pricing": [
+      "poa",
+      "recurring",
+      "onetime"
+    ],
+    "website": "https://s-corepion.ru"
+  },
   "SALESmanago": {
     "cats": [
       97,
@@ -399,6 +419,24 @@
     },
     "website": "https://www.sabavision.com"
   },
+  "SabeeApp": {
+    "cats": [
+      53,
+      72
+    ],
+    "description": "SabeeApp is a property management system for hoteliers, managing reservations, controlling online distribution platforms, handling payments, and engaging with guests.",
+    "icon": "SabeeApp.svg",
+    "js": {
+      "webhome": "ibe\\.sabeeapp\\.com"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "ibe\\.sabeeapp\\.com/v(\\d+)/scripts\\;version:\\1",
+    "website": "https://www.sabeeapp.com"
+  },
   "Saber": {
     "cats": [
       57
@@ -570,6 +608,26 @@
     "scriptSrc": "api\\.salesreps\\.io/",
     "website": "https://salesreps.io"
   },
+  "SalesViewer": {
+    "cats": [
+      10,
+      32
+    ],
+    "description": "SalesViewer is a tool that identifies anonymous website visitors.",
+    "icon": "SalesViewer.svg",
+    "js": {
+      "SV_JSON": "",
+      "SV_XHR": "",
+      "SV_XHR_0": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.salesviewer.com"
+  },
   "Salesfloor": {
     "cats": [
       5,
@@ -609,7 +667,9 @@
       "SFDCApp": "",
       "SFDCCmp": "",
       "SFDCPage": "",
-      "SFDCSessionVars": ""
+      "SFDCSessionVars": "",
+      "pardot": "",
+      "piHostname": "pi.pardot"
     },
     "pricing": [
       "low"
@@ -795,8 +855,8 @@
     ],
     "description": "Salla is an ecommerce platform specifically tailored to serve businesses and customers in Saudi Arabia.",
     "headers": {
-      "x-powered-by": "^Salla$",
-      "X-Frame-Options": "\\.salla\\.sa"
+      "X-Frame-Options": "\\.salla\\.sa",
+      "x-powered-by": "^Salla$"
     },
     "icon": "Salla.svg",
     "js": {
@@ -902,6 +962,22 @@
     "website": "https://www.sanity.io",
     "xhr": "api(?:cdn)?\\.sanity\\.io"
   },
+  "Sapo": {
+    "cats": [
+      6
+    ],
+    "description": "Sapo is a popular multi-channel management and sales platform in Vietnam, offering advanced headless ecommerce technology to enhance the Omnichannel experience for over 230,000 merchants.",
+    "icon": "Sapo.svg",
+    "js": {
+      "Bizweb": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.sapo.vn"
+  },
   "Sapper": {
     "cats": [
       18
@@ -989,6 +1065,19 @@
     "scriptSrc": "/wp-content/themes/bento/",
     "website": "https://satoristudio.net/bento-free-wordpress-theme"
   },
+  "Satu": {
+    "cats": [
+      6
+    ],
+    "description": "Satu is a marketplace offering consumer, industrial, and wholesale products for business, home, and leisure needs.",
+    "icon": "Satu.svg",
+    "js": {
+      "CLERK_CONFIG.endpointUrl": "\\.satu\\.kz/"
+    },
+    "saas": true,
+    "scriptSrc": "my\\.satu\\.kz/.*/v([\\d\\.]+)/bare\\.js\\;version:\\1",
+    "website": "https://satu.kz"
+  },
   "Sazito": {
     "cats": [
       6
@@ -1020,6 +1109,28 @@
     "saas": true,
     "scriptSrc": "cdn\\.scalapay\\.com",
     "website": "https://www.scalapay.com/"
+  },
+  "Scalar": {
+    "cats": [
+      4,
+      47
+    ],
+    "description": "Scalar is a platform that offers tools for API documentation, testing, and discovery, with strong support for OpenAPI standards.",
+    "dom": "div[class*='scalar-api-reference']",
+    "icon": "Scalar.svg",
+    "implies": [
+      "Vue.js",
+      "TypeScript"
+    ],
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/npm/@scalar/api-reference@(\\d+\\.\\d+\\.\\d+)\\;version:\\1",
+    "website": "https://scalar.com"
   },
   "Scalefast": {
     "cats": [
@@ -1058,6 +1169,41 @@
     "icon": "Schedule Engine.svg",
     "scriptSrc": "webchat.scheduleengine.net",
     "website": "https://www.scheduleengine.com/"
+  },
+  "Schema App": {
+    "cats": [
+      54
+    ],
+    "description": "Schema App is a tool that converts website content into schema markup, the language of search.",
+    "icon": "SchemaApp.svg",
+    "js": {
+      "schema_highlighter": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.schemaapp\\.com/",
+    "website": "https://www.schemaapp.com"
+  },
+  "SchemaPlus": {
+    "cats": [
+      100
+    ],
+    "description": "SchemaPlus is a Shopify app for Shopify ecommerce shops to add schema to them and thereby make them easier to find for search engines.",
+    "icon": "SchemaPlus.png",
+    "js": {
+      "SchemaPlus_Reviews": "",
+      "SchemaPlus_handleCallback": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "//schemaplusfiles\\.s3\\.amazonaws\\.com/",
+    "website": "https://schemaplus.io"
   },
   "Scientific Linux": {
     "cats": [
@@ -1207,6 +1353,24 @@
     "scriptSrc": "\\.sealsubscriptions\\.com/",
     "website": "https://www.sealsubscriptions.com"
   },
+  "SealMetrics": {
+    "cats": [
+      10
+    ],
+    "description": "SealMetrics is a cookieless analytics system that enables businesses to track website performance and user behaviour.",
+    "icon": "SealMetrics.svg",
+    "js": {
+      "sm.VERSION": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.sealmetrics\\.com/",
+    "website": "https://sealmetrics.com"
+  },
   "SeamlessCMS": {
     "cats": [
       1
@@ -1270,6 +1434,21 @@
     ],
     "saas": true,
     "website": "https://www.searchiq.co"
+  },
+  "Searchine": {
+    "cats": [
+      29
+    ],
+    "description": "Searchine is a site search system that provides insights into visitor search behaviour and offers suggestions for website improvements.",
+    "icon": "Searchine.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.searchine\\.net/",
+    "website": "https://www.searchine.net"
   },
   "Searchspring": {
     "cats": [
@@ -1446,6 +1625,25 @@
     "scriptSrc": "cdn\\.segmentstream\\.com",
     "website": "https://segmentstream.com"
   },
+  "Segmentify": {
+    "cats": [
+      97,
+      76
+    ],
+    "description": "Segmentify is an ecommerce personalisation platform.",
+    "icon": "Segmentify.svg",
+    "js": {
+      "SegmentifyIntegration": "",
+      "SegmentifyTrackingObject": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "requiresCategory": 6,
+    "saas": true,
+    "scriptSrc": "\\.segmentify\\.com/",
+    "website": "https://segmentify.com"
+  },
   "Seko OmniReturns": {
     "cats": [
       102
@@ -1541,6 +1739,19 @@
     "saas": true,
     "website": "https://selldone.com"
   },
+  "Sellerdeck": {
+    "cats": [
+      6
+    ],
+    "description": "Sellerdeck is a SEO-friendly ecommerce solution, formerly known as Actinic.",
+    "icon": "Sellerdeck.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "sellerdeck\\.min\\.js",
+    "website": "https://www.sellerdeck.co.uk"
+  },
   "SellersCommerce": {
     "cats": [
       6
@@ -1596,7 +1807,7 @@
     "description": "Sellingo is a Polish ecommerce platform.",
     "dom": {
       "a[href*='sellingo.pl'][target='_blank']": {
-        "text": "Oprogramowanie sklepu internetowego Sellingo.pl"
+        "text": "Sellingo"
       }
     },
     "icon": "Sellingo.svg",
@@ -1729,6 +1940,24 @@
     "scriptSrc": "\\.sendpulse\\.com/",
     "website": "https://sendpulse.com"
   },
+  "SendX": {
+    "cats": [
+      32
+    ],
+    "description": "SendX is an email marketing software designed to help users send campaigns, build mailing lists, and automate marketing.",
+    "icon": "SendX.svg",
+    "js": {
+      "_sendx": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.sendx\\.io/",
+    "website": "https://www.sendx.io"
+  },
   "Sendgrid": {
     "cats": [
       75
@@ -1795,13 +2024,15 @@
     "icon": "Sentry.svg",
     "js": {
       "Raven.config": "",
+      "SENTRY_SDK_SOURCE": "",
       "Sentry": "",
       "Sentry.SDK_VERSION": "(.+)\\;version:\\1",
       "__SENTRY__": "",
       "ravenOptions.whitelistUrls": ""
     },
     "scriptSrc": [
-      "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
+      "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1",
+      "js\\.sentry-cdn\\.com/"
     ],
     "website": "https://sentry.io/"
   },
@@ -1816,6 +2047,19 @@
     "icon": "Seravo.svg",
     "implies": "WordPress",
     "website": "https://seravo.com"
+  },
+  "Serchen": {
+    "cats": [
+      90
+    ],
+    "description": "Serchen is a platform that enables buyers to search, compare and evaluate a vast quantity of vendors in an ever increasingly diverse range of industries.",
+    "icon": "Serchen.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.serchen\\.com/",
+    "website": "https://www.serchen.com"
   },
   "Serendipity": {
     "cats": [
@@ -1876,6 +2120,21 @@
     ],
     "website": "https://spp.co"
   },
+  "ServiceM8": {
+    "cats": [
+      53
+    ],
+    "description": "ServiceM8 is a field service management application that enables job dispatch, staff location, and communication with employees and clients without phone calls.",
+    "icon": "ServiceM8.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "platform\\.servicem8\\.com/",
+    "website": "https://www.servicem8.com"
+  },
   "ServiceNow": {
     "cats": [
       19
@@ -1894,6 +2153,37 @@
       "high"
     ],
     "website": "https://www.servicenow.com"
+  },
+  "SessionStack": {
+    "cats": [
+      10
+    ],
+    "description": "SessionStack is an AI-enhanced analytics platform for online retailers, helping convert visitors into customers.",
+    "icon": "SessionStack.svg",
+    "js": {
+      "SessionStack": ""
+    },
+    "saas": true,
+    "scriptSrc": "cdn\\.sessionstack\\.com/",
+    "website": "https://www.sessionstack.com"
+  },
+  "Sessionly": {
+    "cats": [
+      84
+    ],
+    "description": "Sessionly is a loyalty and referral program for Shopware and Shopify merchants, focusing on customer retention and acquisition through rewards and detailed analytics.",
+    "icon": "Sessionly.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": [
+      "Shopware",
+      "Shopify"
+    ],
+    "saas": true,
+    "scriptSrc": "//sessionly\\.io/",
+    "website": "https://sessionly.hubspotpagebuilder.com"
   },
   "Setmore": {
     "cats": [
@@ -1916,6 +2206,24 @@
       "/setmore-appointments/script/"
     ],
     "website": "https://www.setmore.com"
+  },
+  "Setrow": {
+    "cats": [
+      32
+    ],
+    "description": "Setrow is a platform offering integrated digital marketing tools, including email and SMS marketing, push notifications, and recommendation engines, to optimize customer engagement and marketing strategies.",
+    "icon": "Setrow.svg",
+    "js": {
+      "setrowCookies": "",
+      "setrowID": "",
+      "setrowSua": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.setrowid\\.com/",
+    "website": "https://setrow.com"
   },
   "SevenRooms": {
     "cats": [
@@ -2110,6 +2418,36 @@
     "scripts": "\"sheerIdEndpoint\":",
     "website": "https://www.sheerid.com/"
   },
+  "Sheet Monkey": {
+    "cats": [
+      110
+    ],
+    "description": "Sheet Monkey is a form builder that stores data in Google Sheets, eliminating the need for a backend.",
+    "dom": "form[action*='api.sheetmonkey.io/']",
+    "icon": "SheetMonkey.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://sheetmonkey.io"
+  },
+  "Sheety": {
+    "cats": [
+      47
+    ],
+    "description": "Sheety is a service that transforms your Google Sheet into an API, enabling easy access to your data for integration with other applications.",
+    "icon": "Sheety.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "api\\.sheety\\.co/",
+    "website": "https://sheety.co/"
+  },
   "Shelf": {
     "cats": [
       33
@@ -2138,6 +2476,21 @@
       "ShellInABox": ""
     },
     "website": "https://shellinabox.com"
+  },
+  "Sherlock": {
+    "cats": [
+      53
+    ],
+    "description": "Sherlock is a platform that offers specialized real estate property management software, including trust accounting, for residential, commercial, sales, and holiday properties.",
+    "icon": "Sherlock.svg",
+    "js": {
+      "Sherlock_favourite_properties": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://sherlocksoftware.com"
   },
   "Shift4Shop": {
     "cats": [
@@ -2246,6 +2599,16 @@
     "saas": true,
     "website": "https://www.shoefitr.io"
   },
+  "Shoelace": {
+    "cats": [
+      66
+    ],
+    "description": "Shoelace is an open-source, framework-agnostic component for building accessible web applications.",
+    "icon": "Shoelace.svg",
+    "oss": true,
+    "scriptSrc": "/npm/@shoelace-style/shoelace@([\\d.]+)\\;version:\\1",
+    "website": "https://shoelace.style"
+  },
   "Shogun Frontend": {
     "cats": [
       108
@@ -2350,6 +2713,39 @@
     "saas": true,
     "website": "https://www.shopbase.com"
   },
+  "ShopFactory": {
+    "cats": [
+      6
+    ],
+    "description": "ShopFactory is an all-in-one ecommerce platform that allows businesses to create and manage their online stores without the need for extensive technical expertise.",
+    "icon": "ShopFactory.svg",
+    "meta": {
+      "generator": "^ShopFactory V([0-9.]+) www\\.shopfactory\\.com$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.shopfactory.com"
+  },
+  "ShopGate": {
+    "cats": [
+      6
+    ],
+    "description": "ShopGate is a provider of omnichannel commerce solutions.",
+    "icon": "ShopGate.svg",
+    "js": {
+      "ShopgateMobileHeader": "",
+      "_shopgate": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.shopgate.com"
+  },
   "ShopGold": {
     "cats": [
       6
@@ -2362,6 +2758,23 @@
     "description": "ShopGold is an all-in-one payment processing and ecommerce solution.",
     "icon": "ShopGold.svg",
     "website": "https://www.shopgold.pl"
+  },
+  "ShopHub": {
+    "cats": [
+      84
+    ],
+    "description": "ShopHub is a platform that helps Shopify store owners grow their businesses by providing loyalty programs, coupons, and email capture services.",
+    "icon": "ShopHub.svg",
+    "js": {
+      "toggleShopHubWidget": ""
+    },
+    "pricing": [
+      "freemium"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "app\\.tryshophub\\.com/",
+    "website": "https://www.tryshophub.com"
   },
   "ShopPad Infinite Options": {
     "cats": [
@@ -2378,6 +2791,24 @@
       "recurring"
     ],
     "website": "https://apps.shopify.com/custom-options"
+  },
+  "ShopSite": {
+    "cats": [
+      6
+    ],
+    "description": "ShopSite is a provider of shopping cart software tailored for small to medium-sized businesses.",
+    "icon": "ShopSite.svg",
+    "meta": {
+      "generator": "^ShopSite Pro (\\d+\\.\\d+)\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://www.shopsite.com"
   },
   "ShopWired": {
     "cats": [
@@ -2447,6 +2878,22 @@
     "scriptSrc": "mediacdn\\.shopatron\\.com",
     "website": "https://ecommerce.shopatron.com"
   },
+  "Shopblocks": {
+    "cats": [
+      6
+    ],
+    "description": "Shopblocks is a B2B ecommerce partner that transforms complex commercial challenges into growth opportunities.",
+    "dom": "link[href*='.myshopblocks.com/']",
+    "icon": "Shopblocks.svg",
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.myshopblocks\\.com/",
+    "website": "https://www.shopblocks.com"
+  },
   "Shopcada": {
     "cats": [
       6
@@ -2502,6 +2949,21 @@
     },
     "website": "https://shopfa.com"
   },
+  "Shopflo": {
+    "cats": [
+      41
+    ],
+    "description": "Shopflo is a platform that enables easy checkout experience for ecommerce brands.",
+    "icon": "Shopflo.svg",
+    "js": {
+      "Shopflo": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://shopflo.com"
+  },
   "ShopiMind": {
     "cats": [
       32
@@ -2525,6 +2987,8 @@
     ],
     "cookies": {
       "_shopify_s": "",
+      "_shopify_sa_p": "",
+      "_shopify_sa_t": "",
       "_shopify_y": ""
     },
     "description": "Shopify is a subscription-based software that allows anyone to set up an online store and sell their products. Shopify store owners can also sell in physical locations using Shopify POS, a point-of-sale app and accompanying hardware.",
@@ -2544,7 +3008,9 @@
       "SHOPIFY_API_BASE_URL": "",
       "Shopify": "\\;confidence:25",
       "ShopifyAPI": "",
-      "ShopifyCustomer": ""
+      "ShopifyAnalytics": "",
+      "ShopifyCustomer": "",
+      "shopifyAccessUrl": ""
     },
     "meta": {
       "shopify-checkout-api-token": "",
@@ -2735,13 +3201,32 @@
     "robots": "# Powered by Shoporama",
     "website": "https://www.shoporama.dk"
   },
+  "Shoppable": {
+    "cats": [
+      41
+    ],
+    "description": "Shoppable is a multi-retailer checkout technology.",
+    "icon": "Shoppable.svg",
+    "js": {
+      "ShoppableApi": ""
+    },
+    "pricing": [
+      "freemium",
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.shoppable\\.com/",
+    "website": "https://about.shoppable.com"
+  },
   "Shoppiko": {
     "cats": [
       6
     ],
     "description": "Shoppiko is an ecommerce platform solution in India, which provides ecommerce website or ecommerce mobile application.",
     "dom": "a[href*='shoppiko.com'][target='_blank']",
-    "icon": "Shoppiko.png",
+    "icon": "Shoppiko.svg",
     "pricing": [
       "low",
       "recurring"
@@ -2872,7 +3357,7 @@
       6
     ],
     "description": "Shoptet is an ecommerce solutions from store builder, inventory management of online payments.",
-    "html": "<link [^>]*href=\"https?://cdn\\.myshoptet\\.com/",
+    "dom": "link[href*='cdn.myshoptet.com']",
     "icon": "Shoptet.svg",
     "implies": "PHP",
     "js": {
@@ -2886,12 +3371,29 @@
     ],
     "website": "https://www.shoptet.cz"
   },
+  "Shopthru": {
+    "cats": [
+      6
+    ],
+    "description": "Shopthru is an ecommerce platform empowering businesses with tools to enhance connections, inspire delight, and foster prosperity.",
+    "icon": "Shopthru.svg",
+    "js": {
+      "shopthru_add_to_cart": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.shopthru\\.xyz/",
+    "website": "https://www.shopthru.xyz"
+  },
   "Shopware": {
     "cats": [
       6
     ],
     "cpe": "cpe:2.3:a:shopware:shopware:*:*:*:*:*:*:*:*",
     "description": "Shopware is an enterprise-level ecommerce platform.",
+    "dom": "input[name*='shopware_']",
     "headers": {
       "sw-context-token": "^[\\w]{32}$\\;version:6",
       "sw-invalidation-states": "\\;version:6",
@@ -2907,6 +3409,7 @@
       "Symfony"
     ],
     "js": {
+      "mollie_javascript_use_shopware": "",
       "shopStudioGoogleTagManagerCloudGtagCallback": "\\;confidence:50"
     },
     "meta": {
@@ -3135,14 +3638,36 @@
     "description": "Simple Analytics is a privacy-friendly Google Analytics alternative.",
     "icon": "Simple Analytics.svg",
     "js": {
-      "sa_event": ""
+      "sa_event": "\\;confidence:25",
+      "sa_event_loaded": "\\;confidence:50",
+      "sa_loaded": "\\;confidence:25"
     },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
     "scriptSrc": [
       "simpleanalyticscdn\\.com",
       "simpleanalytics\\.io",
       "simpleanalytics\\.com"
     ],
     "website": "https://simpleanalytics.com"
+  },
+  "Simple Goods": {
+    "cats": [
+      6
+    ],
+    "description": "Simple Goods is a platform that enables online selling through a website.",
+    "dom": "link[href*='app.simplegoods.co/']",
+    "icon": "SimpleGoods.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://simplegoods.co"
   },
   "Simple Machines Forum": {
     "cats": [
@@ -3164,6 +3689,32 @@
     },
     "oss": true,
     "website": "https://www.simplemachines.org"
+  },
+  "Simple.css": {
+    "cats": [
+      66
+    ],
+    "description": "Simple.css is a CSS template.",
+    "dom": "link[href*='cdn.simplecss.org/']",
+    "icon": "Simple.css.png",
+    "oss": true,
+    "website": "https://simplecss.org"
+  },
+  "Simple.ink": {
+    "cats": [
+      51
+    ],
+    "description": "Simple.ink allows you to build no-code websites with Notion.",
+    "dom": "html#simple-ink",
+    "icon": "Simple.ink.svg",
+    "implies": "Notion",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.simple.ink"
   },
   "SimpleHTTP": {
     "cats": [
@@ -3187,6 +3738,22 @@
     "implies": "PHP",
     "oss": true,
     "website": "https://simplesamlphp.org"
+  },
+  "SimpleSat": {
+    "cats": [
+      73
+    ],
+    "description": "SimpleSat is a customer satisfaction survey tool designed for service businesses to collect feedback from their customers in an engaging manner.",
+    "dom": "link[href*='cdn.simplesat.io/']",
+    "icon": "SimpleSat.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.simplesat\\.io/",
+    "website": "https://www.simplesat.io"
   },
   "Simplero": {
     "cats": [
@@ -3223,6 +3790,18 @@
     "saas": true,
     "website": "https://simplero.com/websites"
   },
+  "SimplexNoise.js": {
+    "cats": [
+      59
+    ],
+    "description": "SimplexNoise.js is a library that generates pseudorandom noise functions, designed for use in video games, graphical applications, and demoscene production.",
+    "js": {
+      "SimplexNoise": ""
+    },
+    "oss": true,
+    "scriptSrc": "/simplex-noise/([\\d\\.]+)/simplex-noise.min.js\\;version:\\1",
+    "website": "https://github.com/jwagner/simplex-noise.js"
+  },
   "Simpli.fi": {
     "cats": [
       36
@@ -3236,7 +3815,7 @@
     "cats": [
       100
     ],
-    "description": "Simplio Upsells сreate more revenue with promotions and post purchase upsells.",
+    "description": "Simplio Upsells \u0441reate more revenue with promotions and post purchase upsells.",
     "icon": "Simplio Upsells.png",
     "implies": "Shopify",
     "pricing": [
@@ -3261,7 +3840,63 @@
     "scriptSrc": "cdn\\.simplo7\\.\\w+/",
     "website": "https://www.simplo7.com.br"
   },
-  "Simplébo": {
+  "Simplotel": {
+    "cats": [
+      93
+    ],
+    "description": "Simplotel is a hotel booking engine.",
+    "icon": "Simplotel.svg",
+    "js": {
+      "validateform_simplotel": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.simplotel\\.com/",
+    "website": "https://www.simplotel.com"
+  },
+  "SimplyBook.me": {
+    "cats": [
+      72
+    ],
+    "description": "SimplyBook.me is an online appointment scheduling and booking software.",
+    "dom": {
+      "a[href*='.simplybook.'][target='_blank']": {
+        "attributes": {
+          "href": "\\.simplybook\\.(?:asia|it|me)"
+        }
+      }
+    },
+    "icon": "SimplyBook.me.svg",
+    "js": {
+      "configSoinSimplyPush": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.simplybook\\.(?:asia|it|me)",
+    "website": "https://simplybook.me"
+  },
+  "SimplyCast": {
+    "cats": [
+      32
+    ],
+    "description": "SimplyCast is a custom flow communication platform designed to facilitate personalised messaging and automated workflows, allowing businesses to streamline their communication processes.",
+    "dom": "iframe[scr*='.simplycast.com']",
+    "icon": "SimplyCast.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.simplycast\\.com/",
+    "website": "https://www.simplycast.com"
+  },
+  "Simpl\u00e9bo": {
     "cats": [
       1
     ],
@@ -3303,6 +3938,23 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/sinatra/.+sinatra\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://try.sinatrawp.com"
+  },
+  "Sinch": {
+    "cats": [
+      53
+    ],
+    "description": "Sinch is a platform that connects businesses and customers through tools that enable personal engagement.",
+    "icon": "Sinch.svg",
+    "js": {
+      "SinchClient": "",
+      "SinchSdk": ""
+    },
+    "pricing": [
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.sinch.com"
   },
   "Sirclo": {
     "cats": [
@@ -3481,6 +4133,20 @@
     "scriptSrc": "biz\\.sitejabber\\.com",
     "website": "https://www.sitejabber.com/"
   },
+  "SiteLock": {
+    "cats": [
+      16
+    ],
+    "description": "SiteLock is a security service that protects websites from hackers, malware, and other threats.",
+    "dom": "a[href*='#'] > img[src*='.sitelock.com/']",
+    "icon": "SiteLock.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.sitelock.com"
+  },
   "SiteManager": {
     "cats": [
       1
@@ -3490,7 +4156,8 @@
     "icon": "SiteManager.svg",
     "js": {
       "SM_CookiesModal": "\\;confidence:50",
-      "SM_Modal": "\\;confidence:50"
+      "SM_Modal": "\\;confidence:50",
+      "swvar_urltext": "Powered By SiteManager"
     },
     "pricing": [
       "low",
@@ -3578,12 +4245,28 @@
     ],
     "website": "https://sitepad.com"
   },
+  "SitePoint": {
+    "cats": [
+      80
+    ],
+    "description": "Sitepoint is a platform for creating beautiful and responsive custom WordPress themes.",
+    "dom": "script#sitepoint-base-vendors-js",
+    "icon": "SitePoint.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "scriptSrc": "/wp-content/themes/sitepoint-base/js/vendors(?:\\.min)?\\.js\\?ver=([\\d.]+)\\;version:\\1",
+    "website": "https://www.sitepoint.com/wordpress"
+  },
   "SiteSpect": {
     "cats": [
       74
     ],
     "description": "SiteSpect is the A/B testing and optimisation solution.",
-    "icon": "SiteSpect.png",
+    "icon": "SiteSpect.svg",
     "js": {
       "ss_dom_var": ""
     },
@@ -3741,6 +4424,20 @@
     "scriptSrc": "(?:\\.|//)siteimprove(?:analytics)?\\.com/js/siteanalyze",
     "website": "https://www.siteimprove.com"
   },
+  "Siteklik": {
+    "cats": [
+      51
+    ],
+    "description": "Siteklik is a sitebuilder designed for small businesses and self-employed individuals.",
+    "icon": "Siteklik.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "//webstats\\.siteklik\\.nl/",
+    "website": "https://siteklik.nl/"
+  },
   "Sitepark IES": {
     "cats": [
       1
@@ -3806,6 +4503,15 @@
       "generator": "Sivuviidakko"
     },
     "website": "https://sivuviidakko.fi"
+  },
+  "SixCMS": {
+    "cats": [
+      1
+    ],
+    "description": "SixCMS is a content management system (CMS) used for creating and managing websites and digital content.",
+    "dom": "img[src*='/sixcms/']",
+    "icon": "SixCMS.svg",
+    "website": "https://www.six.de/produktwelt/content-management/"
   },
   "Sizebay": {
     "cats": [
@@ -3950,6 +4656,17 @@
     ],
     "saas": true,
     "website": "https://www.skolengo.com"
+  },
+  "Skrollr": {
+    "cats": [
+      59
+    ],
+    "description": "Skrollr is a JavaScript library supporting parallax scrolling on mobile and desktop platforms in a compact 12k minified size.",
+    "js": {
+      "skrollr.VERSION": "^(.+)$\\;version:\\1"
+    },
+    "oss": true,
+    "website": "https://prinzhorn.github.io/skrollr/"
   },
   "Sky-Shop": {
     "cats": [
@@ -4100,6 +4817,22 @@
     "saas": true,
     "website": "https://slickstack.io"
   },
+  "SlickText": {
+    "cats": [
+      32
+    ],
+    "description": "SlickText is a cloud-based SMS marketing solution for business of all sizes.",
+    "icon": "SlickText.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.slicktext\\.com/",
+    "website": "https://www.slicktext.com"
+  },
   "Slider Captcha": {
     "cats": [
       16
@@ -4138,8 +4871,20 @@
       "onetime"
     ],
     "saas": true,
-    "scriptSrc": "/wp-content/plugins/revslider/",
+    "scriptSrc": [
+      "/wp-content/plugins/revslider/",
+      "jquery\\.themepunch\\.revolution\\.min\\.js"
+    ],
     "website": "https://www.sliderrevolution.com"
+  },
+  "Slim Select": {
+    "cats": [
+      59
+    ],
+    "description": "Slim Select is a JavaScript library designed to enable the creation of select dropdowns with enhanced functionality and features.",
+    "dom": "div.ss-values, div.ss-deselect.ss-hide",
+    "icon": "SlimSelect.png",
+    "website": "https://slimselectjs.com"
   },
   "Slimbox": {
     "cats": [
@@ -4160,6 +4905,22 @@
     "implies": "jQuery",
     "scriptSrc": "slimbox2\\.js",
     "website": "https://www.digitalia.be/software/slimbox2"
+  },
+  "Slotti": {
+    "cats": [
+      72
+    ],
+    "description": "Slotti is a cloud-based appointment booking and checkout system tailored for service companies.",
+    "icon": "Slotti.svg",
+    "js": {
+      "Slotti": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://slotti.fi"
   },
   "Smart Ad Server": {
     "cats": [
@@ -4287,6 +5048,20 @@
     "saas": true,
     "scriptSrc": "\\.smartlook\\.com/",
     "website": "https://www.smartlook.com"
+  },
+  "Smartocto": {
+    "cats": [
+      10
+    ],
+    "description": "Smartocto is a smart content analytics system.",
+    "icon": "Smartocto.svg",
+    "pricing": [
+      "high",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.smartocto\\.com/",
+    "website": "https://smartocto.com"
   },
   "Smartstore": {
     "cats": [
@@ -4485,6 +5260,19 @@
     "saas": true,
     "website": "https://snapengage.com/"
   },
+  "SnapHost": {
+    "cats": [
+      16
+    ],
+    "description": "SnapHost is a solution offering anti-spam CAPTCHA web form protection.",
+    "dom": "form[action*='.SnapHost.com/']",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://snaphost.com"
+  },
   "SnapWidget": {
     "cats": [
       5
@@ -4509,22 +5297,13 @@
       "snipcart-cart": ""
     },
     "description": "Snipcart is a shopping cart platform that can be integrated into any website with simple HTML and JavaScript.",
-    "dom": {
-      "div#snipcart": {
-        "text": ""
-      },
-      "link[href*='snipcart.css']": {
-        "attributes": {
-          "href": ""
-        }
-      }
-    },
+    "dom": "div[id^='snipcart'], link[href*='snipcart.css']",
     "icon": "Snipcart.svg",
     "pricing": [
       "payg"
     ],
     "saas": true,
-    "scriptSrc": "https://cdn\\.snipcart\\.com/themes/v([\\w.]+)/default/snipcart\\.js\\;version:\\1",
+    "scriptSrc": "cdn\\.snipcart\\.com/themes/v([\\w.]+)/default/snipcart\\.js\\;version:\\1",
     "website": "https://snipcart.com"
   },
   "SniperFast": {
@@ -4606,6 +5385,22 @@
     ],
     "website": "https://snowplowanalytics.com"
   },
+  "SoTellUs": {
+    "cats": [
+      90
+    ],
+    "cookies": {
+      "stu_src": ""
+    },
+    "description": "SoTellUs is a video review platform.",
+    "icon": "SoTellUs.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "//sotellus\\.com/js/sotellus_widget\\.js",
+    "website": "https://sotellus.com"
+  },
   "SobiPro": {
     "cats": [
       19
@@ -4616,6 +5411,27 @@
       "SobiProUrl": ""
     },
     "website": "https://sigsiu.net/sobipro.html"
+  },
+  "Social Snowball": {
+    "cats": [
+      71
+    ],
+    "cookies": {
+      "_omappvp": "",
+      "social_snowball_session": ""
+    },
+    "description": "Social Snowball is an affiliate and referral marketing platform tailored for ecommerce brands.",
+    "icon": "SocialSnowball.svg",
+    "js": {
+      "snowballTrackScript": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://socialsnowball.io"
   },
   "Social9": {
     "cats": [
@@ -4676,6 +5492,25 @@
     "scriptSrc": "/wp-content/plugins/ag-core/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://www.societe-des-avis-garantis.fr"
   },
+  "Socital": {
+    "cats": [
+      6,
+      32
+    ],
+    "description": "Socital is an on-site campaign toolkit designed for ecommerce platforms.",
+    "dom": "script#socital-script",
+    "icon": "Socital.svg",
+    "js": {
+      "socital": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://socital.com"
+  },
   "Socket.io": {
     "cats": [
       12
@@ -4695,7 +5530,7 @@
     ],
     "icon": "softtr.png",
     "meta": {
-      "author": "SoftTr E-Ticaret Sitesi Yazılımı"
+      "author": "SoftTr E-Ticaret Sitesi Yaz\u0131l\u0131m\u0131"
     },
     "website": "https://www.softtr.com"
   },
@@ -4719,6 +5554,22 @@
     ],
     "saas": true,
     "website": "https://www.softr.io"
+  },
+  "SoftwareSuggest": {
+    "cats": [
+      53
+    ],
+    "description": "SoftwareSuggest is a platform assisting businesses in locating suitable software solutions.",
+    "dom": "iframe[src*='trk.softwaresuggest.com']",
+    "icon": "SoftwareSuggest.svg",
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "trk\\.softwaresuggest\\.com",
+    "website": "https://www.softwaresuggest.com"
   },
   "Soisy": {
     "cats": [
@@ -4777,6 +5628,24 @@
     },
     "oss": true,
     "website": "https://start.solidjs.com"
+  },
+  "Solidus": {
+    "cats": [
+      6
+    ],
+    "cpe": "cpe:2.3:a:nebulab:solidus:*:*:*:*:*:*:*:*",
+    "description": "Solidus is an open source ecommerce platform designed for high volume, complex storefronts.",
+    "icon": "Solidus.svg",
+    "js": {
+      "Solidus": "",
+      "SolidusPaypalCommercePlatform": ""
+    },
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://solidus.io"
   },
   "Solodev": {
     "cats": [
@@ -4895,6 +5764,25 @@
     "saas": true,
     "website": "https://sonobi.com",
     "xhr": "apex\\.go\\.sonobi\\.com"
+  },
+  "Soocommerce": {
+    "cats": [
+      6
+    ],
+    "description": "Soocommerce is a platform specialized in ecommerce software development.",
+    "icon": "Soocommerce.png",
+    "js": {
+      "sessionStorage.firmName": "soocommerce"
+    },
+    "meta": {
+      "author": "Soocommerce"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://soocommerce.com/"
   },
   "Sortable": {
     "cats": [
@@ -5160,6 +6048,20 @@
     "scriptSrc": "\\.speedcurve\\.com",
     "website": "https://www.speedcurve.com"
   },
+  "SpeedEcom": {
+    "cats": [
+      6
+    ],
+    "description": "SpeedEcom is a web marketing and dropshipping solution for Shopify.",
+    "icon": "SpeedEcom.svg",
+    "pricing": [
+      "poa"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "\\.speed-ecom\\.eu/",
+    "website": "https://speed-ecom.eu"
+  },
   "SpeedSize": {
     "cats": [
       92
@@ -5191,17 +6093,40 @@
     "scriptSrc": "cdn\\.shopify\\.com/.+/assets/speedimize\\.js",
     "website": "https://speedimize.io"
   },
+  "Spektrix": {
+    "cats": [
+      53
+    ],
+    "description": "Spektrix is a cloud-based ticketing, marketing, and fundraising CRM system putting audience insight at your fingertips.",
+    "icon": "Spektrix.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.spektrix\\.com/",
+    "website": "https://www.spektrix.com"
+  },
   "Sphinx": {
     "cats": [
       4
     ],
-    "description": "Sphinx is a tool that makes it easy to create documentation.",
-    "html": "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.\\;version:\\1",
+    "description": "Sphinx is a documentation generator for Python projects using reStructuredText.",
+    "dom": {
+      "div.sphinxsidebar > div.sphinxsidebarwrapper": {
+        "exists": ""
+      },
+      "p.sphinx-version": {
+        "text": "([\\d]+(?:\\.[\\d]+)*)\\;version:\\1"
+      }
+    },
     "icon": "Sphinx.svg",
     "js": {
-      "DOCUMENTATION_OPTIONS": ""
+      "DOCUMENTATION_OPTIONS": "",
+      "SPHINX_HIGHLIGHT_ENABLED": "",
+      "SphinxHighlight": ""
     },
-    "website": "https://www.sphinx-doc.org/"
+    "oss": true,
+    "website": "https://www.sphinx-doc.org"
   },
   "SpiceThemes SpicePress": {
     "cats": [
@@ -5232,6 +6157,19 @@
     "saas": true,
     "scriptSrc": "client\\.spinasale\\.com/",
     "website": "https://spinasale.com"
+  },
+  "Spin.js": {
+    "cats": [
+      59
+    ],
+    "description": "Spin.js is a configurable JavaScript/CSS spinner serving as a resolution-independent loading indicator.",
+    "icon": "SpinJS.svg",
+    "js": {
+      "Spinner": ""
+    },
+    "saas": true,
+    "scriptSrc": "cdnjs\\.cloudflare\\.com/ajax/libs/spin\\.js/([\\d\\.]+)/spin\\.min\\.js\\;version:\\1",
+    "website": "https://spin.js.org"
   },
   "Spinnakr": {
     "cats": [
@@ -5374,6 +6312,22 @@
     ],
     "website": "https://splunk.com"
   },
+  "Spoki": {
+    "cats": [
+      53
+    ],
+    "description": "Spoki is a WhatsApp conversational platform designed to provide marketing, sales, and customer support.",
+    "dom": "style#spoki-style-buttons",
+    "icon": "Spoki.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.spoki\\.it/",
+    "website": "https://spoki.it"
+  },
   "SpotHopper": {
     "cats": [
       51,
@@ -5392,6 +6346,21 @@
     "saas": true,
     "scriptSrc": "static\\.spotapps\\.co/",
     "website": "https://www.spothopperapp.com"
+  },
+  "SpotOn": {
+    "cats": [
+      41
+    ],
+    "description": "SpotOn is a provider of point-of-sale systems and payment processing software tailored to fit your workflow.",
+    "icon": "SpotOn.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cdn\\.spoton\\.com",
+    "website": "https://www.spoton.com"
   },
   "SpotX": {
     "cats": [
@@ -5457,13 +6426,72 @@
     "scriptSrc": "widget\\.spotii\\.me",
     "website": "https://www.spotii.com/"
   },
+  "Spotler Activate": {
+    "cats": [
+      97
+    ],
+    "description": "Spotler Activate is a customer data platform (CDP) that provides technical capabilities for data collection, segmentation, audience targeting, campaign orchestration, and analytics, empowering businesses to personalise customer experiences and optimise marketing efforts.",
+    "icon": "SpotlerActivate.svg",
+    "js": {
+      "sqzlCommon.getVariantName": "",
+      "sqzlPersonalization": ""
+    },
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "//squeezely\\.tech/",
+    "website": "https://spotleractivate.com"
+  },
+  "Spotzer": {
+    "cats": [
+      54
+    ],
+    "description": "Spotzer is a platform offering solutions for crafting online content that garners high exposure on search engines and social networks.",
+    "icon": "Spotzer.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.spotzer\\.com/",
+    "website": "https://spotzerdigital.com"
+  },
+  "Spotzi": {
+    "cats": [
+      10,
+      79
+    ],
+    "description": "Spotzi is a provider of geomarketing solutions, focusing on data analytics and marketing.",
+    "icon": "Spotzi.svg",
+    "js": {
+      "Spotzi": ""
+    },
+    "meta": {
+      "author": "^Spotzi$"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.spotzi.com"
+  },
   "Spree": {
     "cats": [
       6
     ],
+    "cpe": "cpe:2.3:a:spreecommerce:spree:*:*:*:*:*:*:*:*",
+    "description": "Spree is an open-source ecommerce framework built with Ruby on Rails, providing a customisable and modular platform for building online storefronts.",
     "html": "(?:<link[^>]*/assets/store/all-[a-z\\d]{32}\\.css[^>]+>|<script>\\s*Spree\\.(?:routes|translations|api_key))",
-    "icon": "Spree.png",
+    "icon": "Spree.svg",
     "implies": "Ruby on Rails",
+    "js": {
+      "Spree": "",
+      "SpreeAPI": ""
+    },
+    "oss": true,
     "website": "https://spreecommerce.org"
   },
   "Sprig": {
@@ -5487,9 +6515,9 @@
   },
   "Sprig plugin": {
     "cats": [
-      19
+      66
     ],
-    "description": "Sprig is a free plugin for Craft CMS that allows you to create reactive components from Twig templates ​or PHP classes.",
+    "description": "Sprig is a free plugin for Craft CMS that allows you to create reactive components from Twig templates \u200bor PHP classes.",
     "dom": "form[sprig], button[sprig], input[sprig], div.sprig-component",
     "icon": "Sprig plugin.svg",
     "requires": "Craft CMS",
@@ -5510,7 +6538,11 @@
     "cats": [
       6
     ],
+    "cookies": {
+      "_teespring_session_5": ""
+    },
     "description": "Spring for creators (formerly Teespring) is a creator-centric social ecommerce platform.",
+    "dom": "link[href*='teespring.com/'][rel='canonical']",
     "icon": "Spring for creators.svg",
     "js": {
       "webpackJsonpteespring-custom-storefront": ""
@@ -5521,6 +6553,25 @@
     "saas": true,
     "scriptSrc": "\\.creator-spring\\.com/",
     "website": "https://www.spri.ng"
+  },
+  "Sprinklr": {
+    "cats": [
+      53
+    ],
+    "description": "Sprinklr is a customer experience management platform that unifies front-office teams, tools, and touchpoints using AI technology.",
+    "icon": "Sprinklr.svg",
+    "js": {
+      "sprChat": "",
+      "sprChatSettings": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.sprinklr\\.com/",
+    "website": "https://www.sprinklr.com"
   },
   "SprintHub": {
     "cats": [
@@ -6181,6 +7232,41 @@
     "scriptSrc": "//statuspal\\.io/",
     "website": "https://statuspal.io"
   },
+  "Stax": {
+    "cats": [
+      41
+    ],
+    "description": "Stax is a subscription-based platform offering integrated payment technology.",
+    "icon": "Stax.svg",
+    "js": {
+      "StaxJs": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "staxjs\\.staxpayments\\.com/",
+    "website": "https://staxpayments.com"
+  },
+  "Stay22": {
+    "cats": [
+      104,
+      71
+    ],
+    "description": "Stay22 is a travel tech company that offers affiliate revenue generation opportunities for events, ticketing and travel media publications.",
+    "icon": "Stay22.svg",
+    "js": {
+      "Stay22.version": "([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.stay22\\.com/",
+    "website": "https://www.stay22.com"
+  },
   "Staytus": {
     "cats": [
       13
@@ -6256,6 +7342,20 @@
     "oss": true,
     "website": "https://stitches.dev"
   },
+  "Stoplight": {
+    "cats": [
+      4
+    ],
+    "description": "Stoplight is a company that offers a platform for API design, documentation, testing, and collaboration throughout the API development lifecycle.",
+    "icon": "Stoplight.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "//stoplight\\.io/",
+    "website": "https://stoplight.io"
+  },
   "StoreHippo": {
     "cats": [
       6
@@ -6269,6 +7369,23 @@
     ],
     "saas": true,
     "website": "https://www.storehippo.com"
+  },
+  "StorePoint": {
+    "cats": [
+      35
+    ],
+    "description": "StorePoint is a store locator software that allows anyone to build a store locator for their website and fully customize it to match the website theme, branding, colors, exact fonts and much more.",
+    "icon": "StorePoint.svg",
+    "js": {
+      "STOREPOINT": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.storepoint\\.co/",
+    "website": "https://storepoint.co"
   },
   "Storeden": {
     "cats": [
@@ -6341,7 +7458,7 @@
     ],
     "description": "StorifyMe is a storytelling platform for creating and distributing web stories on social networks and the open web.",
     "dom": "link[href*='cdn.storifyme.com/']",
-    "icon": "StorifyMe.png",
+    "icon": "StorifyMe.svg",
     "pricing": [
       "freemium",
       "poa"
@@ -6394,10 +7511,44 @@
     "description": "Storybook is a frontend workshop for building UI components and pages in isolation.",
     "icon": "storybook.svg",
     "js": {
+      "__STORYBOOKADDONS__": "",
       "__STORYBOOK_ADDONS": ""
     },
     "oss": true,
     "website": "https://storybook.js.org"
+  },
+  "Storylane": {
+    "cats": [
+      32
+    ],
+    "description": "Storylane is a platform facilitating the creation and distribution of interactive product demos tailored for SaaS sales and marketing teams.",
+    "icon": "Storylane.svg",
+    "js": {
+      "Storylane": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "js\\.storylane\\.io/js/v(\\d+)/storylane\\.js\\;version:\\1",
+    "website": "https://www.storylane.io"
+  },
+  "Storyly": {
+    "cats": [
+      76
+    ],
+    "description": "Storyly is a platform that enables the creation of personalized, shoppable experiences for apps and websites.",
+    "icon": "Storyly.svg",
+    "js": {
+      "StorylyWeb": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "web-story\\.storyly\\.io/v(\\d+)\\;version:\\1",
+    "website": "https://www.storyly.io"
   },
   "Strapdown.js": {
     "cats": [
@@ -6421,6 +7572,7 @@
     },
     "icon": "Strapi.svg",
     "oss": true,
+    "scripts": "(?://|-)strapi-",
     "website": "https://strapi.io"
   },
   "Strato": {
@@ -6471,6 +7623,54 @@
     ],
     "website": "https://www.strattic.com/"
   },
+  "Streamlit": {
+    "cats": [
+      18
+    ],
+    "cookies": {
+      "_streamlit_csrf": "",
+      "streamlit_session": ""
+    },
+    "description": "Streamlit is an open-source Python framework enabling data scientists and AI/ML engineers to create data applications with minimal coding requirements.",
+    "icon": "Streamlit.svg",
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://streamlit.io"
+  },
+  "Streamoid": {
+    "cats": [
+      76
+    ],
+    "description": "Streamoid is a fashion AI optimization and personalization solution, enhancing user experiences through tailored recommendations.",
+    "dom": "link[href*='.sdk.streamoid.com/']",
+    "icon": "Streamoid.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.streamoid.com"
+  },
+  "Streamwood": {
+    "cats": [
+      5,
+      52
+    ],
+    "description": "Streamwood is a call back and chat system designed to facilitate efficient communication.",
+    "icon": "Streamwood.svg",
+    "js": {
+      "__STREAMWOOD_MUTEX_QP3": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "clients\\.streamwood\\.ru/",
+    "website": "https://streamwood.ru"
+  },
   "Strikingly": {
     "cats": [
       1
@@ -6497,7 +7697,8 @@
     "js": {
       "Stripe.version": "^(.+)$\\;version:\\1",
       "__NEXT_DATA__.props.pageProps.appSettings.STRIPE_API_PUBLIC_KEY": "",
-      "checkout.enabledpayments.stripe": "^true$"
+      "checkout.enabledpayments.stripe": "^true$",
+      "stripePublicKey": ""
     },
     "pricing": [
       "payg"
@@ -6636,6 +7837,19 @@
     ],
     "website": "https://substack.com/"
   },
+  "Subversion": {
+    "cats": [
+      47
+    ],
+    "cpe": "cpe:2.3:a:apache:subversion:*:*:*:*:*:*:*:*",
+    "description": "Subversion is a centralized version control system for managing files and directories across software development teams.",
+    "headers": {
+      "server": "\\sSVN/([\\d\\.]+)\\s\\;version:\\1"
+    },
+    "icon": "Subversion.svg",
+    "oss": true,
+    "website": "https://subversion.apache.org"
+  },
   "Sucuri": {
     "cats": [
       31,
@@ -6769,11 +7983,13 @@
       47
     ],
     "description": "Supabase is an open-source platform that offers a Postgres database, Authentication, APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings for project development.",
+    "dom": "a[href*='supabase.com'] > img[src*='/supabase-logo-wordmark--dark.png']",
     "icon": "Supabase.svg",
     "implies": "PostgreSQL",
     "js": {
       "__NUXT__.config.public.SUPABASE_URL": "",
-      "__NUXT__.config.public.supabase": ""
+      "__NUXT__.config.public.supabase": "",
+      "supabase.storageKey": ""
     },
     "oss": true,
     "pricing": [
@@ -6820,7 +8036,7 @@
       100
     ],
     "description": "SuperLemon app is an all-in-one WhatsApp plugin for Shopify stores.",
-    "icon": "SuperLemon.png",
+    "icon": "SuperLemon.svg",
     "implies": "WhatsApp Business Chat",
     "pricing": [
       "freemium",
@@ -6926,8 +8142,11 @@
       12
     ],
     "description": "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members.",
-    "dom": "[class*='svelte-']",
+    "dom": "link[href*='/svelte/']",
     "icon": "Svelte.svg",
+    "js": {
+      "__svelte": ""
+    },
     "oss": true,
     "website": "https://svelte.dev"
   },
@@ -6959,10 +8178,27 @@
     "oss": true,
     "website": "https://kit.svelte.dev"
   },
+  "Sverve": {
+    "cats": [
+      96
+    ],
+    "description": "Sverve is a platform facilitating content curation and social post management with targeted matchmaking services.",
+    "dom": "a[href*='.sverve.com/'] > img[src*='.sverve.com/']",
+    "icon": "Sverve.svg",
+    "js": {
+      "svervdiv": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.sverve.com"
+  },
   "Swagger UI": {
     "cats": [
       4
     ],
+    "css": "swagger-ui",
     "description": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate documentation from a Swagger-compliant API.",
     "icon": "Swagger UI.svg",
     "js": {
@@ -6978,7 +8214,7 @@
       10
     ],
     "description": "Swagify allows you to upsell, cross-sell, and promote, by creating as many completely customizable offers as you want.",
-    "icon": "Swagify.png",
+    "icon": "Swagify.svg",
     "js": {
       "Swagify": ""
     },
@@ -6990,6 +8226,20 @@
     "saas": true,
     "scriptSrc": "api\\.swagifyapp\\.com/",
     "website": "https://swagifyapp.com"
+  },
+  "Swat.io": {
+    "cats": [
+      53
+    ],
+    "description": "Swat.io is a platform offering social media management solutions for teams.",
+    "icon": "Swat.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.swat\\.io/",
+    "website": "https://swat.io"
   },
   "SweetAlert": {
     "cats": [
@@ -7032,6 +8282,24 @@
       "limonte-sweetalert2/([\\d.]+)/sweetalert2(?:\\.all)(?:\\.min)\\.js"
     ],
     "website": "https://sweetalert2.github.io/"
+  },
+  "SweetHelp": {
+    "cats": [
+      98
+    ],
+    "description": "SweetHelp is a messaging solution that recovers abandoned carts by sending texts via Whatsapp and SMS.",
+    "icon": "SweetHelp.svg",
+    "js": {
+      "sweetHelpBtnLoad": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://sweethelp.io"
   },
   "Swell": {
     "cats": [
@@ -7076,13 +8344,27 @@
     "scriptSrc": "swiftype\\.com/embed\\.js$",
     "website": "https://swiftype.com"
   },
+  "Swipe Pages": {
+    "cats": [
+      51
+    ],
+    "description": "Swipe Pages is a platform used to build landing pages.",
+    "icon": "Swipe Pages.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.swipepages\\.com/",
+    "website": "https://swipepages.com"
+  },
   "Swiper": {
     "cats": [
       59
     ],
     "description": "Swiper is a JavaScript library that creates modern touch sliders with hardware-accelerated transitions.",
     "dom": [
-      "div[data-swiper-slide-index]", 
+      "div[data-swiper-slide-index]",
       "swiper-container",
       "swiper-slide",
       "div.swiper-wrapper",
@@ -7096,6 +8378,51 @@
     "oss": true,
     "scriptSrc": "swiper(?:\\.min)?\\.js",
     "website": "https://swiperjs.com"
+  },
+  "Swoogo": {
+    "cats": [
+      72
+    ],
+    "description": "Swoogo is an event management software.",
+    "icon": "Swoogo.svg",
+    "js": {
+      "swoogoUrl": ""
+    },
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.swoogo\\.com/",
+    "website": "https://swoogo.events"
+  },
+  "Swoop": {
+    "cats": [
+      36
+    ],
+    "description": "Swoop is a search targeting advertising system.",
+    "dom": "link[href*='ardrone.swoop.com'], script#swoop_sdk",
+    "icon": "Swoop.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.swoop\\.com/",
+    "website": "https://www.swoop.com"
+  },
+  "Swup": {
+    "cats": [
+      59
+    ],
+    "description": "Swup is a versatile and expandable library for implementing page transitions on websites that use server-side rendering.",
+    "dom": "html[class*='swup-enabled']",
+    "icon": "Swup.svg",
+    "js": {
+      "Swup": ""
+    },
+    "oss": true,
+    "website": "https://swup.js.org"
   },
   "Swym Wishlist Plus": {
     "cats": [
@@ -7121,28 +8448,7 @@
       6
     ],
     "description": "Sylius is an open-source ecommerce framework based on Symfony full stack.",
-    "dom": {
-      "body.sylius_homepage": {
-        "attributes": {
-          "class": ""
-        }
-      },
-      "div#sylius-cart-button": {
-        "attributes": {
-          "id": ""
-        }
-      },
-      "img[src*='sylius_shop_product_tiny_thumbnail']": {
-        "attributes": {
-          "src": "/sylius_shop_product_tiny_thumbnail/"
-        }
-      },
-      "input#sylius_add_to_cart_cartItem_variant": {
-        "attributes": {
-          "id": ""
-        }
-      }
-    },
+    "dom": "div#sylius-locale-selector, body[class*=['sylius_homepage'], div#sylius-cart-button, img[src*='sylius_shop_product_tiny_thumbnail'], input#sylius_add_to_cart_cartItem_variant",
     "icon": "Sylius.svg",
     "implies": "Symfony",
     "oss": true,
@@ -7182,6 +8488,25 @@
       "generator": "^Sympa$"
     },
     "website": "https://www.sympa.org/"
+  },
+  "Syncfusion": {
+    "cats": [
+      59
+    ],
+    "description": "Syncfusion is a JavaScript UI controls library that includes a wide range of UI components in a single package.",
+    "dom": "link[href*='cdn.syncfusion.com/']",
+    "icon": "Syncfusion.svg",
+    "js": {
+      "Syncfusion": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.syncfusion\\.com/",
+    "website": "https://www.syncfusion.com"
   },
   "Syndeca": {
     "cats": [
@@ -7235,8 +8560,12 @@
   },
   "Systeme.io": {
     "cats": [
-      32
+      32,
+      71
     ],
+    "cookies": {
+      "systeme_affiliate": ""
+    },
     "description": "Systeme.io is an all-in-one marketing platform that helps businesses create and launch sales funnels, affiliate programs, email marketing campaigns, online courses, blogs, and websites.",
     "dom": "from[action*='//systeme.io/'], a[href*='//systeme.io/']",
     "icon": "Systeme.io.svg",
@@ -7308,6 +8637,21 @@
     "scriptSrc": "scrollreveal(?:\\.min)(?:\\.js)",
     "website": "https://scrollrevealjs.org"
   },
+  "shadcn-svelte": {
+    "cats": [
+      66
+    ],
+    "description": "Shadcn-svelte is an adaptation of shadcn/ui for Svelte, offering accessible and customisable components.",
+    "dom": "link[href*='shadcn-svelte']",
+    "icon": "ShadCnSvelte.svg",
+    "js": {
+      "sessionStorage.sveltekit:scroll": "",
+      "sessionStorage.sveltekit:snapshot": ""
+    },
+    "oss": true,
+    "requires": "Svelte",
+    "website": "https://www.shadcn-svelte.com"
+  },
   "shadcn/ui": {
     "cats": [
       66
@@ -7349,6 +8693,20 @@
     "icon": "siimple.svg",
     "oss": true,
     "website": "https://siimple.xyz"
+  },
+  "simploCMS": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "simplocms_session": ""
+    },
+    "description": "simploCMS is a CMS utilized by a Czech team across various project types, including ecommerce development, web applications, and corporate website projects.",
+    "icon": "simploCMS.svg",
+    "meta": {
+      "generator": "^simploCMS;"
+    },
+    "website": "https://www.simplo.cz/co-umime/"
   },
   "snigel AdConsent": {
     "cats": [
