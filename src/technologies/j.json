@@ -5,7 +5,7 @@
     ],
     "cpe": "cpe:2.3:a:j2store:j2store:*:*:*:*:*:joomla\\!:*:*",
     "description": "J2Store is a Joomla shopping cart and ecommerce extension.",
-    "icon": "j2store.png",
+    "icon": "j2store.svg",
     "implies": "Joomla",
     "js": {
       "j2storeURL": ""
@@ -23,7 +23,7 @@
     ],
     "description": "JANet is an affiliate marketing network.",
     "dom": "img[src*='.j-a-net.jp'],img[data-src*='.j-a-net.jp']",
-    "icon": "JANet.png",
+    "icon": "JANet.svg",
     "website": "https://j-a-net.jp"
   },
   "JAlbum": {
@@ -31,12 +31,31 @@
       7
     ],
     "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
-    "icon": "JAlbum.png",
+    "icon": "JAlbum.svg",
     "implies": "Java",
     "meta": {
       "generator": "JAlbum( [\\d.]+)?\\;version:\\1"
     },
     "website": "https://jalbum.net/en"
+  },
+  "JBoard": {
+    "cats": [
+      101
+    ],
+    "description": "JBoard is a platform for creating and managing job boards with no coding required, enabling users to post, organize, and maintain job listings.",
+    "icon": "JBoard.svg",
+    "js": {
+      "$JBoardAPI": "",
+      "$jBoard.adminUserToken": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.jboard\\.io",
+    "website": "https://jboard.io"
   },
   "JBoss Application Server": {
     "cats": [
@@ -76,12 +95,23 @@
     "cats": [
       25
     ],
-    "icon": "JS Charts.png",
+    "description": "JS Charts is a JavaScript-based tool for creating customizable charts, such as bar, pie, and line charts, with minimal coding required for integration into web projects.",
+    "icon": "JS Charts.svg",
     "js": {
       "JSChart": ""
     },
     "scriptSrc": "jscharts.{0,32}\\.js",
     "website": "https://www.jscharts.com"
+  },
+  "JS.org": {
+    "cats": [
+      109
+    ],
+    "description": "JS.org is a provider of free subdomains for JavaScript-based projects.",
+    "dom": "link[href*='.js.org/'][rel='canonical']",
+    "icon": "JSOrg.svg",
+    "oss": true,
+    "website": "https://js.org"
   },
   "JSEcoin": {
     "cats": [
@@ -102,9 +132,22 @@
     ],
     "description": "JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way.",
     "dom": "style[data-jss]",
-    "icon": "JSS.png",
+    "icon": "JSS.svg",
     "oss": true,
     "website": "https://cssinjs.org/"
+  },
+  "JSZip": {
+    "cats": [
+      59
+    ],
+    "cpe": "cpe:2.3:a:jszip_project:jszip:*:*:*:*:*:*:*:*",
+    "description": "JSZip is a JavaScript library that enables the creation, reading, and manipulation of zip files in a browser environment.",
+    "js": {
+      "JSZip.version": "([\\d\\.]+)\\;version:\\1"
+    },
+    "oss": true,
+    "scriptSrc": "/jszip\\.min\\.js",
+    "website": "https://stuk.github.io/jszip/"
   },
   "JShop": {
     "cats": [
@@ -126,7 +169,7 @@
       "JTLSHOP": ""
     },
     "description": "JTL Shop is an ecommerce product created by JTL Software company.",
-    "html": "(?:<input[^>]+name=\"JTLSHOP|<a href=\"jtl\\.php)",
+    "dom": "input[name*='JTLSHOP']",
     "icon": "JTL Shop.svg",
     "website": "https://www.jtl-software.de/online-shopsystem"
   },
@@ -170,12 +213,59 @@
     "website": "https://www.jwplayer.com",
     "xhr": "\\.jwpsrv\\.com"
   },
+  "Jabmo": {
+    "cats": [
+      32
+    ],
+    "description": "Jabmo is a software platform that automates lead generation by tracking and analyzing website visitor activity.",
+    "icon": "Jabmo.svg",
+    "saas": true,
+    "scripts": "/jabmo\\.com",
+    "website": "https://jabmo.com"
+  },
+  "Jacklist": {
+    "cats": [
+      51
+    ],
+    "description": "Jacklist is a website builder system developed in Japan.",
+    "icon": "Jacklist.svg",
+    "js": {
+      "homepage_api_url": "api\\.jacklist\\.jp"
+    },
+    "saas": true,
+    "scriptSrc": "api\\.jacklist\\.jp/",
+    "website": "https://jacklist.ltd"
+  },
+  "Jade": {
+    "cats": [
+      19
+    ],
+    "description": "Jade is a templating engine primarily used for server-side templating in NodeJS.",
+    "icon": "Jade.svg",
+    "js": {
+      "JADE.components": ""
+    },
+    "website": "https://jade-lang.com"
+  },
+  "Jadu Central Content": {
+    "cats": [
+      1
+    ],
+    "description": "Jadu Central Content is a low-code publishing tool for creating, publishing, and managing website content and digital assets.",
+    "icon": "JaduCentralContent.svg",
+    "meta": {
+      "Author-Template": "^Jadu CSS design$",
+      "generator": "www\\.jadu\\.net"
+    },
+    "saas": true,
+    "website": "https://www.jadu.net/cms"
+  },
   "Jahia DX": {
     "cats": [
       1,
       47
     ],
-    "html": "<script id=\"staticAssetAggregatedJavascrip",
+    "dom": "script#staticAssetAggregatedJavascrip",
     "icon": "JahiaDX.svg",
     "website": "https://www.jahia.com/dx"
   },
@@ -183,11 +273,45 @@
     "cats": [
       1
     ],
-    "icon": "Jalios.png",
+    "description": "Jalios provides digital workplace solutions, including collaborative intranets, enterprise social networks, and document management systems, to enhance organizational communication and productivity.",
+    "icon": "Jalios.svg",
     "meta": {
       "generator": "Jalios"
     },
+    "pricing": [
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
     "website": "https://www.jalios.com"
+  },
+  "Jameda": {
+    "cats": [
+      72
+    ],
+    "description": "Jameda is an online appointment scheduling system for doctors, enabling patients to book medical consultations.",
+    "icon": "Jameda.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn1.\\jameda-elements\\.de/",
+    "website": "https://www.jameda.de"
+  },
+  "Jarvis Analytics": {
+    "cats": [
+      10
+    ],
+    "description": "Jarvis Analytics is a dental analytics platform that collects, processes, and visualizes dental data to support clinical decision-making and operational insights.",
+    "icon": "JarvisAnalytics.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "schedule\\.jarvisanalytics\\.com",
+    "website": "https://www.jarvisanalytics.com"
   },
   "Java": {
     "cats": [
@@ -256,17 +380,40 @@
     "icon": "Java.svg",
     "website": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
   },
+  "JazzHR": {
+    "cats": [
+      101
+    ],
+    "description": "JazzHR is SaaS recruiting software to source talent, conduct interviews and hires.",
+    "icon": "JazzHR.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.jazz\\.co/",
+    "scripts": "JazzHR",
+    "website": "https://www.jazzhr.com"
+  },
+  "Jeeng": {
+    "cats": [
+      76
+    ],
+    "description": "Jeeng is a personalized notification platform that delivers targeted updates based on user preferences and engagement patterns.",
+    "icon": "Jeeng.svg",
+    "js": {
+      "jeeng_attribution": ""
+    },
+    "saas": true,
+    "scriptSrc": "sdk\\.jeeng\\.com",
+    "website": "https://www.jeeng.com"
+  },
   "Jekyll": {
     "cats": [
       57
     ],
     "cpe": "cpe:2.3:a:jekyllrb:jekyll:*:*:*:*:*:*:*:*",
     "description": "Jekyll is a blog-aware, static site generator for personal, project, or organisation sites.",
-    "html": [
-      "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</",
-      "<!-- Created with Jekyll Now -",
-      "<!-- Begin Jekyll SEO tag"
-    ],
     "icon": "Jekyll.svg",
     "implies": "Ruby",
     "js": {
@@ -283,10 +430,10 @@
     ],
     "cpe": "cpe:2.3:a:jenkins:jenkins:*:*:*:*:*:*:*:*",
     "description": "Jenkins is an open-source automation tool written in Java with plugins built for Continuous Integration (CI) purposes.",
+    "dom": "span.jenkins_ver > a[href='https://jenkins.io/']",
     "headers": {
       "X-Jenkins": "([\\d.]+)\\;version:\\1"
     },
-    "html": "<span class=\"jenkins_ver\"><a href=\"https://jenkins\\.io/\">Jenkins ver\\. ([\\d.]+)\\;version:\\1",
     "icon": "Jenkins.png",
     "implies": "Java",
     "js": {
@@ -294,6 +441,76 @@
       "jenkinsRules": ""
     },
     "website": "https://jenkins.io/"
+  },
+  "Jenny": {
+    "cats": [
+      52
+    ],
+    "description": "Jenny is a customer service chatbot platform.",
+    "icon": "Jenny.svg",
+    "js": {
+      "webpackJsonpget-jenny": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.getjenny\\.com/",
+    "website": "https://www.getjenny.com"
+  },
+  "JetEngine": {
+    "cats": [
+      87
+    ],
+    "description": "JetEngine is a content plugin for WordPress that allows users to create custom post types, taxonomies, and meta boxes, offering flexibility in building complex websites without requiring coding skills.",
+    "icon": "JetEngine.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "onetime"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "scriptSrc": "/wp-content/plugins/jet-engine/",
+    "website": "https://crocoblock.com/plugins/jetengine"
+  },
+  "JetTabs": {
+    "cats": [
+      87
+    ],
+    "description": "JetTabs is a plugin for Elementor that enables the creation of customizable tabs and accordion widgets for organizing content within web pages.",
+    "icon": "JetTabs.svg",
+    "implies": "Elementor",
+    "js": {
+      "JetTabs.accordionInit": "",
+      "JetTabsSettings": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://crocoblock.com/plugins/jettabs"
+  },
+  "Jetboost": {
+    "cats": [
+      5
+    ],
+    "description": "Jetboost is a tool that enables real-time search, dynamic filtering, and other features for Webflow sites without requiring code.",
+    "icon": "Jetboost.svg",
+    "js": {
+      "JETBOOST_SITE_ID": "",
+      "Jetboost.loaded": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "Webflow",
+    "saas": true,
+    "website": "https://www.jetboost.io"
   },
   "Jetpack": {
     "cats": [
@@ -315,7 +532,7 @@
     "cats": [
       87
     ],
-    "description": "Jetpack Boost – Website Speed, Performance and Critical CSS.",
+    "description": "Jetpack Boost \u2013 Website Speed, Performance and Critical CSS.",
     "dom": "style[id='jetpack-boost-critical-css']",
     "icon": "Jetpack.svg",
     "requires": "WordPress",
@@ -337,11 +554,13 @@
     "cats": [
       22
     ],
+    "description": "Jetty is an open-source web server and servlet container known for its scalability and efficiency, supporting protocols like HTTP and WebSocket for various applications from development tools to cloud services.",
     "headers": {
       "Server": "Jetty(?:\\(([\\d\\.]*\\d+))?\\;version:\\1"
     },
-    "icon": "Jetty.png",
+    "icon": "Jetty.svg",
     "implies": "Java",
+    "oss": true,
     "website": "https://www.eclipse.org/jetty"
   },
   "Jibres": {
@@ -365,6 +584,22 @@
     },
     "scriptSrc": "/jibres\\.js",
     "website": "https://jibres.com"
+  },
+  "Jiglu": {
+    "cats": [
+      2
+    ],
+    "description": "Jiglu is a collaboration and communities suite that connects enterprise content with conversations to support improved communication.",
+    "icon": "Jiglu.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.jiglu\\.com/",
+    "website": "https://www.jiglu.com"
   },
   "Jilt App": {
     "cats": [
@@ -429,7 +664,8 @@
       52
     ],
     "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
-    "icon": "Jitsi.png",
+    "icon": "Jitsi.svg",
+    "oss": true,
     "scriptSrc": "lib-jitsi-meet.*\\.js",
     "website": "https://jitsi.org"
   },
@@ -452,7 +688,7 @@
       52
     ],
     "description": "JivoChat is a live chat solution for websites offering customizable web and mobile chat widgets.",
-    "icon": "JivoChat.png",
+    "icon": "JivoChat.svg",
     "js": {
       "jivo_api": "",
       "jivo_version": "([\\d.]+)\\;version:\\1"
@@ -480,13 +716,28 @@
     "scriptSrc": "\\.jivox\\.com/",
     "website": "https://jivox.com"
   },
+  "Job Board Fire": {
+    "cats": [
+      101
+    ],
+    "description": "JobBoardFire is a platform that provides software for managing job boards, connecting entrepreneurs and community members.",
+    "icon": "JobBoardFire.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "jobboardfire\\.twic\\.pics",
+    "website": "https://www.jobboardfire.com"
+  },
   "JobAdder": {
     "cats": [
       101
     ],
     "description": "JobAdder is a cloud-based recruitment management platform for staffing agencies and in-house corporate hiring teams.",
     "dom": "a[href*='clientapps.jobadder.com/'], link[href*='jobadder.com']",
-    "icon": "JobAdder.png",
+    "icon": "JobAdder.svg",
     "pricing": [
       "payg",
       "recurring"
@@ -501,7 +752,7 @@
       101
     ],
     "description": "Jobberbase is an open-source job board platform that enables the creation of job sites.",
-    "icon": "JobberBase.png",
+    "icon": "JobberBase.svg",
     "implies": "PHP",
     "js": {
       "Jobber": ""
@@ -512,13 +763,29 @@
     "oss": true,
     "website": "https://www.jobberbase.com"
   },
+  "Jobiqo": {
+    "cats": [
+      101
+    ],
+    "description": "Jobiqo is a job board platform that enables publishers to expand reach and increase recruitment advertising revenue.",
+    "icon": "Jobiqo.svg",
+    "meta": {
+      "owner": "^Jobiqo$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.jobiqo.com"
+  },
   "Jobvite": {
     "cats": [
       101
     ],
     "description": "Jobvite is an applicant tracking software and recruiting platform.",
     "dom": "a[href*='.jobvite.com/']",
-    "icon": "Jobvite.png",
+    "icon": "Jobvite.svg",
     "js": {
       "Jobvite": ""
     },
@@ -529,6 +796,60 @@
     ],
     "saas": true,
     "website": "https://www.jobvite.com"
+  },
+  "Jobylon": {
+    "cats": [
+      101
+    ],
+    "description": "Jobylon is a flexible talent acquisition platform designed to help leading employers streamline recruitment and manage hiring processes.",
+    "icon": "Jobylon.svg",
+    "saas": true,
+    "scriptSrc": "\\.jobylon\\.com",
+    "website": "https://www.jobylon.com"
+  },
+  "Join It": {
+    "cats": [
+      53
+    ],
+    "description": "Join It is a membership management platform that helps nonprofits, clubs, and growing organizations manage members, track payments, and streamline administrative tasks.",
+    "icon": "JoinIt.svg",
+    "saas": true,
+    "scripts": "app\\.joinit\\.com",
+    "website": "https://joinit.com"
+  },
+  "Joinchat": {
+    "cats": [
+      52
+    ],
+    "description": "Joinchat is a tool that enables businesses to convert customer conversations into sales or leads through integrated communication features.",
+    "icon": "Joinchat.svg",
+    "js": {
+      "joinchat_obj": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "/js/joinchat\\.min\\.js",
+    "website": "https://join.chat"
+  },
+  "Jonas Club Software": {
+    "cats": [
+      53
+    ],
+    "description": "Jonas Club Software is a provider of club management solutions, facilitating relationship building with members, revenue growth, and cost reduction.",
+    "icon": "Jonas.svg",
+    "js": {
+      "jonasPrivacyPolicy": "",
+      "jonasPrivacyPolicyClassName": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://jonasclub.com"
   },
   "JoomShopping": {
     "cats": [
@@ -551,12 +872,12 @@
     "cats": [
       1
     ],
-    "cpe": "cpe:2.3:a:joomla:joomla:*:*:*:*:*:*:*:*",
+    "cpe": "cpe:2.3:a:joomla:joomla\\!:*:*:*:*:*:*:*:*",
     "description": "Joomla is a free and open-source content management system for publishing web content.",
+    "dom": "div[id*='wrapper_r'], link[href*='feed/com_'], link[href*='components/com_'], table[class*='pill']",
     "headers": {
       "X-Content-Encoded-By": "Joomla! ([\\d.]+)\\;version:\\1"
     },
-    "html": "(?:<div[^>]+id=\"wrapper_r\"|<(?:link|script)[^>]+(?:feed|components)/com_|<table[^>]+class=\"pill)\\;confidence:50",
     "icon": "Joomla.svg",
     "implies": "PHP",
     "js": {
@@ -567,8 +888,65 @@
       "generator": "Joomla!(?: ([\\d.]+))?\\;version:\\1"
     },
     "oss": true,
+    "scriptSrc": "(?:^|/)(feed/com_|components/com_)",
     "url": "option=com_",
     "website": "https://www.joomla.org/"
+  },
+  "Joonbot": {
+    "cats": [
+      52
+    ],
+    "description": "Joonbot is a chatbot builder that enables users to create automated conversational flows without programming knowledge.",
+    "icon": "Joonbot.svg",
+    "js": {
+      "JOONBOT_WIDGET_ID": "",
+      "joonbot.hide": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://joonbot.com"
+  },
+  "Jotform": {
+    "cats": [
+      110
+    ],
+    "description": "Jotform is an online form builder that enables the creation of robust forms.",
+    "icon": "Jotform.svg",
+    "js": {
+      "JOTFORM_ENV": "",
+      "JotForm.FBCollectInformation": "",
+      "JotFormActions": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.jotform\\.com/",
+    "website": "https://www.jotform.com"
+  },
+  "Jottful": {
+    "cats": [
+      51
+    ],
+    "description": "Jottful is a platform that enables small businesses to create and manage professional websites.",
+    "icon": "Jottful.svg",
+    "meta": {
+      "web_author": "^Jottful"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://jottful.com"
   },
   "JouwWeb": {
     "cats": [
@@ -623,6 +1001,20 @@
     "scriptSrc": "([\\d\\.]+)?/jsviews(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://www.jsviews.com/#jsviews"
   },
+  "Jubna": {
+    "cats": [
+      76
+    ],
+    "description": "Jubna is a content recommendation engine that delivers personalized suggestions by analyzing user behavior and preferences.",
+    "icon": "Jubna.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.jubna\\.com",
+    "website": "https://www.jubna.com"
+  },
   "Judge.me": {
     "cats": [
       90
@@ -641,12 +1033,42 @@
     "scriptSrc": "cdn\\.judge\\.me",
     "website": "https://judge.me"
   },
+  "Jugem": {
+    "cats": [
+      11
+    ],
+    "description": "Jugem is a blogging software from Japan that allows users to create, manage, and publish online content.",
+    "icon": "Jugem.svg",
+    "saas": true,
+    "scriptSrc": "imaging\\.jugem\\.jp",
+    "website": "https://jugem.jp"
+  },
+  "Juicer": {
+    "cats": [
+      96
+    ],
+    "description": "Juicer is a tool that aggregates brand hashtags and social media posts into a unified feed for websites, enabling moderation and content curation.",
+    "icon": "Juicer.svg",
+    "js": {
+      "Juicer.Active": "",
+      "JuicerBackbone.$": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.juicer\\.io/",
+    "website": "https://www.juicer.io"
+  },
   "JuicyAds": {
     "cats": [
       36
     ],
     "description": "JuicyAds is a legitimate advertising network that specializes in adult content.",
-    "icon": "JuicyAds.png",
+    "icon": "JuicyAds.svg",
     "js": {
       "adsbyjuicy": ""
     },
@@ -664,7 +1086,7 @@
       92
     ],
     "description": "Jumbo is a page speed optimizer app for Shopify based sites.",
-    "icon": "Jumbo.png",
+    "icon": "Jumbo.svg",
     "implies": "Shopify",
     "scriptSrc": "mt\\.tryjumbo\\.com",
     "website": "https://www.tryjumbo.com/"
@@ -683,6 +1105,24 @@
     ],
     "saas": true,
     "website": "https://www.jumio.com"
+  },
+  "JumpCloud": {
+    "cats": [
+      69
+    ],
+    "cookies": {
+      "_jumpcloud_user_console_": ""
+    },
+    "description": "JumpCloud is a cloud-based directory services platform offering single sign-on (SSO) and Active Directory-as-a-Service (ADaaS) functionalities.",
+    "icon": "JumpCloud.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.jumpcloud\\.com/",
+    "website": "https://jumpcloud.com"
   },
   "Jumpseller": {
     "cats": [
@@ -759,6 +1199,21 @@
     "scriptSrc": "cdn\\.juo\\.io/",
     "website": "https://get.juo.io"
   },
+  "Juphy": {
+    "cats": [
+      100
+    ],
+    "description": "Juphy is an AI sales assistant designed for Shopify stores, enabling businesses to increase sales through automated customer engagement and support.",
+    "icon": "Juphy.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "static\\.juphy\\.com/",
+    "website": "https://juphy.com"
+  },
   "Juspay": {
     "cats": [
       41
@@ -769,6 +1224,21 @@
       "Juspay": ""
     },
     "website": "https://juspay.in"
+  },
+  "Justia": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "SESSJUSTIA": ""
+    },
+    "description": "Justia is a lawyer-based content management system (CMS).",
+    "icon": "Justia.svg",
+    "js": {
+      "jmetadata": ""
+    },
+    "saas": true,
+    "website": "https://www.justia.com"
   },
   "Justo": {
     "cats": [
@@ -822,16 +1292,34 @@
     "scriptSrc": "//scripttags\\.justuno\\.com/shopify_justuno",
     "website": "https://apps.shopify.com/justuno-pop-ups-email-conversion"
   },
+  "Juvo Leads": {
+    "cats": [
+      10,
+      52
+    ],
+    "description": "Juvo Leads is a platform that integrates hosted chat, call tracking, and form tracking into a unified reporting system.",
+    "icon": "JuvoLeads.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scripts": "cdn\\.juvoleads\\.com",
+    "website": "https://juvoleads.com"
+  },
   "jComponent": {
     "cats": [
       12,
       59
     ],
-    "icon": "jComponent.png",
+    "description": "jComponent is a platform offering open-source web components and icons for easy integration into web projects.",
+    "icon": "jComponent.svg",
     "implies": "jQuery",
     "js": {
       "MAIN.version": ".*\\;version:\\1"
     },
+    "oss": true,
     "website": "https://componentator.com"
   },
   "jPlayer": {
@@ -840,7 +1328,7 @@
       59
     ],
     "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
-    "icon": "jPlayer.png",
+    "icon": "jPlayer.svg",
     "implies": "jQuery",
     "js": {
       "jPlayerPlaylist": ""
@@ -871,7 +1359,8 @@
     "icon": "jQuery.svg",
     "js": {
       "$.fn.jquery": "([\\d.]+)\\;version:\\1",
-      "jQuery.fn.jquery": "([\\d.]+)\\;version:\\1"
+      "jQuery.fn.jquery": "([\\d.]+)\\;version:\\1",
+      "jQuery.prototype.jquery": "([\\d.]+)\\;version:\\1"
     },
     "scriptSrc": [
       "jquery",
@@ -941,11 +1430,22 @@
     ],
     "description": "jQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
     "dom": "link[href*='jquery.modal.min.css']",
-    "icon": "jQuery Modal.png",
+    "icon": "jQuery Modal.svg",
     "implies": "jQuery",
     "oss": true,
     "scriptSrc": "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1",
     "website": "https://jquerymodal.com"
+  },
+  "jQuery Payment": {
+    "cats": [
+      41
+    ],
+    "description": "jQuery Payment is a general-purpose library for building credit card forms, validating input fields, and formatting card numbers.",
+    "icon": "jQuery.svg",
+    "oss": true,
+    "requires": "jQuery",
+    "scriptSrc": "/jquery-payment/jquery\\.payment\\.min\\.js",
+    "website": "https://plugins.jquery.com/payment"
   },
   "jQuery Sparklines": {
     "cats": [
@@ -979,7 +1479,6 @@
       26
     ],
     "description": "jQuery PJAX is a plugin that uses AJAX and pushState.",
-    "html": "<div[^>]+data-pjax-container",
     "implies": "jQuery",
     "js": {
       "jQuery.pjax": ""
@@ -1011,5 +1510,21 @@
     "scriptSrc": "cdn\\.jsdelivr\\.net",
     "website": "https://www.jsdelivr.com/",
     "xhr": "cdn\\.jsdelivr\\.net"
+  },
+  "jsPDF": {
+    "cats": [
+      59
+    ],
+    "description": "jsPDF is a HTML5 client-side solution for generating PDF documents directly within web browsers.",
+    "icon": "jsPDF.svg",
+    "js": {
+      "jsPDF.API": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "scriptSrc": "/jspdf\\.min\\.js",
+    "website": "https://parall.ax/products/jspdf"
   }
 }
