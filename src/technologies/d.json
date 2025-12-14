@@ -1,16 +1,45 @@
 {
+  "D.Engage": {
+    "cats": [
+      32
+    ],
+    "description": "D.Engage is a platform that enhances customer experiences by leveraging data-driven marketing automation to deliver targeted and efficient campaigns.",
+    "icon": "Dengage.svg",
+    "js": {
+      "_dengageConf": "",
+      "dengage.q": ""
+    },
+    "saas": true,
+    "scriptSrc": "pcdn\\.dengage\\.com",
+    "website": "https://dengage.com"
+  },
   "D3": {
     "cats": [
       25
     ],
     "cpe": "cpe:2.3:a:d3.js_project:d3.js:*:*:*:*:*:*:*:*",
     "description": "D3.js is a JavaScript library for producing dynamic, interactive data visualisations in web browsers.",
-    "icon": "D3.png",
+    "icon": "D3.svg",
     "js": {
       "d3.version": "^(.+)$\\;version:\\1"
     },
     "scriptSrc": "/d3(?:\\. v\\d+)?(?:\\.min)?\\.js",
     "website": "https://d3js.org"
+  },
+  "DCKAP Commerce": {
+    "cats": [
+      6
+    ],
+    "description": "DCKAP Commerce is a B2B ecommerce platform for distributors and manufacturers.",
+    "icon": "DCKAPCommerce.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "assets\\.mydckapcommerce\\.com",
+    "website": "https://www.dckap.com/commerce"
   },
   "DDoS-Guard": {
     "cats": [
@@ -40,11 +69,43 @@
       "Derak-Umbrage": "",
       "Server": "^DERAK\\.CLOUD$"
     },
-    "icon": "DerakCloud.png",
+    "icon": "DerakCloud.svg",
     "js": {
       "derakCloud.init": ""
     },
     "website": "https://derak.cloud"
+  },
+  "DESTOON": {
+    "cats": [
+      1
+    ],
+    "description": "DESTOON is a website management solution designed to support the creation, organization, and operation of online platforms through integrated tools and features.",
+    "icon": "DESTOON.svg",
+    "js": {
+      "destoon_cart": "",
+      "destoon_chat": ""
+    },
+    "meta": {
+      "generator": "^DESTOON B2B - www\\.destoon\\.com$"
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://destoon.com"
+  },
+  "DEUNA": {
+    "cats": [
+      41
+    ],
+    "description": "DEUNA is an AI-powered platform that orchestrates global payments and enhances commerce performance.",
+    "icon": "DEUNA.svg",
+    "js": {
+      "DeunaCDL": "",
+      "DunaCheckout": ""
+    },
+    "saas": true,
+    "website": "https://www.deuna.com"
   },
   "DHL": {
     "cats": [
@@ -60,7 +121,10 @@
     },
     "icon": "DHL.svg",
     "requiresCategory": 6,
-    "text": "\\bDHL\\b",
+    "text": [
+      "\\bUK Mail\\b",
+      "\\bDHL\\b"
+    ],
     "website": "https://www.dhl.com"
   },
   "DHTMLX": {
@@ -68,7 +132,7 @@
       59
     ],
     "description": "DHTMLX specialises in building JavaScript UI libraries for project management, event planning, big data visualisation, and reporting.",
-    "icon": "DHTMLX.png",
+    "icon": "DHTMLX.svg",
     "js": {
       "dhtmlDragAndDropObject": "",
       "dhtmlXTreeItemObject": ""
@@ -79,13 +143,23 @@
     "scriptSrc": "/dhtmlxcommon\\.js",
     "website": "https://dhtmlx.com"
   },
+  "DISH": {
+    "cats": [
+      93
+    ],
+    "description": "DISH is a platform that allows restaurants to independently manage online reservations and customer orders.",
+    "icon": "DISH.svg",
+    "saas": true,
+    "scriptSrc": "\\.dish\\.co",
+    "website": "https://www.dish.co/XX"
+  },
   "DM Polopoly": {
     "cats": [
       1
     ],
     "description": "DM Polopoly is a web content management solution focused on enhancing the user experience built by Atex.",
     "dom": "img[data-src*='/polopoly_fs/'], link[href*='/polopoly_fs/'], img[src*='/polopoly_fs/']",
-    "icon": "DM Polopoly.png",
+    "icon": "DM Polopoly.svg",
     "implies": "Java",
     "website": "https://www.atex.com/products/dm-polopoly"
   },
@@ -102,15 +176,13 @@
       "DNNOutputCache": "",
       "X-Compressed-By": "DotNetNuke"
     },
-    "html": [
-      "<!-- by DotNetNuke Corporation",
-      "<!-- DNN Platform"
-    ],
     "icon": "DNN.svg",
     "implies": "Microsoft ASP.NET",
     "js": {
       "DotNetNuke": "",
-      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1"
+      "__dnncore": "",
+      "dnn.apiversion": "^([\\d\\.]+)$\\;version:\\1",
+      "dnnJscriptVersion": ""
     },
     "meta": {
       "generator": "DotNetNuke"
@@ -139,7 +211,7 @@
       14
     ],
     "description": "DPlayer is an HTML 5 video player that supports pop-up.",
-    "icon": "DPlayer.png",
+    "icon": "DPlayer.svg",
     "js": {
       "DPlayer": "",
       "DPlayer.version": "([\\d\\.]+)\\;version:\\1"
@@ -147,6 +219,22 @@
     "oss": true,
     "scriptSrc": "/dplayer\\.js",
     "website": "https://dplayer.js.org"
+  },
+  "DSpace": {
+    "cats": [
+      50
+    ],
+    "description": "DSpace is a software platform for academic, non-profit, and commercial organizations to create and manage open digital repositories.",
+    "icon": "DSpace.svg",
+    "js": {
+      "DSpaceChoiceLookup": "",
+      "DSpaceChoicesSetup": ""
+    },
+    "meta": {
+      "generator": "DSpace ([\\d.]+)\\;version:\\1"
+    },
+    "saas": true,
+    "website": "https://dspace.org/"
   },
   "DTScout": {
     "cats": [
@@ -178,7 +266,7 @@
       53
     ],
     "description": "DX1 is an entirely cloud-based dealership management system for the motorcycle and powersports industry. Offering DMS, website, CRM and marketing tools.",
-    "icon": "DX1.png",
+    "icon": "DX1.svg",
     "js": {
       "Dx1.Dnn": ""
     },
@@ -190,6 +278,19 @@
     "saas": true,
     "scriptSrc": "\\.dx1app\\.com/",
     "website": "https://www.dx1app.com"
+  },
+  "Dable": {
+    "cats": [
+      36
+    ],
+    "description": "Dable is a content discovery platform for the open web that uses AI to deliver engaging content through native advertising.",
+    "icon": "Dable.svg",
+    "js": {
+      "dable.q": ""
+    },
+    "saas": true,
+    "scripts": "static\\.dable\\.io",
+    "website": "https://dable.io"
   },
   "Dachser": {
     "cats": [
@@ -225,7 +326,7 @@
       5
     ],
     "description": "DailyKarma is a turnkey cause marketing solutions for ecommerce merchants.",
-    "icon": "DailyKarma.png",
+    "icon": "DailyKarma.svg",
     "js": {
       "dkWidgetInit": "\\;confidence:50",
       "dk_widget": "\\;confidence:50"
@@ -251,6 +352,95 @@
     },
     "website": "https://www.dailymotion.com"
   },
+  "Dakno": {
+    "cats": [
+      32
+    ],
+    "description": "Dakno is an all-in-one lead generation and conversion system designed for the real estate industry.",
+    "dom": "iframe[src*='www.dakno.com/'], div[class*='dakno'] a[href*='www.dakno.com']",
+    "icon": "Dakno.svg",
+    "saas": true,
+    "website": "https://www.dakno.com"
+  },
+  "Daktela Omnichannel": {
+    "cats": [
+      53
+    ],
+    "description": "Daktela Omnichannel is a unified platform that streamlines customer interactions across multiple channels to enhance satisfaction and support business growth.",
+    "icon": "Daktela.svg",
+    "js": {
+      "daktelaCli": "",
+      "daktelaGuiConfig": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.daktela\\.com/",
+    "website": "https://daktela.com"
+  },
+  "Dalue": {
+    "cats": [
+      29
+    ],
+    "description": "Dalue is a cloud-based search engine developed in South Korea that enables information retrieval and indexing across online data sources.",
+    "icon": "Dalue.svg",
+    "js": {
+      "DalueSearch.Consts": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.dalue\\.io",
+    "website": "https://dalue.io/dalue"
+  },
+  "DanAds": {
+    "cats": [
+      36
+    ],
+    "description": "DanAds is an infrastructure platform that enables customization and automation of ad sales, operations, and creative management.",
+    "icon": "DanAds.svg",
+    "saas": true,
+    "scripts": "danads-event",
+    "website": "https://danads.com"
+  },
+  "DanDomain": {
+    "cats": [
+      6,
+      88
+    ],
+    "description": "Dandomain is a Danish company specializing in website creation, hosting, and domain registration services.",
+    "icon": "DanDomain.svg",
+    "meta": {
+      "generator": "^SmartWeb$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "AngularJS",
+    "saas": true,
+    "website": "https://dandomain.dk"
+  },
+  "DanDomain Webshop": {
+    "cats": [
+      6
+    ],
+    "description": "DanDomain Webshop is a Danish ecommerce platform provided by DanDomain, offering businesses the tools to create and manage their online stores.",
+    "icon": "DanDomain.svg",
+    "meta": {
+      "generator": "^DanDomain\\sWebshop$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dandomain.dk/webshop"
+  },
   "Dancer": {
     "cats": [
       18
@@ -260,7 +450,7 @@
       "Server": "Perl Dancer ([\\d.]+)\\;version:\\1",
       "X-Powered-By": "Perl Dancer ([\\d.]+)\\;version:\\1"
     },
-    "icon": "Dancer.png",
+    "icon": "Dancer.svg",
     "implies": "Perl",
     "pricing": [
       "poa"
@@ -275,15 +465,16 @@
     "headers": {
       "X-Powered-By": "CMS Danneo ([\\d.]+)\\;version:\\1"
     },
-    "icon": "Danneo CMS.png",
     "implies": [
       "Apache HTTP Server",
-      "PHP"
+      "PHP",
+      "MySQL"
     ],
     "meta": {
       "generator": "Danneo CMS ([\\d.]+)\\;version:\\1"
     },
-    "website": "https://danneo.com"
+    "oss": true,
+    "website": "https://danneo.ru/"
   },
   "Daphne": {
     "cats": [
@@ -318,6 +509,9 @@
     "cats": [
       27
     ],
+    "cookies": {
+      "DARTSESSID": ""
+    },
     "description": "Dart is an open-source, general-purpose, object-oriented programming language developed by Google.",
     "icon": "Dart.svg",
     "js": {
@@ -340,6 +534,83 @@
     },
     "icon": "Apple.svg",
     "website": "https://opensource.apple.com"
+  },
+  "Darwin Pricing": {
+    "cats": [
+      76
+    ],
+    "description": "Darwin Pricing is a data science platform that applies dynamic pricing strategies by analyzing market conditions and customer behavior to optimize revenue and pricing decisions.",
+    "icon": "DarwinPriicing.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.darwinpricing\\.com",
+    "website": "https://www.darwinpricing.com"
+  },
+  "Dashly": {
+    "cats": [
+      32
+    ],
+    "description": "Dashly is a conversational marketing platform designed to increase quality lead encounters and reduce customer acquisition costs.",
+    "icon": "Dashly.svg",
+    "js": {
+      "dashly": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.dashly\\.app/",
+    "website": "https://www.dashly.io"
+  },
+  "DatHuis": {
+    "cats": [
+      32
+    ],
+    "description": "DatHuis is a platform providing marketing automation tools for real estate professionals, designed to enhance visibility and streamline operations.",
+    "icon": "DatHuis.svg",
+    "js": {
+      "DatHuisObject": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dathuis.nl"
+  },
+  "Data8": {
+    "cats": [
+      50
+    ],
+    "description": "Data8 is a data quality management and validation platform.",
+    "icon": "Data8.svg",
+    "js": {
+      "data8": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.data-8.co.uk"
+  },
+  "DataDojo": {
+    "cats": [
+      32
+    ],
+    "description": "DataDojo is an AI platform that converts high-intent and anonymous website visitors into marketable leads, helping businesses increase sales.",
+    "icon": "DataDojo.svg",
+    "saas": true,
+    "scripts": "pixel\\.datadojocdp\\.com",
+    "website": "https://datadojo.ai"
   },
   "DataDome": {
     "cats": [
@@ -414,6 +685,40 @@
     "scriptSrc": "dataTables.*\\.js",
     "website": "https://datatables.net"
   },
+  "Databuddy": {
+    "cats": [
+      10
+    ],
+    "description": "Databuddy is an analytics platform designed for developers.",
+    "icon": "Databuddy.svg",
+    "meta": {
+      "creator": "^Databuddy$",
+      "publisher": "^Databuddy$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "cdn\\.databuddy\\.cc",
+    "website": "https://www.databuddy.cc"
+  },
+  "Datacrush": {
+    "cats": [
+      32
+    ],
+    "description": "Datacrush is a marketing automation platform.",
+    "icon": "Datacrush.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "js\\.datacrush\\.la",
+    "website": "https://www.datacrush.la"
+  },
   "Datadog": {
     "cats": [
       78,
@@ -434,6 +739,91 @@
     "saas": true,
     "scriptSrc": "www\\.datadoghq-browser-agent\\.com",
     "website": "https://www.datadoghq.com"
+  },
+  "Datalitics": {
+    "cats": [
+      32
+    ],
+    "description": "Datalitics is a platform designed for advanced lead tracking, offering tools to monitor, analyze, and optimize customer acquisition efforts.",
+    "icon": "Datalitics.svg",
+    "js": {
+      "createWPDatalitics": "",
+      "createWPRedirectDatalitics": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.datalitics\\.com\\.br/",
+    "website": "https://datalitics.com.br"
+  },
+  "Datanyze": {
+    "cats": [
+      10
+    ],
+    "description": "Datanyze is a provider of visitor tracking script, offering sales intelligence and lead generation software solutions.",
+    "icon": "Datanyze.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.datanyze\\.com/",
+    "website": "https://www.datanyze.com"
+  },
+  "Datarize": {
+    "cats": [
+      32,
+      53
+    ],
+    "description": "Datarize is a CRM marketing solution designed to streamline customer relationship management and enhance targeted marketing efforts.",
+    "icon": "Datarize.svg",
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.datarize\\.ai/",
+    "website": "https://datarize.ai"
+  },
+  "Datascape": {
+    "cats": [
+      53
+    ],
+    "description": "Datascape is a cloud-based ERP solution that enables councils to manage services while supporting transparent and collaborative communication.",
+    "icon": "Datascape.svg",
+    "js": {
+      "DatacomSphere": ""
+    },
+    "saas": true,
+    "website": "https://datacom.com/nz/en/products/datascape/digital-experience/my-datascape"
+  },
+  "Dataships": {
+    "cats": [
+      16
+    ],
+    "description": "Dataships is a platform that ensures compliance with global data privacy regulations, helping businesses manage and protect customer data according to international standards.",
+    "icon": "Dataships.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.dataships\\.io/",
+    "website": "https://dataships.io"
+  },
+  "Datastar": {
+    "cats": [
+      12
+    ],
+    "description": "Datastar is a lightweight framework for developing websites and real-time collaborative web applications.",
+    "icon": "Datastar.svg",
+    "oss": true,
+    "scriptSrc": "https?://(?:[^/]+/.*)?datastar\\.js(?:\\?.*)?$",
+    "website": "https://data-star.dev"
   },
   "Datatrics": {
     "cats": [
@@ -471,6 +861,19 @@
     ],
     "website": "https://www.datocms.com"
   },
+  "Daxko": {
+    "cats": [
+      1
+    ],
+    "description": "Daxko is a member-based health and wellness management system.",
+    "headers": {
+      "Reporting-Endpoints": "daxkosecurity\\.report-uri\\.com"
+    },
+    "icon": "Daxko.svg",
+    "saas": true,
+    "scriptSrc": "\\.daxko\\.com/",
+    "website": "https://www.daxko.com"
+  },
   "Day.js": {
     "cats": [
       59
@@ -480,6 +883,37 @@
       "dayjs": ""
     },
     "website": "https://github.com/iamkun/dayjs"
+  },
+  "Deadline Funnel": {
+    "cats": [
+      32
+    ],
+    "description": "Deadline is a tool used to automate marketing funnels by managing time-based campaigns and creating urgency-driven conversion strategies.",
+    "icon": "DeadlineFunnel.svg",
+    "js": {
+      "SendUrlToDeadlineFunnel": "",
+      "afterDeadline": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "a\\.deadlinefunnel\\.com/",
+    "website": "https://www.deadlinefunnel.com"
+  },
+  "Deal.ai": {
+    "cats": [
+      32
+    ],
+    "description": "Deal.ai is an AI-powered white-label platform designed to support marketing, content creation, and business growth.",
+    "icon": "DealAI.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.marketing\\.deal\\.ai",
+    "website": "https://home.deal.ai"
   },
   "Dealer Spike": {
     "cats": [
@@ -497,6 +931,30 @@
     "website": "https://www.dealerspike.com",
     "xhr": "\\.dealerspike\\.com"
   },
+  "Dealspotr": {
+    "cats": [
+      6
+    ],
+    "description": "Dealspotr is a deal finder platform that helps display and organize discounts, coupons, and promotional offers from various retailers on a website.",
+    "dom": "a[href*='dealspotr.com'] > img[src*='cdn.dealspotr.com']",
+    "icon": "Dealspotr.svg",
+    "saas": true,
+    "scripts": "cdn\\.dealspotr\\.com",
+    "website": "https://dealspotr.com"
+  },
+  "DearDoc": {
+    "cats": [
+      72
+    ],
+    "description": "DearDoc is an appointment scheduling system that organizes, manages, and tracks appointments to streamline booking processes.",
+    "icon": "DearDoc.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "ai\\.getdeardoc\\.com",
+    "website": "https://www.getdeardoc.com"
+  },
   "Debian": {
     "cats": [
       28
@@ -509,6 +967,20 @@
     },
     "icon": "Debian.png",
     "website": "https://debian.org"
+  },
+  "Decap CMS": {
+    "cats": [
+      1
+    ],
+    "description": "Decap CMS is an open-source content management system designed to integrate with Git workflows.",
+    "icon": "DecapCMS.svg",
+    "js": {
+      "DecapCms.getBackend": "",
+      "DecapCmsApp.getBackend": "",
+      "webpackChunkdecap_website": ""
+    },
+    "oss": true,
+    "website": "https://decapcms.org"
   },
   "Decibel": {
     "cats": [
@@ -528,12 +1000,31 @@
     "scriptSrc": "cdn\\.decibelinsight\\.net",
     "website": "https://decibel.com"
   },
+  "Deco.cx": {
+    "cats": [
+      108
+    ],
+    "description": "Deco.cx is an enterprise frontend platform designed to optimize and accelerate ecommerce performance.",
+    "icon": "Deco.svg",
+    "js": {
+      "DECO.events": "",
+      "DECO_SITES_STD": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://deco.cx"
+  },
   "DedeCMS": {
     "cats": [
       1
     ],
     "cpe": "cpe:2.3:a:dedecms:dedecms:*:*:*:*:*:*:*:*",
-    "icon": "DedeCMS.png",
+    "description": "DedeCMS is an open-source content management system developed by Shanghai Zhi Zhuo Network Technology, known for its customizable templates and strong SEO capabilities.",
+    "icon": "DedeCMS.svg",
     "implies": "PHP",
     "js": {
       "DedeContainer": ""
@@ -541,12 +1032,62 @@
     "scriptSrc": "dedeajax",
     "website": "https://dedecms.com"
   },
+  "Deep Lawn": {
+    "cats": [
+      32
+    ],
+    "description": "Deep Lawn is a sales tool designed for lawn care and pest control companies.",
+    "icon": "DeepLawn.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.deeplawn\\.com/",
+    "website": "https://deeplawn.com"
+  },
+  "DeepAR": {
+    "cats": [
+      105
+    ],
+    "description": "DeepAR is SDK that integrates AR face filters, 3D masks, effects, and background removal into websites, apps, or games.",
+    "dom": "source[src*='demo.deepar.ai/']",
+    "icon": "DeepAR.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.deepar.ai"
+  },
+  "DeepMarkit": {
+    "cats": [
+      32
+    ],
+    "description": "Deepmarkit is a customer acquisition platform designed to help businesses attract, engage, and convert potential clients through targeted digital marketing and promotional campaigns.",
+    "icon": "DeepMarkit.svg",
+    "saas": true,
+    "scriptSrc": "portal\\.deepmarkit\\.com",
+    "website": "https://www.deepmarkit.com"
+  },
+  "Deko": {
+    "cats": [
+      91
+    ],
+    "description": "Deko is a retail finance technology platform used by UK merchants, formerly known as Pay4Later.",
+    "icon": "Deko.svg",
+    "saas": true,
+    "scriptSrc": "secure\\.dekopay\\.com",
+    "website": "https://www.dekopay.com"
+  },
   "Delacon": {
     "cats": [
       10
     ],
     "description": "Delacon provides Australian businesses with Call Tracking, Call Management and Speech Analytics solutions.",
-    "icon": "Delacon.png",
+    "icon": "Delacon.svg",
     "js": {
       "dela_247_call": "",
       "delaconphonenums": ""
@@ -557,6 +1098,70 @@
     ],
     "saas": true,
     "website": "https://www.delacon.com.au"
+  },
+  "Delera": {
+    "cats": [
+      32
+    ],
+    "description": "Delera is a platform that helps increase turnover by managing and automating marketing and sales processes.",
+    "icon": "Delera.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "app\\.delera\\.io",
+    "website": "https://delera.io"
+  },
+  "Delight XR": {
+    "cats": [
+      14
+    ],
+    "description": "Delight XR is a video platform catering to regular, AR, and VR content with high-quality delivery.",
+    "icon": "DelightXR.svg",
+    "js": {
+      "DelightVR": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.delight-vr\\.com",
+    "website": "https://delight-vr.com"
+  },
+  "DelightChat": {
+    "cats": [
+      100
+    ],
+    "description": "DelightChat is a customer service platform for Shopify, offering omnichannel support via Email, Live Chat, Facebook, Instagram, and WhatsApp, all managed through a shared inbox.",
+    "dom": "div#delightchat-widget, div#delightchat-welcome-widget",
+    "icon": "DelightChat.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://www.delightchat.io"
+  },
+  "Delighted": {
+    "cats": [
+      73
+    ],
+    "description": "Delighted is a feedback collection and analysis SaaS, offering a web and mobile solution that uses the Net Promoter System (NPS) to gauge and score customer experience.",
+    "icon": "Delighted.svg",
+    "js": {
+      "_delighted": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://delighted.com"
   },
   "Delivengo": {
     "cats": [
@@ -589,6 +1194,58 @@
     "scriptSrc": "fast-tags\\.deliverr\\.com",
     "website": "https://deliverr.com"
   },
+  "Delivra": {
+    "cats": [
+      32,
+      75
+    ],
+    "description": "Delivra is a premium email marketing tracking software.",
+    "icon": "Delivra.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "integration\\.delivra\\.com",
+    "website": "https://www.delivra.com"
+  },
+  "Delm": {
+    "cats": [
+      100
+    ],
+    "description": "Delm is a customisable and multilingual delivery date estimation app for Shopify, providing shipping information.",
+    "icon": "Delm.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "cdn\\.delm\\.io/",
+    "website": "https://delm.io"
+  },
+  "Delta Media": {
+    "cats": [
+      1
+    ],
+    "description": "Delta Media is a provider of websites designed for real estate agents and brokers.",
+    "icon": "DeltaMedia.svg",
+    "saas": true,
+    "scripts": "online\\.deltaagentsites\\.com",
+    "website": "https://www.deltamediagroup.com"
+  },
+  "Dema": {
+    "cats": [
+      10
+    ],
+    "description": "Dema is a next-generation ecommerce analytics system designed to provide insights and data-driven solutions for online businesses.",
+    "icon": "Dema.svg",
+    "saas": true,
+    "scriptSrc": "\\.dema\\.ai",
+    "scripts": "\\.dema\\.ai",
+    "website": "https://www.dema.ai"
+  },
   "Demandbase": {
     "cats": [
       10,
@@ -605,8 +1262,59 @@
       "poa"
     ],
     "saas": true,
-    "scriptSrc": "tag.demandbase.com",
+    "scriptSrc": [
+      "\\.engagio\\.com/",
+      "\\.demandbase\\.com/"
+    ],
     "website": "https://www.demandbase.com"
+  },
+  "Demandforce": {
+    "cats": [
+      53
+    ],
+    "description": "Demandforce is an AI-powered patient communication platform that helps healthcare practices attract and retain patients.",
+    "dom": "link[href*='.demandforce.com/']",
+    "icon": "Demandforce.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "\\.demandforce\\.com",
+    "website": "https://www.demandforce.com"
+  },
+  "Demio": {
+    "cats": [
+      1
+    ],
+    "description": "Demio is a webinar platform designed for marketing purposes.",
+    "dom": "script#demio-js",
+    "icon": "Demio.svg",
+    "js": {
+      "DEMIO_API_URI": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.demio.com"
+  },
+  "DenGro": {
+    "cats": [
+      53
+    ],
+    "description": "DenGro is a software solution tailored for dental practitioners, facilitating streamlined practice operations.",
+    "dom": "form[action*='app.dengro.com/']",
+    "icon": "DenGro.svg",
+    "js": {
+      "dengro.version": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dengro.com"
   },
   "Deno": {
     "cats": [
@@ -649,6 +1357,27 @@
     "saas": true,
     "website": "https://depict.ai"
   },
+  "Deriv": {
+    "cats": [
+      10
+    ],
+    "description": "Deriv is an online platform that allows users to track trading activities.",
+    "icon": "Deriv.svg",
+    "saas": true,
+    "scripts": "track\\.deriv\\.com",
+    "website": "https://deriv.com"
+  },
+  "Descartes": {
+    "cats": [
+      107
+    ],
+    "description": "Descartes is a technology platform that offers solutions for logistics and supply chain management.",
+    "icon": "Descartes.svg",
+    "saas": true,
+    "scriptSrc": "\\.descartes\\.com/",
+    "scripts": "ies\\.descartes",
+    "website": "https://www.descartes.com"
+  },
   "DeskPro": {
     "cats": [
       1,
@@ -683,6 +1412,94 @@
     "saas": true,
     "website": "https://www.deskpro.com/product/chat"
   },
+  "Deskero": {
+    "cats": [
+      53
+    ],
+    "description": "Deskero is a customizable cloud-based help desk software and support ticket system designed to manage customer service.",
+    "icon": "Deskero.svg",
+    "js": {
+      "deskeroUser": "",
+      "deskeroWidget.init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.deskero\\.com/",
+    "website": "https://www.deskero.com/"
+  },
+  "Desku": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "Desku is a customer support tool that helps ecommerce businesses manage and respond to customer inquiries.",
+    "icon": "Desku.svg",
+    "js": {
+      "Desku": "",
+      "isDeskuManagerRunning": "",
+      "isDeskuWidgetAuthSetup": "",
+      "isdeskuManagerRunning": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": [
+      "widget\\.desku\\.io/chat-widget\\.js",
+      "livechat\\.desku\\.io/cdn/widget\\.js"
+    ],
+    "website": "https://desku.io"
+  },
+  "Destinet": {
+    "cats": [
+      51
+    ],
+    "description": "Destinet is a homepage generator system designed to streamline the creation of customizable web pages.",
+    "headers": {
+      "server": "Destinet"
+    },
+    "js": {
+      "DestinetMap.SetMap": ""
+    },
+    "saas": true,
+    "website": "https://www.destinet.no"
+  },
+  "Destini": {
+    "cats": [
+      6
+    ],
+    "description": "Destini is a product locator solution that offers automated store-level data, advanced analytics, and customizable web and mobile applications.",
+    "icon": "Destini.svg",
+    "js": {
+      "destini.init": "",
+      "destiniAddProducts": "",
+      "destiniDataLayer": "",
+      "destiniReset": ""
+    },
+    "saas": true,
+    "website": "https://destini.co/"
+  },
+  "Desty": {
+    "cats": [
+      6
+    ],
+    "description": "Desty is a platform offering product and order management services, enabling handling of inventory, orders, and related processes for businesses.",
+    "icon": "Desty.svg",
+    "js": {
+      "DestyBp": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.desty.app"
+  },
   "Deta": {
     "cats": [
       62
@@ -708,6 +1525,18 @@
     "icon": "Detectify.svg",
     "website": "https://detectify.com/"
   },
+  "Detectizr": {
+    "cats": [
+      10
+    ],
+    "description": "Detectizr is a Modernizr extension to detect device, browser, operating system and screen size.",
+    "js": {
+      "Detectizr": ""
+    },
+    "oss": true,
+    "requires": "Modernizr",
+    "website": "https://baris.aydinoglu.net/Detectizr"
+  },
   "Deutsche Post": {
     "cats": [
       99
@@ -719,6 +1548,185 @@
       "\\bDeutsche Post\\b"
     ],
     "website": "https://www.deutschepost.de"
+  },
+  "DevExtreme": {
+    "cats": [
+      66
+    ],
+    "description": "DevExtreme is a collection of JavaScript UI components designed for Angular, React, Vue, and jQuery, developed by DevExpress.",
+    "icon": "DevExtreme.svg",
+    "implies": [
+      "React",
+      "Vue.js",
+      "jQuery",
+      "Angular"
+    ],
+    "js": {
+      "DevExpress._DEVEXTREME_BUNDLE_INITIALIZED": ""
+    },
+    "oss": true,
+    "website": "https://js.devexpress.com"
+  },
+  "DevRev": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "DevRev PLuG is a customer support platform offering live chat, help documentation, search functionality, an observability engine, and product announcements, all integrated within a widget similar to a support chat widget for website assistance.",
+    "icon": "DevRev.svg",
+    "pricing": [
+      "freemium",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "plug-platform\\.devrev\\.ai/",
+    "website": "https://devrev.ai/plug-observability"
+  },
+  "Develic Omnium Maps": {
+    "cats": [
+      35
+    ],
+    "description": "Develic Omnium Maps is a store locator application for Shopify stores designed to help users display and manage physical store locations.",
+    "icon": "Develic.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "maps\\.develic\\.com",
+    "scripts": "maps\\.develic\\.com",
+    "website": "https://www.develic.com"
+  },
+  "Developing Azerbaijan": {
+    "cats": [
+      47
+    ],
+    "description": "Developing Azerbaijan is a provider of services including website creation, optimization, technical support, and hosting.",
+    "icon": "DevelopingAzerbaijan.svg",
+    "meta": {
+      "author": "Developing.az"
+    },
+    "saas": true,
+    "website": "https://www.developing.az/"
+  },
+  "Devup UI": {
+    "cats": [
+      66
+    ],
+    "description": "Devup UI is a tool for analyzing CSS-in-JS scenarios, delivering fast styling with optimal performance.",
+    "icon": "DevupUI.svg",
+    "oss": true,
+    "scripts": "Devup-ui",
+    "website": "https://devup-ui.com"
+  },
+  "DevzCart": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "devzcart_session": ""
+    },
+    "description": "DevzCart is a platform that offers automated courier updates, real-time order tracking, and custom landing pages to simplify operational workflows.",
+    "icon": "DevzCart.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://devzcart.com"
+  },
+  "Dexem": {
+    "cats": [
+      10
+    ],
+    "description": "Dexem is an AI-powered platform for managing and analyzing calls, offering tools to track, monitor, and improve call performance.",
+    "icon": "Dexem.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.dexem\\.net/",
+    "website": "https://www.dexem.com"
+  },
+  "Dexter": {
+    "cats": [
+      74
+    ],
+    "description": "Dexter is a tool that analyzes product pricing through A/B testing to identify potential revenue opportunities.",
+    "icon": "Dexter.svg",
+    "js": {
+      "dexterLiquidVariables": "",
+      "dexterProduct": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://www.thedexterapp.com"
+  },
+  "Dialog Insight": {
+    "cats": [
+      32
+    ],
+    "description": "Dialog Insight is a multi-channel marketing automation platform that enables personalization and campaign management across digital channels.",
+    "icon": "DialogInsight.svg",
+    "saas": true,
+    "scripts": "app\\.dialoginsight\\.com",
+    "website": "https://www.dialoginsight.com"
+  },
+  "DialogShift": {
+    "cats": [
+      52
+    ],
+    "description": "DialogShift is a hotel AI solution for chat, email, and telephone communication.",
+    "icon": "DialogShift.svg",
+    "js": {
+      "Dialogshift.instance": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "assets\\.dialogshift\\.com",
+    "website": "https://www.dialogshift.com"
+  },
+  "Dialogity": {
+    "cats": [
+      52
+    ],
+    "description": "Dialogity Chat is a customer service chatbot platform.",
+    "icon": "Dialogity.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "js\\.dialogity\\.com",
+    "website": "https://dialogity.com"
+  },
+  "Dialogue": {
+    "cats": [
+      76
+    ],
+    "description": "Dialogue is an ecommerce personalization platform that helps brands increase sales and conversion rates through AI-driven recommendations.",
+    "icon": "Dialogue.svg",
+    "js": {
+      "DialogueAI": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://nowdialogue.com/"
   },
   "DiamondCDN": {
     "cats": [
@@ -747,6 +1755,39 @@
     "scriptSrc": "\\.dianomi\\.com/",
     "website": "https://www.dianomi.com"
   },
+  "Dice": {
+    "cats": [
+      104
+    ],
+    "description": "Dice is an event and ticketing platform that enables users to discover, access, and attend live events through a streamlined digital experience.",
+    "icon": "Dice.svg",
+    "js": {
+      "DiceEventListWidget": ""
+    },
+    "saas": true,
+    "scriptSrc": "widgets\\.dice\\.fm",
+    "scripts": "\\.dice\\.fm",
+    "website": "https://dice.fm"
+  },
+  "Didar": {
+    "cats": [
+      53
+    ],
+    "description": "Didar is a platform offering tools for managing relationships and enhancing sales.",
+    "icon": "Didar.svg",
+    "js": {
+      "webpackChunkdidarx": ""
+    },
+    "meta": {
+      "apple-mobile-web-app-title": "^Didar CRM$"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://didar.me"
+  },
   "Didomi": {
     "cats": [
       67
@@ -766,6 +1807,23 @@
     },
     "website": "https://tools.ietf.org/html/rfc7616"
   },
+  "DigiCDN": {
+    "cats": [
+      31
+    ],
+    "description": "DigiCDN by Digicloud is a content delivery network featuring multiple servers and Anycast architecture, safeguarding your website against cyber attacks.",
+    "icon": "DigicloudCDN.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://digicloud.ir",
+    "xhr": [
+      "digicloud"
+    ]
+  },
   "DigiCert": {
     "cats": [
       70
@@ -773,6 +1831,22 @@
     "certIssuer": "DigiCert",
     "icon": "DigiCert.svg",
     "website": "https://www.digicert.com/"
+  },
+  "DigiFi": {
+    "cats": [
+      6
+    ],
+    "description": "DigiFi is a subscription-based software that allows anyone to set up an online store and sell their products.",
+    "icon": "DigiFi.svg",
+    "meta": {
+      "generator": "^Digify$"
+    },
+    "pricing": [
+      "recurring",
+      "low"
+    ],
+    "saas": true,
+    "website": "https://digify.shop"
   },
   "Digismoothie Candy Rack": {
     "cats": [
@@ -820,7 +1894,7 @@
     ],
     "description": "Digital Showroom is an ecommerce platform.",
     "dom": "div.dd-showrom__layout",
-    "icon": "Digital Showroom.png",
+    "icon": "Digital Showroom.svg",
     "pricing": [
       "freemium",
       "payg"
@@ -863,6 +1937,62 @@
     "scriptSrc": "\\.digitalriver\\.com/",
     "website": "https://www.digitalriver.com"
   },
+  "Digizuite": {
+    "cats": [
+      95
+    ],
+    "description": "Digizuite is a Digital Asset Management software for enterprises.",
+    "dom": "img[src^='/globalassets/digizuite/']",
+    "icon": "Digizuite.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.digizuite.com"
+  },
+  "Dimensions AI": {
+    "cats": [
+      34
+    ],
+    "description": "Dimensions AI is an advanced research database linking grants, publications, datasets, clinical trials, patents, and policy documents to support efficient translation from idea to impact.",
+    "icon": "Dimensions.svg",
+    "js": {
+      "__dimensions_badge_config_loaded__": "",
+      "__dimensions_badge_server": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.dimensions\\.ai",
+    "website": "https://www.dimensions.ai"
+  },
+  "Dimml": {
+    "cats": [
+      47
+    ],
+    "description": "Dimml is a data flow management software.",
+    "icon": "Dimml.svg",
+    "oss": true,
+    "saas": true,
+    "scriptSrc": "\\.dimml\\.io/",
+    "website": "https://www.dimml.io"
+  },
+  "Dina Kunder": {
+    "cats": [
+      52
+    ],
+    "description": "Dina Kunder is a provider of AI chatbots designed for automating customer support.",
+    "icon": "DinaKunder.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.dinakunder\\.se",
+    "website": "https://dinakunder.se"
+  },
   "DirectAdmin": {
     "cats": [
       9
@@ -872,13 +2002,31 @@
     "headers": {
       "Server": "DirectAdmin Daemon v([\\d.]+)\\;version:\\1"
     },
-    "html": "<a[^>]+>DirectAdmin</a> Web Control Panel",
-    "icon": "DirectAdmin.png",
+    "icon": "DirectAdmin.svg",
     "implies": [
       "PHP",
       "Apache HTTP Server"
     ],
     "website": "https://www.directadmin.com"
+  },
+  "Directorist": {
+    "cats": [
+      51
+    ],
+    "description": "Directorist is a business directory plugin that streamlines the creation of scalable, industry-standard, and user-focused online business directories.",
+    "icon": "Directorist.svg",
+    "js": {
+      "directorist": "",
+      "directoristCustomRangeSlider": ""
+    },
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "website": "https://directorist.com"
   },
   "Directus": {
     "cats": [
@@ -903,12 +2051,41 @@
     "saas": true,
     "website": "https://directus.io"
   },
+  "Direktonline": {
+    "cats": [
+      6
+    ],
+    "description": "Direktonline is a Swedish enterprise ecommerce designer specializing in creating scalable digital storefronts and tailored online shopping solutions for large businesses.",
+    "icon": "Direktonline.svg",
+    "meta": {
+      "Generator": "^DirektOnline Bliss Webbstudio$"
+    },
+    "saas": true,
+    "website": "https://direktonline.se"
+  },
+  "Disciple": {
+    "cats": [
+      1
+    ],
+    "description": "Disciple is a platform for managing memberships and hosting private online communities in one centralized space.",
+    "icon": "Disciple.svg",
+    "js": {
+      "discipleFlashMessages": ""
+    },
+    "pricing": [
+      "mid",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "pwa\\.disciplemedia\\.com",
+    "website": "https://www.disciple.community"
+  },
   "Discourse": {
     "cats": [
       2
     ],
     "description": "Discourse is an open-source internet forum and mailing list management software application.",
-    "icon": "Discourse.png",
+    "icon": "Discourse.svg",
     "implies": "Ruby on Rails",
     "js": {
       "Discourse": ""
@@ -998,6 +2175,39 @@
     "scriptSrc": "storage\\.googleapis\\.com/dito/sdk\\.js",
     "website": "https://www.dito.com.br"
   },
+  "Ditto": {
+    "cats": [
+      6
+    ],
+    "description": "Ditto is a system that enables personalized selection and fitting of eyewear based on individual preferences and measurements.",
+    "dom": "link[href*='.api.ditto.com']",
+    "icon": "Ditto.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.ditto.com"
+  },
+  "Divhunt": {
+    "cats": [
+      51
+    ],
+    "description": "Divhunt is an SPA builder.",
+    "icon": "Divhunt.svg",
+    "js": {
+      "Divhunt": ""
+    },
+    "pricing": [
+      "onetime",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "divhunt-site\\.\\w-cdn\\.net/",
+    "website": "https://www.divhunt.com"
+  },
   "Divi": {
     "cats": [
       51,
@@ -1012,7 +2222,9 @@
     },
     "icon": "Divi.svg",
     "js": {
-      "DIVI": ""
+      "DIVI": "",
+      "DiviArea": "",
+      "DiviAreaConfig": ""
     },
     "meta": {
       "generator": "Divi(?:\\sv\\.([\\d\\.]+))?\\;version:\\1"
@@ -1034,7 +2246,7 @@
     ],
     "description": "Dividebuy provides retailer financing solutions.",
     "dom": "div[class*='dividebuy-softcredit']",
-    "icon": "DivideBuy.png",
+    "icon": "DivideBuy.svg",
     "js": {
       "display_dividebuy_modal": ""
     },
@@ -1047,10 +2259,27 @@
       91
     ],
     "description": "Divio is a Buy now pay later solution. Divido provided whitelabel platform connects lenders, retailers and channel partners at the point of sale",
-    "icon": "Divido.png",
+    "icon": "Divido.svg",
     "saas": true,
     "scriptSrc": "cdn\\.divido\\.com",
     "website": "https://www.divido.com/"
+  },
+  "Dixa": {
+    "cats": [
+      53
+    ],
+    "description": "Dixa is a customer experience platform designed for consumer brands, enabling management of customer interactions across channels.",
+    "icon": "Dixa.svg",
+    "js": {
+      "_dixa_.addListener": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.dixa\\.io",
+    "website": "https://www.dixa.com"
   },
   "Django": {
     "cats": [
@@ -1061,8 +2290,8 @@
     },
     "cpe": "cpe:2.3:a:djangoproject:django:*:*:*:*:*:*:*:*",
     "description": "Django is a Python-based free and open-source web application framework.",
-    "html": "(?:powered by <a[^>]+>Django ?([\\d.]+)?<\\/a>|<input[^>]*name=[\"']csrfmiddlewaretoken[\"'][^>]*>)\\;version:\\1",
-    "icon": "Django.png",
+    "dom": "input[name='csrfmiddlewaretoken']",
+    "icon": "Django.svg",
     "implies": "Python",
     "js": {
       "__admin_media_prefix__": "",
@@ -1076,7 +2305,7 @@
       1
     ],
     "description": "Django CMS is a free and open source content management system platform for publishing content on the World Wide Web and intranets.",
-    "icon": "Django CMS.png",
+    "icon": "Django CMS.svg",
     "implies": [
       "Python",
       "Django",
@@ -1106,9 +2335,41 @@
     ],
     "cpe": "cpe:2.3:a:docker:engine:*:*:*:*:*:*:*:*",
     "description": "Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.",
-    "html": "<!-- This comment is expected by the docker HEALTHCHECK  -->",
     "icon": "Docker.svg",
     "website": "https://www.docker.com/"
+  },
+  "Docket": {
+    "cats": [
+      53
+    ],
+    "description": "Docket is a waste management and dumpster rental software, helping businesses manage assets, invoices, accounting, and communication.",
+    "icon": "Docket.svg",
+    "js": {
+      "DocketPay": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "dockethosting\\.com/",
+    "website": "https://www.yourdocket.com"
+  },
+  "DocsBot": {
+    "cats": [
+      52
+    ],
+    "description": "DocsBot is an AI-powered chatbot that helps automate customer support and improve team productivity.",
+    "icon": "DocsBotAI.svg",
+    "js": {
+      "DocsBotAI.el": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://docsbot.ai"
   },
   "Docsify": {
     "cats": [
@@ -1122,6 +2383,33 @@
     },
     "oss": true,
     "website": "https://docsify.js.org"
+  },
+  "Doctave": {
+    "cats": [
+      4
+    ],
+    "description": "Doctave is a platform for creating modern Markdown and OpenAPI-based developer documentation portals using a Git-friendly docs-as-code workflow.",
+    "icon": "Doctave.svg",
+    "meta": {
+      "generator": "^Doctave$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.doctave.com"
+  },
+  "Doctor.com": {
+    "cats": [
+      32
+    ],
+    "description": "Doctor.com is a marketing automation and reputation management platform for doctors.",
+    "dom": "iframe[src*='.doctor.com/']",
+    "icon": "Doctor.svg",
+    "saas": true,
+    "scriptSrc": "\\.doctor\\.com/",
+    "website": "https://www.doctor.com"
   },
   "DocuSign": {
     "cats": [
@@ -1198,8 +2486,7 @@
     "headers": {
       "X-Powered-By": "Dokeos"
     },
-    "html": "(?:Portal <a[^>]+>Dokeos|@import \"[^\"]+dokeos_blue)",
-    "icon": "Dokeos.png",
+    "icon": "Dokeos.svg",
     "implies": [
       "PHP",
       "Xajax",
@@ -1219,7 +2506,7 @@
     },
     "cpe": "cpe:2.3:a:dokuwiki:dokuwiki:*:*:*:*:*:*:*:*",
     "description": "DokuWiki is a free open-source wiki software.",
-    "icon": "DokuWiki.png",
+    "icon": "DokuWiki.svg",
     "implies": "PHP",
     "js": {
       "DOKU_TPL": "\\;confidence:50",
@@ -1231,6 +2518,20 @@
     "oss": true,
     "website": "https://www.dokuwiki.org"
   },
+  "Dolead": {
+    "cats": [
+      36
+    ],
+    "description": "Dolead is an ad-based lead generation platform that helps businesses acquire potential customers through targeted advertising campaigns.",
+    "icon": "Dolead.svg",
+    "js": {
+      "dolead_affiliate_id": "",
+      "dolead_custom": ""
+    },
+    "saas": true,
+    "scriptSrc": "\\.dolead\\.com",
+    "website": "https://www.dolead.com"
+  },
   "DomainFactory": {
     "cats": [
       88
@@ -1239,7 +2540,7 @@
     "dns": {
       "SOA": "ns(?:\\d+)?\\.namespace4you\\.de"
     },
-    "icon": "DomainFactory.png",
+    "icon": "DomainFactory.svg",
     "pricing": [
       "low",
       "recurring"
@@ -1251,7 +2552,7 @@
       87
     ],
     "description": "Dominate WooCommerce is a cloud-based checkout-page which supports PayPal Smart buttons for Venmo, PayPal Credit, and other payment methods.",
-    "icon": "Dominate.png",
+    "icon": "Dominate.svg",
     "pricing": [
       "freemium"
     ],
@@ -1302,6 +2603,19 @@
     "saas": true,
     "website": "https://donorbox.org"
   },
+  "Dooca": {
+    "cats": [
+      6
+    ],
+    "description": "Dooca is an ecommerce platform from Brazil.",
+    "icon": "Dooca.svg",
+    "js": {
+      "dooca": ""
+    },
+    "saas": true,
+    "scriptSrc": "\\.dooca\\.store/",
+    "website": "https://www.dooca.com.br"
+  },
   "Doofinder": {
     "cats": [
       29
@@ -1319,6 +2633,38 @@
     "saas": true,
     "scriptSrc": "cdn\\.doofinder\\.com/",
     "website": "https://www.doofinder.com"
+  },
+  "DoorLoop": {
+    "cats": [
+      53
+    ],
+    "description": "DoorLoop is a property management software designed to streamline tasks such as leasing, accounting, maintenance tracking, and tenant communication.",
+    "icon": "DoorLoop.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.doorloop\\.com",
+    "website": "https://www.doorloop.com"
+  },
+  "Doorbell": {
+    "cats": [
+      73
+    ],
+    "description": "Doorbell is a platform that enables the collection, management, and analysis of customer feedback.",
+    "icon": "Doorbell.svg",
+    "js": {
+      "Doorbell": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "embed\\.doorbell\\.io/",
+    "website": "https://doorbell.io"
   },
   "Doppler": {
     "cats": [
@@ -1359,16 +2705,77 @@
     "scriptSrc": "/wp-content/plugins/doppler-for-woocommerce/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://wordpress.org/plugins/doppler-for-woocommerce/"
   },
+  "Dorik AI": {
+    "cats": [
+      66
+    ],
+    "description": "Dorik is an AI website-building platform that requires no design or coding experience.",
+    "dom": "link[href*='cdn.dorik.com'], section[class*='dorik-section'] ",
+    "icon": "DorikAI.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "freemium"
+    ],
+    "saas": true,
+    "website": "https://dorik.com"
+  },
+  "Dorsa Cloud": {
+    "cats": [
+      31,
+      63
+    ],
+    "description": "Dorsa Cloud is a cloud service provider offering scalable and flexible Infrastructure as a Service (IaaS) solutions for businesses.",
+    "headers": {
+      "server": "^Dorsa Cloud$",
+      "x-cdn-provider": "^Dorsa Cloud",
+      "x-powered-by": "^Dorsa Cloud"
+    },
+    "icon": "Dorsa Cloud.svg",
+    "pricing": [
+      "payg",
+      "recurring"
+    ],
+    "saas": false,
+    "website": "https://dorsa.cloud"
+  },
+  "DotGo": {
+    "cats": [
+      51
+    ],
+    "description": "DotGo is a UK-based business website builder that provides a platform for creating and managing websites.",
+    "dom": "source[src*='www.dotgo.uk/']",
+    "icon": "DotGo.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.dotgo.uk"
+  },
+  "DotPe": {
+    "cats": [
+      6
+    ],
+    "description": "DotPe is a platform for catalog and product discovery designed to support ecommerce operations.",
+    "icon": "DotPe.svg",
+    "saas": true,
+    "scriptSrc": "cdn\\.dotpe\\.in",
+    "scripts": "cdn\\.dotpe\\.in",
+    "website": "https://dotpe.in"
+  },
   "Dotclear": {
     "cats": [
-      1
+      11
     ],
     "cpe": "cpe:2.3:a:dotclear:dotclear:*:*:*:*:*:*:*:*",
+    "description": "Dotclear is an open-source blogging platform focused on ease of use and versatility, offering features like multi-blog support, customizable themes, and antispam tools.",
     "headers": {
       "X-Dotclear-Static-Cache": ""
     },
-    "icon": "Dotclear.png",
+    "icon": "Dotclear.svg",
     "implies": "PHP",
+    "oss": true,
     "website": "https://dotclear.org"
   },
   "Dotdigital": {
@@ -1435,6 +2842,54 @@
     "saas": true,
     "website": "https://www.doteasy.com/website-builder/"
   },
+  "Dotser": {
+    "cats": [
+      6
+    ],
+    "description": "Dotser is a web software development company specialising in ecommerce and cloud-based business solutions.",
+    "icon": "Dotser.svg",
+    "implies": [
+      "PHP",
+      "MySQL"
+    ],
+    "meta": {
+      "generator": "^Dotser\\sCommerce\\s([\\d\\.]+)/\\;version:\\1"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.dotser.ie"
+  },
+  "Dotter": {
+    "cats": [
+      6
+    ],
+    "description": "Dotter is a platform offering solutions for making media and websites shoppable.",
+    "icon": "Dotter.svg",
+    "js": {
+      "Dotter": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "apps\\.dotter\\.me",
+    "website": "https://www.dotter.me"
+  },
+  "Douban": {
+    "cats": [
+      19
+    ],
+    "description": "Douban is a Chinese social sharing service for recording books, movies, and music.",
+    "icon": "Douban.svg",
+    "js": {
+      "doubanmovie": ""
+    },
+    "saas": true,
+    "scripts": "movie\\.douban\\.com",
+    "website": "https://m.douban.com"
+  },
   "DoubleClick Ad Exchange (AdX)": {
     "cats": [
       36
@@ -1462,7 +2917,7 @@
       36
     ],
     "icon": "DoubleClick.svg",
-    "scriptSrc": "https?://fls\\.doubleclick\\.net",
+    "scriptSrc": "\\.doubleclick\\.net",
     "website": "https://support.google.com/ds/answer/6029713?hl=en"
   },
   "DoubleClick for Publishers (DFP)": {
@@ -1478,6 +2933,24 @@
     "scriptSrc": "googletagservices\\.com/tag/js/gpt(?:_mobile)?\\.js",
     "website": "https://www.google.com/dfp"
   },
+  "DoubleTick": {
+    "cats": [
+      52
+    ],
+    "description": "DoubleTick is a phone-based WhatsApp API for B2C and B2B sales, enabling bulk messaging, chatbots, and order booking.",
+    "icon": "DoubleTick.svg",
+    "js": {
+      "dt.resetConfig": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "api\\.doubletick\\.io",
+    "website": "https://doubletick.io"
+  },
   "DoubleVerify": {
     "cats": [
       36,
@@ -1491,6 +2964,20 @@
     ],
     "saas": true,
     "website": "https://doubleverify.com"
+  },
+  "Dover": {
+    "cats": [
+      101
+    ],
+    "description": "Dover is a platform that streamlines recruiting by identifying and scheduling qualified candidates.",
+    "icon": "Dover.svg",
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "app\\.dover\\.io",
+    "website": "https://www.dover.com"
   },
   "Dovetale": {
     "cats": [
@@ -1510,7 +2997,7 @@
     ],
     "description": "Download Monitor is a plugin for selling, uploading and managing downloads, tracking downloads and displaying links.",
     "dom": "link[href*='/wp-content/plugins/download-monitor/']",
-    "icon": "Download Monitor.png",
+    "icon": "Download Monitor.svg",
     "js": {
       "DLM_XHR_Download": "",
       "dlmXHR.prevent_duplicates": ""
@@ -1531,19 +3018,38 @@
     ],
     "cpe": "cpe:2.3:a:doxygen:doxygen:*:*:*:*:*:*:*:*",
     "description": "Doxygen is a documentation generator, a tool for writing software reference documentation.",
-    "html": "(?:<!-- Generated by Doxygen ([\\d.]+)|<link[^>]+doxygen\\.css)\\;version:\\1",
+    "dom": "link[href*='doxygen.css']",
     "icon": "Doxygen.png",
     "meta": {
       "generator": "Doxygen ([\\d.]+)\\;version:\\1"
     },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
     "website": "https://www.doxygen.nl/"
+  },
+  "Dr. Leonardo": {
+    "cats": [
+      1
+    ],
+    "description": "Dr. Leonardo is an all-in-one eHealth platform designed for healthcare professionals, providing tools for patient engagement, telemedicine, and practice management.",
+    "icon": "DrLeonardo.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "sitebuilder\\.dr-leonardo\\.com",
+    "website": "https://www.dr-leonardo.com"
   },
   "Draft.js": {
     "cats": [
       20
     ],
     "description": "Draft.js is a JavaScript rich text editor framework, built for React.",
-    "icon": "draftjs.png",
+    "icon": "draftjs.svg",
+    "oss": true,
     "scriptSrc": "draft-js(@|/)([\\d.]+)\\;version:\\2",
     "website": "https://draftjs.org/"
   },
@@ -1552,8 +3058,7 @@
       87
     ],
     "description": "Header Footer Code Manager by Draftpress is a easy interface to add snippets to the header or footer or above or below the content of your page.",
-    "html": "<!--[^>]*HFCM\\sby\\s99\\sRobots",
-    "icon": "Draftpress.png",
+    "icon": "Draftpress.svg",
     "pricing": [
       "freemium",
       "low",
@@ -1588,6 +3093,26 @@
     "requiresCategory": 6,
     "scriptSrc": "draprpubsubtest\\.firebaseapp\\.com/",
     "website": "https://www.drapr.com"
+  },
+  "Drata": {
+    "cats": [
+      16
+    ],
+    "description": "Drata is an automated site compliance system designed to streamline and manage security and privacy requirements.",
+    "icon": "Drata.svg",
+    "js": {
+      "webpackChunkdrata_web": ""
+    },
+    "meta": {
+      "author": "Drata Inc.",
+      "copyright": "Drata Inc."
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://drata.com"
   },
   "DreamApply": {
     "cats": [
@@ -1624,21 +3149,37 @@
     ],
     "website": "https://www.dreamhost.com"
   },
+  "DreamROI": {
+    "cats": [
+      76
+    ],
+    "description": "DreamROI is a content personalization system for eCommerce that tailors on-site experiences based on user behavior and product interactions.",
+    "icon": "DreamROI.svg",
+    "js": {
+      "dreamroibox.refresh": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.dreamroi\\.com",
+    "website": "https://www.dreamroi.com"
+  },
   "DreamWeaver": {
     "cats": [
       20
     ],
     "cpe": "cpe:2.3:a:adobe:dreamweaver:*:*:*:*:*:*:*:*",
     "description": "Dreamweaver is a development tool for creating, publishing, and managing websites and mobile content.",
-    "html": [
-      "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)\\;version:\\1",
-      "<!-- #BeginTemplate\\s\"[\\d_\\w/]+\\.dwt"
-    ],
     "icon": "DreamWeaver.png",
     "js": {
       "MM_preloadImages": "",
       "MM_showHideLayers": "",
       "MM_showMenu": ""
+    },
+    "meta": {
+      "generator": "^Adobe dreamweaver$"
     },
     "website": "https://www.adobe.com/products/dreamweaver.html"
   },
@@ -1680,6 +3221,24 @@
     "saas": true,
     "website": "https://www.drift.com/"
   },
+  "Drinks": {
+    "cats": [
+      6
+    ],
+    "description": "Drinks is a real-time tax and regulatory solution that helps wineries and retailers scale online sales while integrating seamlessly with Shopify's native checkout experience.",
+    "dom": "link[href*='/drinks_base.css']",
+    "icon": "Drinks.svg",
+    "js": {
+      "drinks.checkId": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "website": "https://drinks.com"
+  },
   "Drip": {
     "cats": [
       32
@@ -1694,12 +3253,32 @@
     "scriptSrc": "\\.getdrip\\.com/",
     "website": "https://www.drip.com"
   },
+  "Droip": {
+    "cats": [
+      51
+    ],
+    "description": "Droip is a WordPress no-code website builder with a drag-and-drop visual interface for creating responsive websites.",
+    "icon": "Droip.svg",
+    "js": {
+      "droipViewports": "",
+      "showDroipPopup": "",
+      "wp_droip": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "website": "https://droip.com/"
+  },
   "Drop A Hint": {
     "cats": [
       100
     ],
     "description": "Drop A Hint is an Shopify app which help share hints via email, SMS, WhatsApp and messengers.",
-    "icon": "Drop A Hint.png",
+    "icon": "Drop A Hint.svg",
     "js": {
       "DropAHint.BaseURL": "dropahint\\.love/",
       "dropAHintTypeProduct": ""
@@ -1719,7 +3298,7 @@
     ],
     "description": "DropInBlog is a remotely hosted, cloud based platform that is designed to embed a blog into your html site.",
     "dom": "link[href*='.dropinblog.com/']",
-    "icon": "DropInBlog.png",
+    "icon": "DropInBlog.svg",
     "pricing": [
       "low",
       "recurring"
@@ -1765,9 +3344,23 @@
       "droxit_a11y_state": ""
     },
     "description": "Droxit is an automated web accessibility solution.",
-    "icon": "Droxit.png",
+    "icon": "Droxit.svg",
     "scriptSrc": "/droxit-a11y/js/activator\\.js",
     "website": "https://www.droxit.com"
+  },
+  "Droxy": {
+    "cats": [
+      52
+    ],
+    "description": "Droxy is a tool that transforms content into interactive AI chatbots for educational and business use, enabling more engaging knowledge sharing.",
+    "icon": "Droxy.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.droxy\\.ai/chat",
+    "website": "https://www.droxy.ai"
   },
   "Droz Bot": {
     "cats": [
@@ -1808,12 +3401,12 @@
     ],
     "cpe": "cpe:2.3:a:drupal:drupal:*:*:*:*:*:*:*:*",
     "description": "Drupal is a free and open-source web content management framework.",
+    "dom": "link[href*='/sites/default/themes/'], link[href*='/sites/all/themes/'], link[href*='/sites/default/modules/'], link[href*='/sites/all/modules/'], style[href*='/sites/default/themes/'], style[href*='/sites/all/themes/'], style[href*='/sites/default/modules/'], style[href*='/sites/all/modules/']",
     "headers": {
       "Expires": "19 Nov 1978",
       "X-Drupal-Cache": "",
       "X-Generator": "^Drupal(?:\\s([\\d.]+))?\\;version:\\1"
     },
-    "html": "<(?:link|style)[^>]+\"/sites/(?:default|all)/(?:themes|modules)/",
     "icon": "Drupal.svg",
     "implies": "PHP",
     "js": {
@@ -1824,7 +3417,6 @@
     },
     "oss": true,
     "scriptSrc": "drupal\\.js",
-    "scripts": "drupal_internal__nid",
     "website": "https://www.drupal.org/"
   },
   "Drupal Commerce": {
@@ -1835,7 +3427,7 @@
     "description": "Drupal Commerce is open-source ecommerce software that augments the content management system Drupal.",
     "dom": "aside#cart-offcanvas, form.commerce-order-item-add-to-cart-form,form.commerce-add-to-cart",
     "html": "<[^>]+(?:id=\"block[_-]commerce[_-]cart[_-]cart|class=\"commerce[_-]product[_-]field)",
-    "icon": "Drupal Commerce.png",
+    "icon": "Drupal Commerce.svg",
     "implies": "Drupal",
     "oss": true,
     "scriptSrc": [
@@ -1936,6 +3528,23 @@
     "scriptSrc": "apps\\.mydukaan\\.io/",
     "website": "https://mydukaan.io"
   },
+  "Dukany": {
+    "cats": [
+      6
+    ],
+    "description": "Dukany is subscription based platform, which enables clients to go online with their stores.",
+    "icon": "Dukany.svg",
+    "meta": {
+      "ecommerce-platform": "Dukany",
+      "generator": "Dukany\\.io"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://dukany.io"
+  },
   "Duopana": {
     "cats": [
       1,
@@ -1951,6 +3560,69 @@
     "saas": true,
     "scriptSrc": "\\.beracode\\.com/",
     "website": "https://duopana.com"
+  },
+  "Durable": {
+    "cats": [
+      51
+    ],
+    "description": "Durable is an AI-powered tool that automatically builds websites, streamlining the creation process with minimal user input.",
+    "icon": "Durable.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "cdn\\.durable\\.co",
+    "website": "https://durable.co"
+  },
+  "DutchIS": {
+    "cats": [
+      16
+    ],
+    "description": "DutchIS is a web application front service that monitors, protects, cleans, and secures web traffic for websites.",
+    "icon": "DutchIS.svg",
+    "saas": true,
+    "website": "https://dutchis.net"
+  },
+  "Dweet": {
+    "cats": [
+      63
+    ],
+    "description": "Dweet is a platform enabling data sharing across Internet of Things(IoT).",
+    "icon": "Dweet.svg",
+    "js": {
+      "dweetCallback": "",
+      "dweet_script_loader": "",
+      "dweetio.dweet": "",
+      "dweetioThing": ""
+    },
+    "saas": true,
+    "website": "https://dweet.io"
+  },
+  "Dwolla": {
+    "cats": [
+      41
+    ],
+    "description": "Dwolla is a payment platform that enables businesses to transfer funds electronically through the Automated Clearing House (ACH) network.",
+    "icon": "Dwolla.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "www\\.dwolla\\.com",
+    "website": "https://www.dwolla.com"
+  },
+  "DynAd": {
+    "cats": [
+      36
+    ],
+    "description": "DynAd is a service for advertising and dynamic content optimisation.",
+    "dom": "link[href*='t.dynad.net/']",
+    "icon": "DynAd.svg",
+    "saas": true,
+    "scriptSrc": "t\\.dynad\\.net/",
+    "website": "https://dynad.net"
   },
   "Dynamic Yield": {
     "cats": [
@@ -1983,7 +3655,8 @@
     "cookies": {
       "Dynamicweb": ""
     },
-    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing​, product information management (PIM) and integration.",
+    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing\u200b, product information management (PIM) and integration.",
+    "dom": "input[value='dynamicweb.com']",
     "icon": "Dynamicweb.svg",
     "implies": "Microsoft ASP.NET",
     "meta": {
@@ -2014,7 +3687,7 @@
     "cats": [
       78
     ],
-    "description": "Dynatrace RUM is a AI powered, full stack, automated real user monutoring platform built by Dynatrace.",
+    "description": "Dynatrace RUM is an AI powered, full stack, automated real user monitoring platform built by Dynatrace.",
     "icon": "Dynatrace.svg",
     "implies": "Dynatrace",
     "pricing": [
@@ -2055,17 +3728,28 @@
         }
       }
     },
-    "icon": "daisyUI.png",
+    "icon": "daisyUI.svg",
     "implies": "Tailwind CSS",
     "oss": true,
+    "scripts": "daisyUI",
     "website": "https://daisyui.com"
+  },
+  "data nugget": {
+    "cats": [
+      32
+    ],
+    "description": "data nugget is a brand growth platform designed to help businesses analyze performance, identify opportunities, and manage strategies.",
+    "icon": "DataNugget.svg",
+    "saas": true,
+    "scriptSrc": "analytics\\.datanugget\\.io",
+    "website": "https://datanugget.io"
   },
   "db-ip": {
     "cats": [
       79
     ],
     "description": "dbip is a geolocation API and database.",
-    "icon": "db-ip.png",
+    "icon": "db-ip.svg",
     "js": {
       "ENV.dbip": ""
     },
